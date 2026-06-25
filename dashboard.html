@@ -33,6 +33,10 @@
     .media-frame {
       background: linear-gradient(145deg, #f8fafc 0%, #f1f5f9 100%);
     }
+    .media-slot {
+      aspect-ratio: 4 / 3;
+      min-height: 12rem;
+    }
   </style>
 </head>
 <body class="bg-slate-50 text-slate-800 antialiased">
@@ -96,18 +100,21 @@
           <!-- Visual hero: ad creative + landing preview -->
           <div class="grid gap-0 border-b border-slate-100 md:grid-cols-2">
             <div class="media-frame border-b border-slate-100 p-4 md:border-b-0 md:border-r">
-              <p class="mb-2 text-xs font-semibold uppercase tracking-wide text-slate-400">FB 广告素材</p>
+              <p class="mb-2 flex items-center justify-between text-xs font-semibold uppercase tracking-wide text-slate-400">
+                <span>FB 广告素材</span>
+                <span v-if="isVideoCreative(item)" class="normal-case font-normal text-slate-400">视频广告帧</span>
+              </p>
               <a
                 v-if="item.ad.creativeUrl"
                 :href="item.ad.creativeUrl"
                 target="_blank"
                 rel="noopener noreferrer"
-                class="block overflow-hidden rounded-xl border border-slate-200 bg-white"
+                class="media-slot block overflow-hidden rounded-xl border border-slate-200 bg-slate-900/5"
               >
                 <img
                   :src="item.ad.creativeUrl"
                   :alt="'Ad creative ' + (index + 1)"
-                  class="mx-auto max-h-72 w-full object-contain"
+                  class="h-full w-full object-cover"
                   loading="lazy"
                   referrerpolicy="no-referrer"
                   @error="onImgError($event, 'creative')"
@@ -118,22 +125,25 @@
               </div>
             </div>
             <div class="media-frame p-4">
-              <p class="mb-2 text-xs font-semibold uppercase tracking-wide text-slate-400">落地页预览</p>
+              <p class="mb-2 flex items-center justify-between text-xs font-semibold uppercase tracking-wide text-slate-400">
+                <span>落地页预览</span>
+                <span v-if="landingPreviewIsScreenshot(item)" class="normal-case font-normal text-slate-400">页面截图</span>
+              </p>
               <a
                 v-if="item.ad.landingPageUrl"
                 :href="item.ad.landingPageUrl"
                 target="_blank"
                 rel="noopener noreferrer"
-                class="block overflow-hidden rounded-xl border border-slate-200 bg-white"
+                class="media-slot block overflow-hidden rounded-xl border border-slate-200 bg-white"
               >
                 <img
-                  v-if="item.scrape?.previewImageUrl"
-                  :src="item.scrape.previewImageUrl"
+                  v-if="landingPreviewSrc(item)"
+                  :src="landingPreviewSrc(item)"
                   :alt="'Landing preview ' + (index + 1)"
-                  class="mx-auto max-h-72 w-full object-contain"
+                  class="h-full w-full object-cover object-top"
                   loading="lazy"
                   referrerpolicy="no-referrer"
-                  @error="onImgError($event, 'landing')"
+                  @error="onLandingImgError($event, item)"
                 />
                 <div v-else class="flex h-48 flex-col items-center justify-center gap-2 px-4 text-center text-sm text-slate-500">
                   <span>暂无页面缩略图</span>
@@ -305,6 +315,47 @@
           openAccordion.value = openAccordion.value === index ? null : index;
         }
 
+        function isLikelyUiIconUrl(url) {
+          if (!url) return true;
+          const lower = url.toLowerCase();
+          if (/icon|logo|favicon|sprite|badge|arrow|chevron|heyflow\.com.*original\.webp/i.test(lower)) return true;
+          return false;
+        }
+
+        function landingScreenshotUrl(url) {
+          if (!url) return null;
+          try {
+            return `https://s.wordpress.com/mshots/v1/${encodeURIComponent(url)}?w=800`;
+          } catch { return null; }
+        }
+
+        function landingPreviewSrc(item) {
+          const preview = item.scrape?.previewImageUrl;
+          const landing = item.ad.landingPageUrl;
+          if (preview && !isLikelyUiIconUrl(preview)) return preview;
+          return landingScreenshotUrl(landing);
+        }
+
+        function landingPreviewIsScreenshot(item) {
+          const preview = item.scrape?.previewImageUrl;
+          return !preview || isLikelyUiIconUrl(preview);
+        }
+
+        function isVideoCreative(item) {
+          const body = item.ad.adBody || '';
+          return /video|reel|▶️|🎬/i.test(body) || (item.ad.creativeUrl || '').includes('video');
+        }
+
+        function onLandingImgError(event, item) {
+          const el = event.target;
+          const shot = landingScreenshotUrl(item.ad.landingPageUrl);
+          if (shot && el.src !== shot) {
+            el.src = shot;
+            return;
+          }
+          onImgError(event, 'landing');
+        }
+
         function onImgError(event, kind) {
           const el = event.target;
           el.style.display = 'none';
@@ -356,7 +407,8 @@
         return {
           loading, error, meta, items, loadWarning, openAccordion,
           formatDate, formatShortDate, displayHost, topFormQuestions,
-          toggleAccordion, onFilePick, onImgError,
+          toggleAccordion, onFilePick, onImgError, onLandingImgError,
+          landingPreviewSrc, landingPreviewIsScreenshot, isVideoCreative,
         };
       },
     }).mount('#app');
