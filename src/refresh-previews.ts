@@ -4,17 +4,16 @@
  */
 import 'dotenv/config';
 
-import { readFile, writeFile } from 'node:fs/promises';
+import { copyFile, readFile, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 
 import { OUTPUT_DIR } from './config.js';
 import { loadCrawlCache, cacheKeyForUrl } from './lib/crawl-cache.js';
-import {
-  extractPreviewImageFromMarkdown,
-  isLikelyUiIconUrl,
-  landingPreviewFallbackUrl,
-} from './lib/preview-image.js';
+import { scrapeMetaFromCache } from './lib/scrape-meta.js';
+import { productImageWithFallback } from './lib/preview-image.js';
 import type { FinalReport } from './types/report.js';
+
+const OUTPUT_COPY = 'output/final_report.json';
 
 async function main(): Promise<void> {
   const reportPath = path.join(OUTPUT_DIR, 'final_report.json');
@@ -23,29 +22,43 @@ async function main(): Promise<void> {
   const cache = await loadCrawlCache();
 
   let updated = 0;
-  for (const item of report.items) {
-    const url = item.ad.landingPageUrl;
-    if (!url || !item.scrape) {
+  for (const item of [...report.items, ...report.skipped]) {
+    const urls = [item.ad.landingPageUrl, item.ad.productPageUrl].filter(Boolean) as string[];
+    if (!item.scrape || urls.length === 0) {
       continue;
     }
+    const url = item.ad.landingPageUrl ?? urls[0];
     const cached = cache.get(cacheKeyForUrl(url));
-    const fromMarkdown = cached
-      ? extractPreviewImageFromMarkdown(cached.markdown)
-      : item.scrape.previewImageUrl;
-
-    let preview = fromMarkdown;
-    if (isLikelyUiIconUrl(preview)) {
-      preview = landingPreviewFallbackUrl(url);
+    if (!cached) {
+      continue;
     }
 
-    if (preview && preview !== item.scrape.previewImageUrl) {
-      item.scrape.previewImageUrl = preview;
+    const productUrl = item.ad.productPageUrl;
+    const productCached =
+      productUrl && productUrl !== url ? cache.get(cacheKeyForUrl(productUrl)) : null;
+    const next = scrapeMetaFromCache(cached, url, productCached);
+    const changed =
+      next.previewImageUrl !== item.scrape.previewImageUrl ||
+      next.productImageUrl !== item.scrape.productImageUrl ||
+      next.productTitle !== item.scrape.productTitle ||
+      next.productPrice !== item.scrape.productPrice;
+
+    if (changed) {
+      item.scrape = { ...item.scrape, ...next };
       updated += 1;
+    }
+    if (item.scrape) {
+      const product = productImageWithFallback(item.scrape, item.ad.creativeUrl);
+      if (product !== item.scrape.productImageUrl) {
+        item.scrape.productImageUrl = product;
+        updated += 1;
+      }
     }
   }
 
   await writeFile(reportPath, `${JSON.stringify(report, null, 2)}\n`, 'utf8');
-  console.log(`Updated ${updated}/${report.items.length} preview URLs -> ${reportPath}`);
+  await copyFile(reportPath, path.resolve(OUTPUT_COPY));
+  console.log(`Updated ${updated} items -> ${reportPath} (+ ${OUTPUT_COPY})`);
 }
 
 main().catch((error: unknown) => {
