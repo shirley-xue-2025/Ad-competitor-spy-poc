@@ -4,70 +4,134 @@
     "sourceFile": "/Users/chao.xue/shirley/affiliate ad spy/output-ac/ads-2026-06-25T08-45-29-157Z.json",
     "targetSuccessCount": 10,
     "candidatesAttempted": 13,
-    "successCount": 10,
-    "failedCount": 3,
+    "successCount": 5,
+    "failedCount": 8,
     "websiteCrawlerActor": "apify/website-content-crawler",
     "llmModel": "nvidia/nemotron-3-super-120b-a12b:free",
     "crawlCacheEntries": 45,
     "vertical": "ac",
-    "verticalLabel": "DE AC / Heatwave (Klimaanlage)"
+    "verticalLabel": "DE AC / Heatwave (Klimaanlage)",
+    "trends": {
+      "spendNote": "德国商业广告通常不公开具体花费；以下用投放周期、平台分布、近期上新作为趋势代理指标。",
+      "adsInCorpus": 80,
+      "activeAds": 78,
+      "startedLast14d": 20,
+      "topAdvertisers": [
+        {
+          "name": "Kältebringer.de",
+          "count": 16
+        },
+        {
+          "name": "Thomas Becker",
+          "count": 7
+        },
+        {
+          "name": "Klimaworld.com",
+          "count": 5
+        },
+        {
+          "name": "hagebaumarkt München",
+          "count": 4
+        },
+        {
+          "name": "Tiemeyer SALE",
+          "count": 4
+        },
+        {
+          "name": "Klimakönig",
+          "count": 3
+        },
+        {
+          "name": "Sabines Hunde-Tagebuch",
+          "count": 2
+        },
+        {
+          "name": "Autohaus Westkamp",
+          "count": 1
+        }
+      ],
+      "platformMix": [
+        {
+          "platform": "FACEBOOK",
+          "count": 77
+        },
+        {
+          "platform": "INSTAGRAM",
+          "count": 77
+        },
+        {
+          "platform": "MESSENGER",
+          "count": 59
+        },
+        {
+          "platform": "AUDIENCE_NETWORK",
+          "count": 57
+        },
+        {
+          "platform": "THREADS",
+          "count": 51
+        },
+        {
+          "platform": "WHATSAPP",
+          "count": 5
+        }
+      ],
+      "keywordMix": [
+        {
+          "keyword": "Mobile Klimaanlage",
+          "count": 30
+        },
+        {
+          "keyword": "Klimaanlage",
+          "count": 30
+        },
+        {
+          "keyword": "Split Klimaanlage",
+          "count": 20
+        }
+      ]
+    }
   },
   "items": [
     {
       "status": "success",
       "error": null,
       "ad": {
-        "adBody": "▶️Jetzt sommerlich unterwegs z.B. mit dem 𝐓-𝐑𝐨𝐜 𝐂𝐚𝐛𝐫𝐢𝐨𝐥𝐞𝐭 𝐑-𝐋𝐢𝐧𝐞 1.5 TSI OPF 110 kW (150 PS) 7-Gang-DSG als Jahreswagen-𝐋𝐞𝐚𝐬𝐢𝐧𝐠-Angebot für Privatkunden: Energieverbrauch (kombiniert): 6,7 l/100 km, CO₂-Emissionen (kombiniert): 152 g/km, CO₂-Klasse: E, Energiekosten bei 15.000 km Jahresfahrleistung 1.805,00 €/Jahr (Super-Preis: 1,80 € pro Liter Jahresdurchschnitt 2024). Weiteres dazu auf www.dat.de/co2 und www.volkswagen.de/de/modelle/t-roc-cabriolet.html \nKalkulationsbeispiel: ▶️Monatliche Leasingrate: 𝟐𝟒𝟗,𝟎𝟎  𝐄𝐮𝐫𝐨 x 24 Monate Vertragslaufzeit | Leasing-Sonderzahlung: 990,00 € | jährliche Fahrleistung: 10.000 km | Mehrkilometer: 10 Cent | Minderkilometer: 4,4 Cent | Sollzinssatz (fest) p.a.: 6,09 % | effektiver Jahreszinssatz: 6,09 % | Gesamtkreditbetrag: 5.976,00 € | Kaufpreis: 35.930,00 € | zzgl. Zulassungskosten | Ein freibleibendes Angebot der Volkswagen Leasing GmbH, Gifhorner Str. 57, 38112 Braunschweig. Bonität vorausgesetzt. Irrtum und Änderungen vorbehalten. Es besteht ein gesetzliches Widerrufsrecht für Verbraucher im Fernabsatz. \n▶️ Hier geht es zu den Angebotsdetails: https://home.mobile.de/home/vip?id=453641996&customerId=451412\n▶️ Farbe: Ravennablau Metallic\n▶️ EZ: 05/2025 | 6.300 km\n▶️ 7-Gang-DSG\n▶️ Design-Paket Black Style\n▶️ Park Assist: Einparkhilfe vorn und hinten\n▶️ IQ.DRIVE-Paket inkl. IQ.Light: Spurhalteassistent (Lane Assist), Insassen-Schutzsystem proaktiv, Spurwechselassistent (Side Assist), LED Lichtleiste zwischen Scheinwerfer, Matrix-LED-Scheinwerfer (IQ.Light), Heckleuchten LED, dunkelrot, dynamische Blinkleuchten und Fernlichtregulierung (Dynamic Light Assist) \n▶️ Sitzbezug Leder Vienna + Sitzheizung vorn\n▶️ Navigationsfunktion Discover Pro inkl. Streaming & Internet (Touchscreen-Farbdisplay): Sprachsteuerungs-System\n▶️ Klimaanlage Air Care Climatronic 2-Zonen\n▶️ Scheckheftgepflegtes Nichtraucherfahrzeug u.v.m.\nWir von Autohaus Westkamp beraten Euch gern: Telefon 02234-95781-44!\n#jahreswagen #gebrauchtwagenleasing #leasing #TRocCabriolet #trocCabrio #leasingangebot",
-        "creativeUrl": "https://scontent-fra5-1.xx.fbcdn.net/v/t39.35426-6/724795024_1954336125284977_8429075268439015543_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=fFheDuUeytIQ7kNvwHcNiSV&_nc_oc=AdoQc-7qwrPq6e53H33xffdNGOBoIeBLZuM7T4Sa1aTPH6PpHF9gYh9itWVY_g8PF6E&_nc_zt=14&_nc_ht=scontent-fra5-1.xx&_nc_gid=3QPnG9_ll3ZipySNSyIYaw&_nc_ss=7f289&oh=00_Af9pcmUWS_N1DWI12fDEz-KxgChINp_XZq5haslPcE8ODg&oe=6A42AFC8",
-        "landingPageUrl": "https://home.mobile.de/home/vip?id=453641996&customerId=451412",
-        "adArchiveId": "1349890750688511",
-        "sourceKeyword": "Mobile Klimaanlage",
-        "adLibraryUrl": "https://www.facebook.com/ads/library/?id=1349890750688511",
-        "pageName": "Autohaus Westkamp",
-        "adDeliveryStart": null,
-        "adDeliveryStop": null,
-        "isActive": true,
-        "spendText": null,
-        "impressionsText": null,
-        "reachText": null
-      },
-      "scrape": {
-        "crawlRunId": "PhsuX0drEEGzUGdak",
-        "pageTitle": "Hans Westkamp GmbH & Co. KG in Frechen",
-        "markdownLength": 11166,
-        "loadedUrl": "https://home.mobile.de/home/vip?id=453641996&customerId=451412",
-        "previewImageUrl": "https://img.classistatic.de/api/v1/mo-prod/images/co2class-E?rule=mo-1024"
-      },
-      "analysis": {
-        "marketing_hook": "大众T-Roc敞篷车，缓解夏日炎热出行烦恼，低首付月供379欧元起",
-        "form_questions": [],
-        "localized_translation": "大众T-Roc Cabriolet R-Line 1.5 TSI DSG，月租金249欧元，租期24个月，特别付款990欧元"
-      }
-    },
-    {
-      "status": "success",
-      "error": null,
-      "ad": {
         "adBody": "Die besten Klimaanlagen  – kostensparend, nachhaltig - einfach smart! 🌿🔥❄️\nOb Split-Klimaanlage oder mobile Klimageräte. Hier finden Sie alles rund um Ihre Klimatisierung. Mehrere Räume automatisch Kühlen oder auch Heizen. Integrieren Sie Ihre PV-Anlage und erhöhen Sie so den Eigenverbrauch. Moderne Wärmepumpentechnologien ermöglichen auch den effizienten Heitbetrieb. \n\nLassen Sie uns ins Gespräch kommen und gestalten Sie Ihre Zukunft aktiv mit! 🌟🏡",
-        "creativeUrl": "https://scontent-fra5-2.xx.fbcdn.net/v/t39.35426-6/483941840_1287531562543144_8769883365356613241_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=BRknQq-CvCoQ7kNvwHvBUmy&_nc_oc=AdrhfpGnxtk1DDwQeaJwtzrm9oDs8IDwhNAxbRtJidM3o8lYtDz0d2Xq4ytRrybHis0&_nc_zt=14&_nc_ht=scontent-fra5-2.xx&_nc_gid=3QPnG9_ll3ZipySNSyIYaw&_nc_ss=7f289&oh=00_Af8hf8j_HUg5B1bxdUZUqvqxofeLX9Z8q2IcEEUUvyKE0w&oe=6A42A422",
+        "creativeUrl": "https://scontent-muc2-1.xx.fbcdn.net/v/t39.35426-6/484035775_563533269339258_4999426397134608736_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=hcVbYM01ia0Q7kNvwE8GRYD&_nc_oc=AdrcBUaKtXKt9gtEMVMWai62syEX_DcBveSNBpqc8Y0xzxjDz-XJdQMjnhLgxBTBXPZg7fvoocGwcievmzOk4OTE&_nc_zt=14&_nc_ht=scontent-muc2-1.xx&_nc_gid=IgEIgKa5h3sqwyElKSUsbg&_nc_ss=7f289&oh=00_Af9_bZcZSUoRwQohB0bG8TjWc0CCfbSVvaPNpC2Z5g7NDQ&oe=6A42C24D",
         "landingPageUrl": "http://www.klimaworld.com/",
         "adArchiveId": "4141870949467016",
-        "sourceKeyword": "Mobile Klimaanlage",
+        "sourceKeyword": "Split Klimaanlage",
         "adLibraryUrl": "https://www.facebook.com/ads/library/?id=4141870949467016",
         "pageName": "Klimaworld.com",
-        "adDeliveryStart": null,
-        "adDeliveryStop": null,
+        "adDeliveryStart": "2025-07-01 07:00:00",
+        "adDeliveryStop": "2026-06-24 07:00:00",
         "isActive": true,
         "spendText": null,
         "impressionsText": null,
-        "reachText": null
+        "reachText": null,
+        "publisherPlatforms": [
+          "FACEBOOK",
+          "INSTAGRAM",
+          "AUDIENCE_NETWORK",
+          "MESSENGER"
+        ],
+        "variantCount": null,
+        "adsCount": 1,
+        "productTitle": "VAILLANT | Mono-Split-Klimaanlage VAI5-025WN | 2,7 kW | 9.200 BTU",
+        "productPageUrl": "https://www.klimaworld.com/vaillant-mono-split-climavair-vai5-025wn-2-7-kw.html?utm_source=FacebookProductFeedAds&utm_medium=FacebookFeedCP&utm_campaign=Facebook2020&_attribution=facebook",
+        "creativeType": "image",
+        "videoUrl": null
       },
       "scrape": {
-        "crawlRunId": "OeFHoz14jRZrzUupQ",
+        "crawlRunId": "gC8KSx67C1qwBs8Uw",
         "pageTitle": "Klimaanlagen, Wärmepumpen, Photovoltaik, Kaminöfen & vieles mehr! – KlimaWorld",
-        "markdownLength": 2923,
+        "markdownLength": 2915,
         "loadedUrl": "https://www.klimaworld.com/",
-        "previewImageUrl": "https://s.wordpress.com/mshots/v1/http%3A%2F%2Fwww.klimaworld.com%2F?w=800"
+        "previewImageUrl": "https://s.wordpress.com/mshots/v1/http%3A%2F%2Fwww.klimaworld.com%2F?w=1200",
+        "productImageUrl": "https://www.klimaworld.com/cdn/shop/files/vaillant-vai-5-025-wn-1.jpg?v=1773673045",
+        "productTitle": "VAILLANT | Mono-Split climaVAIR VAI5-025WN klimaworld.com✈",
+        "productPrice": "1.131,40 EUR"
       },
       "analysis": {
         "marketing_hook": "KlimaWorld 提供节能智能空调（分体式或移动式），解决夏季炎热及多房间制冷制热需求，并可结合光伏提高自用率，享受成本节约与智能控制。",
@@ -86,19 +150,32 @@
         "sourceKeyword": "Mobile Klimaanlage",
         "adLibraryUrl": "https://www.facebook.com/ads/library/?id=1710538826624667",
         "pageName": "Klivatec - Klimaanlagen & Klimatechnik",
-        "adDeliveryStart": null,
-        "adDeliveryStop": null,
+        "adDeliveryStart": "2026-06-18 07:00:00",
+        "adDeliveryStop": "2026-06-25 07:00:00",
         "isActive": true,
         "spendText": null,
         "impressionsText": null,
-        "reachText": null
+        "reachText": null,
+        "publisherPlatforms": [
+          "FACEBOOK",
+          "INSTAGRAM"
+        ],
+        "variantCount": 1,
+        "adsCount": 1,
+        "productTitle": "Schluss mit teuren Fehlkäufen",
+        "productPageUrl": "https://anfrage.klivatec.de/",
+        "creativeType": "video",
+        "videoUrl": "https://video-fra5-2.xx.fbcdn.net/o1/v/t2/f2/m412/AQOcYr-XHamKJYYLdCvX_coV6jyrn79VccPEQYzF7pYSF15NjaLMYtRCt4XApjzNtW8oN1GKQFy5WVOepj8dq934shE7cBOlwRNhh1Hs-g.mp4?_nc_cat=107&_nc_sid=ef5aa3&_nc_ht=video-fra5-2.xx.fbcdn.net&_nc_ohc=4L38fC1dbGgQ7kNvwGjciFj&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MTU0OTM3ODE5MzU1OTg0OSwiYXNzZXRfYWdlX2RheXMiOjU1LCJ2aV91c2VjYXNlX2lkIjoxMDc5OSwiZHVyYXRpb25fcyI6NzIsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=3QPnG9_ll3ZipySNSyIYaw&_nc_ss=7f289&_nc_zt=28&oh=00_Af-M9zxQvgQ8_uEIuf50rAFRPIa5mGs3XZL4MeWCaHzMeA&oe=6A42C023"
       },
       "scrape": {
-        "crawlRunId": "PhsuX0drEEGzUGdak",
+        "crawlRunId": "eBXtJ1my7CUApgzaN",
         "pageTitle": "Klimaanlage planen & Angebot erhalten - in 60 Sekunden",
         "markdownLength": 9110,
         "loadedUrl": "https://anfrage.klivatec.de/",
-        "previewImageUrl": "https://assets.prd.heyflow.com/flows/sdjPbuFHPQZM5N0U6TJt/www/assets/44b1048f-f579-4d51-a7fc-1f69b57c70b4/original.png"
+        "previewImageUrl": "https://assets.prd.heyflow.com/flows/sdjPbuFHPQZM5N0U6TJt/www/assets/44b1048f-f579-4d51-a7fc-1f69b57c70b4/original.png",
+        "productImageUrl": "https://assets.prd.heyflow.com/flows/sdjPbuFHPQZM5N0U6TJt/www/assets/0b0dcc2e-cbc7-432e-b0fd-d3d19c9ad7c3/original.png",
+        "productTitle": "Klimaanlage planen & Angebot erhalten - in 60 Sekunden",
+        "productPrice": null
       },
       "analysis": {
         "marketing_hook": "KLIVATEC 固定式空调，解决夏季高温导致的睡眠差、电费高、便携式空调无效问题，免费上门咨询。",
@@ -118,42 +195,6 @@
       "status": "success",
       "error": null,
       "ad": {
-        "adBody": "Der mobile Mechaniker wollte 1.700 Euro für den Wechsel einer Lichtmaschine die im Teileladen 180 Euro kostet.\n\nIch hab ihn gefragt wie drei Schrauben so viel kosten können. Er hat nur gelacht. „Drei Schrauben an die man nicht rankommt. Ich mach das hier mehrmals im Jahr. Immer dasselbe. Vier Stunden Minimum nur für den Zugang.\"\n\nDie Hochzeit von unserem Enkel in Kroatien war in zwei Tagen.\n\nDann kam der Platzwart vom Campingplatz rüber und fragte ob er mal schauen soll.\n\nWas er mir gezeigt hat, hat alles verändert.\n\nAber der Reihe nach.\n\nMeine Frau Helga und ich sind seit knapp drei Jahren mit dem Wohnmobil unterwegs. Haus in Mönchengladbach verkauft, nen Teilintegrierten gekauft. Ducato Basis, wie die meisten.\n\nDie Idee war einfach. Winter ans Mittelmeer. Sommer hoch zu den Kindern. Keine Heizkosten, kein Schneeschippen.\n\nZweieinhalb Jahre lang hat das besser funktioniert als wir uns das vorgestellt hatten.\n\nAlgarve. Toskana. Drei Monate Peloponnes. Letzten Herbst die kroatische Küste runter, rechtzeitig bevor die ganzen Wintercamper kommen.\n\nWir standen auf nem kleinen Campingplatz südlich von Split, direkt am Wasser, als die Ladekontrollleuchte anging. Motor lief, Klimaanlage an. Erst wurden die Instrumente dunkler, dann ging die Spannung runter.\n\nHaube auf, und ich wusste sofort. Lichtmaschine.\n\nKein Drama, dachte ich. Hab ich schon mal gemacht. Vor zehn Jahren am alten Transporter. Paar Stunden, nichts Wildes.\n\nDas war bevor ich gesehen hab wo Fiat die Lichtmaschine beim Ducato hingebaut hat.\n\nDie sitzt unten rechts, eingequetscht zwischen Klimakompressor und Motorblock. Die Schrauben zeigen nach innen Richtung Rahmen. Platz ist vielleicht drei Zentimeter. Auf nen guten Tag.\n\nIch konnte alle drei Schrauben sehen. Konnte zwei davon mit den Fingerspitzen berühren.\n\nAber ich hab kein Werkzeug draufbekommen.\n\nNormale Ratsche probiert. Der Griff knallt gegen den Kompressor bevor die Nuss auf der Schraube sitzt.\n\nKurze Ratsche probiert. Auf eine Schraube draufgekommen, aber fünf Grad Drehwinkel. Hätte zwei Stunden für eine Schraube gebraucht.\n\nGelenk-Kopf probiert. Die Nuss ist sofort seitlich weggekippt sobald ich Druck gegeben hab.\n\nWobble-Verlängerung probiert. Einmal drauf, angefangen zu drehen, und die Nuss ist abgesprungen. Fast hätte es mir die Knöchel aufgerissen.\n\nVier Stunden hab ich in dem Motorraum rumgemacht. Vier Stunden in der kroatischen Hitze, über nen heißen Motor gebeugt, Schweiß in den Augen, Haut an den Händen auf.\n\nHelga hat immer wieder nachgeschaut. Ob ich Wasser will. Ob ich ne Pause mach. Ich wollte keine Pause. Ich wollte das Ding reparieren damit wir es zur Hochzeit schaffen.\n\nUnser Enkel Lukas hat am Samstag geheiratet. Seit Monaten geplant. Helga hatte ein neues Kleid. Ich hatte ne Rede geschrieben an der ich wochenlang gefeilt hatte.\n\nDie Hochzeit war drei Stunden südlich. In zwei Tagen.\n\nUnd ich hab drei Schrauben nicht aus einer Lichtmaschine rausbekommen.\n\nIrgendwann hab ich aufgegeben und angefangen mobile Mechaniker in der Gegend zu suchen. Einen gefunden der am nächsten Morgen kommen konnte.\n\nKam gegen zehn. Hat dreißig Sekunden unter die Haube geschaut.\n\n„Ja, die kenn ich. Kann ich machen, dauert aber.\"\n\nDann hat er seinen Preis genannt.\n\n1.700 Euro.\n\nIch hab gefragt wie sich das zusammensetzt.\n\n„Lichtmaschine besorgen, 180 Euro. Arbeit 1.520. 130 die Stunde, mindestens vier Stunden. Meistens eher sechs beim Ducato.\"\n\nSechs Stunden. Für drei Schrauben.\n\nIch hab gesagt ich überleg mir das.\n\nEr hat mit den Schultern gezuckt, seine Karte dagelassen und ist abgehauen.\n\nIch bin zurück ins Wohnmobil. Helga saß an der Sitzgruppe.\n\n„Wie schlimm?\"\n\nIch hab ihr den Preis gesagt.\n\nSie hat ne Weile nichts gesagt. Hat nur aus dem Fenster aufs Wasser geguckt.\n\n„Wir könnten uns nen Mietwagen nehmen. Zur Hochzeit fahren. Das Wohnmobil danach klären.\"\n\nHatte sie recht. Aber das hieß Mobil stehen lassen, Stellplatz weiterbezahlen, Mietwagen bezahlen, irgendwann zurückkommen. Statt wie geplant direkt weiter nach Slowenien.\n\nEin Defekt hat sich in einen Monat Durcheinander verwandelt.\n\nIch bin rausgegangen und hab mich in den Campingstuhl gesetzt. Einfach nur dagesessen.\n\nDa kam der Platzwart rüber.\n\nÄlterer Typ, Mitte siebzig. Hieß Karel. Wir hatten die Tage schon ein paar Mal gequatscht. Ehemaliger Nutzfahrzeug-Mechaniker aus Tschechien, seit fünfzehn Jahren auf Campingplätzen unterwegs.\n\n„Hab gesehen dass der Mechaniker wieder weg ist,\" hat er gesagt. „Lichtmaschine?\"\n\nIch hab genickt.\n\n„Wie viel?\"\n\nIch hab es ihm gesagt.\n\nEr hat ne Grimasse gezogen als hätte er in ne Zitrone gebissen.\n\n„Lass mich raten. Ducato. Schrauben zum Rahmen. Vier bis sechs Stunden.\"\n\nIch hab wieder genickt.\n\n„Hast du ne halbe Stunde?\"\n\nIch hab nicht verstanden.\n\n„Komm mit.\"\n\nWir sind zu seinem Platz gelaufen. Ein alter Wohnwagen der aussah als hätte er jede Straße zweimal gesehen. Er hat im Staukasten gewühlt und ist mit einem Ding zurückgekommen das ich noch nie gesehen hatte.\n\nFlaches Metallteil, vielleicht 40 Zentimeter lang. Vorne ne Nuss-Aufnahme. Hinten ein Vierkant-Antrieb. Irgendeine Kette die durch die Mitte lief.\n\n„Offset-Schlüssel. Kettenantrieb innen drin. Das Einzige was an diese Schrauben rankommt ohne den halben Motorraum zu zerlegen.\"\n\nIch hab gesagt ich hab alles probiert. Da ist einfach kein Platz.\n\nEr hat nur gegrinst. „Wart's ab.\"\n\nWir sind zurück zu meinem Mobil. Haube auf.\n\nKarel hat das Ding in die Lücke zwischen Kompressor und Block geschoben. Es ist genau an der Stelle vorbei die meine Ratsche den ganzen Tag blockiert hat.\n\nDie Nuss hat auf die erste Schraube geklickt.\n\nEr hat mir das Ratschen-Ende gegeben. „Dreh mal.\"\n\nIch hab gedreht.\n\nDie Schraube hat sich bewegt.\n\nDreißig Sekunden später war sie draußen.\n\nDie zweite saß fester, eingeklemmt am Motorlager. Aber das Werkzeug kam aus nem anderen Winkel rein, hat sauber aufgesetzt, und mit etwas Druck hat sie sich gelöst.\n\nDie dritte war die einfachste. Geradeaus rein, sobald man den Dreh raushatte.\n\nAlle drei Schrauben in unter fünf Minuten.\n\nIch stand da mit der Lichtmaschine in der Hand und hab versucht zu begreifen was gerade passiert ist.\n\nKarel hat sein Werkzeug schon eingepackt. „Beim ersten Mal ist das immer so. Man denkt es ist unmöglich. Und dann hat man das richtige Werkzeug und merkt, das Einzige was unmöglich war, war die Art wie man es versucht hat.\"\n\nIch hab gefragt wo man sowas herbekommt.\n\n„Online. Achtzig, neunzig Euro. Ich hab drei Stück. Geh ohne nicht mehr auf Tour.\"\n\nIch hab gefragt ob ich seins ausleihen kann bis meins da ist.\n\n„Behalt's bis deins kommt. Ich weiß ja wo ihr steht.\"\n\nAm Nachmittag bin ich nach Split gefahren und hab ne passende Lichtmaschine besorgt. 185 Euro.\n\nOnline das gleiche Werkzeug bestellt das Karel mir geliehen hatte. 85 Euro. An den Campingplatz liefern lassen. Kam vier Tage später.\n\nDa hatte ich die neue Lichtmaschine mit Karels Werkzeug längst eingebaut. Arbeitszeit: knapp eine Stunde.\n\nGesamtkosten: 185 Euro Teil. 85 Euro Werkzeug. 0 Euro Arbeitslohn.\n\n270 Euro.\n\nDer mobile Mechaniker wollte 1.700.\n\nGespart: 1.430 Euro.\n\nUnd wir haben die Hochzeit geschafft.\n\nFreitagnachmittag runtergefahren. Samstag Abend zugeschaut wie Lukas geheiratet hat. Meine Rede gehalten ohne mich einmal zu verhaspeln. Mit Helga unter den Olivenbäumen getanzt bis uns die Füße wehtaten.\n\nNichts davon wäre passiert wenn ich auf den Mechaniker gewartet hätte.\n\nSeit der Woche in Split hab ich das Werkzeug ständig benutzt.\n\nAnlasser am Generator. Gleiche Geschichte, Karel hatte mich schon gewarnt. Versteckt hinter der Abgasanlage.\n\nServolenkungspumpe. Schraube zwei Zentimeter vom Rahmen entfernt.\n\nEinem Paar in Slowenien geholfen. Schraube so verbaut dass der Mann schon den ADAC rufen wollte. Zehn Minuten.\n\nMassekabel der Aufbaubatterie. Hinter die Motorhalterung geschraubt.\n\nJeder dieser Jobs hätte Werkstatt bedeutet. Abschlepper. Eine Rechnung die in keinem Verhältnis steht.\n\nJetzt sind das Samstagmorgen-Projekte.\n\nWas ich nach drei Jahren auf der Straße verstanden hab:\n\nDiese Fahrzeuge sind nicht dafür gebaut dass man als Besitzer daran schraubt. Die sind gebaut für Vertragswerkstätten mit 150 Euro Stundensatz und drei Wochen Wartezeit.\n\nJede Schraube ist vergraben. Jeder Job braucht „besonderen Zugang\" der sechs Stunden dauert und mehr kostet als das Ersatzteil. Aber es ist nicht kompliziert. Es ist nur schwer zu erreichen. Und schwer zu erreichen ist ein Werkzeugproblem, kein Könnerproblem.\n\nWenn man was hat das in diese engen Stellen passt, flach genug zum Reinschieben und stabil genug zum Drehen, dann wird aus dem Sechs-Stunden-Werkstatt-Job eine Stunde auf dem Stellplatz.\n\nAuf einmal ist man nicht mehr abhängig von Mechanikern die 130 die Stunde nehmen.\n\nAuf einmal verpasst man keine Hochzeiten und keine Geburtstage und keinen von den Momenten wegen denen man das Haus überhaupt verkauft hat.\n\nAuf einmal erinnert man sich warum man das Ganze hier eigentlich macht.\n\nIch sag nicht dass das Ding alles repariert.\n\nAber irgendwann, wahrscheinlich zum schlechtesten Zeitpunkt, wird irgendeine Schraube das Einzige sein das zwischen dir und dem Moment steht für den du vierzig Jahre gearbeitet hast.\n\nUnd dann kommst du entweder ran. Oder eben nicht.\n\nIch bin nicht rangekommen.\n\nJetzt schon.\n\nWer das hier draußen auch macht und es satt hat dass einfache Jobs 1.700 Euro kosten weil „der Zugang so schwierig\" ist: Das Ding gehört in den Staukasten.\n\nNicht weil ich das sage.\n\nSondern weil ein Platzwart namens Karel auf nem Campingplatz in Kroatien mir gezeigt hat was ich drei Jahre lang nicht gewusst hab.\n\nLink ist unten drunter, wer mag kann ja mal reinschauen.\n\nGute Fahrt euch allen da draußen.\n\nUnd wenn ihr nen weißen Teilintegrierten mit Mönchengladbacher Kennzeichen und Fahrrädern hinten drauf seht, hupt mal kurz. Das sind wir.\n\nHelga sagt ich soll euch ausrichten: Eure Frauen schaffen das auch.",
-        "creativeUrl": "https://scontent-fra3-1.xx.fbcdn.net/v/t39.35426-6/722306052_1269079211970128_1417663633573708108_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=CEsoF7WnjsoQ7kNvwEL6lzG&_nc_oc=AdqxaTTGQQC3qr7LAWNBd2L8X6B1UKDTpKwjuCRkF12YiDmTBudnxn6ZawPHHxDLVTo&_nc_zt=14&_nc_ht=scontent-fra3-1.xx&_nc_gid=3QPnG9_ll3ZipySNSyIYaw&_nc_ss=7f289&oh=00_Af-H36Qf2WV8Lo_xh_a1PwIL_fJWqgGOWP7A9Df1b3swUg&oe=6A42ADD1",
-        "landingPageUrl": "https://schraubwerk.eu/products/schraubwerk",
-        "adArchiveId": "2443975309427077",
-        "sourceKeyword": "Mobile Klimaanlage",
-        "adLibraryUrl": "https://www.facebook.com/ads/library/?id=2443975309427077",
-        "pageName": "Thomas Becker",
-        "adDeliveryStart": null,
-        "adDeliveryStop": null,
-        "isActive": true,
-        "spendText": null,
-        "impressionsText": null,
-        "reachText": null
-      },
-      "scrape": {
-        "crawlRunId": "PhsuX0drEEGzUGdak",
-        "pageTitle": "Offset Verlängerungsschlüssel | Schraubwerk | Für schwer zugängliche Stellen | Inkl. 1/4\" 3/8\" 1/2\" Adapter | Schlagfeste Konstruktion | Ratschenverlängerung | Kfz Werkzeug",
-        "markdownLength": 9257,
-        "loadedUrl": "https://schraubwerk.eu/products/schraubwerk",
-        "previewImageUrl": "https://schraubwerk.eu/cdn/shop/files/image_5_46ead988-08ac-48eb-82c2-c89202f193e4.webp?crop=center&height=300&v=1780615198&width=300"
-      },
-      "analysis": {
-        "marketing_hook": "Offset Schlüssel 2.0（Schraubwerk）解决难以触及的螺丝问题，避免高额维修费用，夏季特惠立省40%。",
-        "form_questions": [
-          "选择数量（1件或2件）",
-          "可选：添加LED头灯礼品",
-          "可选：添加免费送货",
-          "点击‘抢购优惠’"
-        ],
-        "localized_translation": "Offset Schlüssel 2.0 夏季特惠 – 立省 40%，仅需 €59.99（原价 €99.99），附赠 60 天无条件退款保证。"
-      }
-    },
-    {
-      "status": "success",
-      "error": null,
-      "ad": {
         "adBody": "Entfliehen Sie der LKW-Hitze. Schlafen Sie kühl. Kein Leerlauf. ⚡❄️ Libiyi Mobile Klimaanlage – speziell für Sattelzüge. Leise Kühlung für die Schlafkabine. Kraftstoff sparen. Erholt bleiben. 🚛",
         "creativeUrl": "https://scontent-fra3-1.xx.fbcdn.net/v/t39.35426-6/725302034_1256166363082353_8030234485313072254_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=H1NwE_Pc75IQ7kNvwEBNw56&_nc_oc=AdrfHUL-V1bXSNFdCl9dXj6nmcD1XwXm0UMDvSd4BxDHhnOvXwPdB52ArFJMuR3Mfu0&_nc_zt=14&_nc_ht=scontent-fra3-1.xx&_nc_gid=3QPnG9_ll3ZipySNSyIYaw&_nc_ss=7f289&oh=00_Af8dU-2jvpuG5c36QcyEgmpDpr7Gdu8YRTAsf8HYktqm8A&oe=6A42B0F8",
         "landingPageUrl": "https://shoes.libiyi.com/me/new/Libiyi/portable-ac/view10706?sort_by=&utm_source=facebook&utm_medium=patrick&utm_campaign={{adset.name}}&utm_content={{campaign.name}}",
@@ -161,19 +202,35 @@
         "sourceKeyword": "Mobile Klimaanlage",
         "adLibraryUrl": "https://www.facebook.com/ads/library/?id=1465667708693235",
         "pageName": "Libiyi_AU",
-        "adDeliveryStart": null,
-        "adDeliveryStop": null,
+        "adDeliveryStart": "2026-06-17 07:00:00",
+        "adDeliveryStop": "2026-06-24 07:00:00",
         "isActive": true,
         "spendText": null,
         "impressionsText": null,
-        "reachText": null
+        "reachText": null,
+        "publisherPlatforms": [
+          "FACEBOOK",
+          "INSTAGRAM",
+          "AUDIENCE_NETWORK",
+          "MESSENGER",
+          "THREADS"
+        ],
+        "variantCount": 1,
+        "adsCount": 1,
+        "productTitle": "No idling required ⚡",
+        "productPageUrl": "https://shoes.libiyi.com/me/new/Libiyi/portable-ac/view10706?sort_by=&utm_source=facebook&utm_medium=patrick&utm_campaign={{adset.name}}&utm_content={{campaign.name}}",
+        "creativeType": "video",
+        "videoUrl": "https://video-fra5-2.xx.fbcdn.net/o1/v/t2/f2/m412/AQM7ZQVUtRDNy7QBWJ5f2Ba3t1WKnUUdR_N92LPv8JqG7Wsu956F2Euom7ARr-AC--ryngzH_K5gFRxq2MAuFN_acuLNa8dpHYpfbc6YVw.mp4?_nc_cat=107&_nc_sid=ef5aa3&_nc_ht=video-fra5-2.xx.fbcdn.net&_nc_ohc=GN0uGSSpszMQ7kNvwHexLrv&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MTc3MjA2Mzc1NzExNDMyOCwiYXNzZXRfYWdlX2RheXMiOjE3LCJ2aV91c2VjYXNlX2lkIjoxMDc5OSwiZHVyYXRpb25fcyI6MzksInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=3QPnG9_ll3ZipySNSyIYaw&_nc_ss=7f289&_nc_zt=28&oh=00_Af8SjNJx1I6YDO47G0FME-YfUfyFoD1q_sIN1LxmkGVnbg&oe=6A42A7BB"
       },
       "scrape": {
-        "crawlRunId": "PhsuX0drEEGzUGdak",
+        "crawlRunId": "gC8KSx67C1qwBs8Uw",
         "pageTitle": "Warum Deutsche ihre Klimaanlagen durch diese portable Alternative ersetzen, um Hunderte von Euros bei den Stromrechnungen im Sommer zu sparen?",
         "markdownLength": 13385,
         "loadedUrl": "https://shoes.libiyi.com/me/new/Libiyi/portable-ac/view10706?sort_by=&utm_source=facebook&utm_medium=patrick&utm_campaign={{adset.name}}&utm_content={{campaign.name}}",
-        "previewImageUrl": "https://d1y4tm6t3pzfj.cloudfront.net/other/images/1718250270_presell-01.jpg"
+        "previewImageUrl": "https://d1y4tm6t3pzfj.cloudfront.net/other/images/1718250270_presell-01.jpg",
+        "productImageUrl": null,
+        "productTitle": "Warum Deutsche ihre Klimaanlagen durch diese portable Alternative ersetzen, um Hunderte von Euros bei den Stromrechnungen im Sommer zu sparen?",
+        "productPrice": null
       },
       "analysis": {
         "marketing_hook": "Libiyi 便携式空调（Cooling Ace）解决卡车司机夏季炎热难眠问题，限时50折仅售59.98欧元，省电又安静",
@@ -196,121 +253,40 @@
         "sourceKeyword": "Mobile Klimaanlage",
         "adLibraryUrl": "https://www.facebook.com/ads/library/?id=1597238041332843",
         "pageName": "CoolFix Klimaanlagen",
-        "adDeliveryStart": null,
-        "adDeliveryStop": null,
+        "adDeliveryStart": "2026-04-29 07:00:00",
+        "adDeliveryStop": "2026-06-24 07:00:00",
         "isActive": true,
         "spendText": null,
         "impressionsText": null,
-        "reachText": null
+        "reachText": null,
+        "publisherPlatforms": [
+          "FACEBOOK",
+          "INSTAGRAM",
+          "AUDIENCE_NETWORK",
+          "MESSENGER",
+          "THREADS"
+        ],
+        "variantCount": 1,
+        "adsCount": 1,
+        "productTitle": "😴 Wieder eine schlaflose Nacht bei 28°C?",
+        "productPageUrl": "https://www.beratung-coolfix.com/",
+        "creativeType": "image",
+        "videoUrl": null
       },
       "scrape": {
-        "crawlRunId": "PhsuX0drEEGzUGdak",
+        "crawlRunId": "gC8KSx67C1qwBs8Uw",
         "pageTitle": "Endlich kühle Nächte im Eigenheim",
         "markdownLength": 486,
         "loadedUrl": "https://www.beratung-coolfix.com/",
-        "previewImageUrl": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.beratung-coolfix.com%2F?w=800"
+        "previewImageUrl": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.beratung-coolfix.com%2F?w=1200",
+        "productImageUrl": null,
+        "productTitle": "Endlich kühle Nächte im Eigenheim",
+        "productPrice": null
       },
       "analysis": {
         "marketing_hook": "CoolFix 专业空调：解决炎热夜晚失眠问题，免费上门咨询，快速安装，省去繁琐手续",
         "form_questions": [],
         "localized_translation": "现在免费咨询，让您今夏终于能够安稳入睡！"
-      }
-    },
-    {
-      "status": "success",
-      "error": null,
-      "ad": {
-        "adBody": "So günstig geht Geschäftsleasing!👍\n________________\nKombinierte Werte für den PEUGEOT 208 STYLE 1.2l TURBO 100 (Benzin), 74 kW (101 PS), 6-Gang-Schaltgetriebe. Kraftstoffverbrauch 5,1 l/100 km; CO2-Emission 116 g/km; CO2-Klasse D. Abbildung zeigt Designstudie.\n\nDie angegebenen Verbrauchs- und Emissionswerte wurden nach den gesetzlich vorgeschriebenen Messverfahren ermittelt. WLTP (Worldwide Harmonised Light-Duty Vehicles Test Procedure, dt. weltweit einheitliches Leichtfahrzeuge-Testverfahren).\n\nEs werden nur die CO2-Emissionen angegeben, die durch den Betrieb des Pkw entstehen. CO2-Emissionen, die durch die Produktion und Bereitstellung des Pkw sowie des Kraftstoffes bzw. der Energieträger entstehen oder vermieden werden, werden bei der Ermittlung der CO2-Emissionen gemäß WLTP nicht berücksichtigt.\n\n¹Ein Angebot für Gewerbekunden der Leasys S.p.A. Zweigstelle Deutschland, Friedrich-Lutzmann-Ring 1, 65428 Rüsselsheim am Main, für die wir als Vermittler, gemeinsam mit dem Kunden, die für den Abschluss des Leasing-Vertrags nötigen Vertragsunterlagen zusammenstellen. Bonität vorausgesetzt. Angebot gültig bis 30.06.2026. Alle Preise exkl. MwSt. Änderungen und Irrtümer vorbehalten. Gilt für einen PEUGEOT 208 STYLE 1.2l TURBO 100 (Benzin), 74 kW (101 PS), 6-Gang-Schaltgetriebe. Leasing-Sonderzahlung: 0,00 € | Laufzeit: 24 Monate | Fahrleistung gesamt: 20.000 km | Monatliche Leasingrate: 99,00 € zzgl. MwSt. | Gesamtbetrag: 2.376,00 € zzgl. MwSt. | Die Überführungskosten werden separat berechnet.",
-        "creativeUrl": "https://scontent-fra3-2.xx.fbcdn.net/v/t39.35426-6/722490238_1357437466294224_440766809002894471_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=bnsuayt94oMQ7kNvwFoMhqA&_nc_oc=AdrvEY9fCcoRijRjJ24jgRxxMHOJjv7pnGk7UThnHtqcDhxt3vuUdBynGijXdY__Smo&_nc_zt=14&_nc_ht=scontent-fra3-2.xx&_nc_gid=3QPnG9_ll3ZipySNSyIYaw&_nc_ss=7f289&oh=00_Af-JAy4gx83d2ekvnuJsvW3ouo9TuuzDKJ9kQin9hH98tQ&oe=6A42ABB8",
-        "landingPageUrl": "https://peugeot.pkw-angebote.com/beckerfrancemobile-peugeot208/",
-        "adArchiveId": "1327592742831846",
-        "sourceKeyword": "Mobile Klimaanlage",
-        "adLibraryUrl": "https://www.facebook.com/ads/library/?id=1327592742831846",
-        "pageName": "BECKERfrance mobile",
-        "adDeliveryStart": null,
-        "adDeliveryStop": null,
-        "isActive": true,
-        "spendText": null,
-        "impressionsText": null,
-        "reachText": null
-      },
-      "scrape": {
-        "crawlRunId": "XFeVEMUJW0Tt2K68g",
-        "pageTitle": "PEUGEOT 208 für Gewerbekunden",
-        "markdownLength": 1456,
-        "loadedUrl": "https://peugeot.pkw-angebote.com/beckerfrancemobile-peugeot208/",
-        "previewImageUrl": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fpeugeot.pkw-angebote.com%2Fbeckerfrancemobile-peugeot208%2F?w=800"
-      },
-      "analysis": {
-        "marketing_hook": "标致208商务租赁，零首付月付99欧，解决企业出行成本痛点",
-        "form_questions": [],
-        "localized_translation": "标致208商务租赁，月租仅99欧元（不含增税），零首付，24个月/2万公里"
-      }
-    },
-    {
-      "status": "success",
-      "error": null,
-      "ad": {
-        "adBody": "🚗 Startklar für Sommer und Urlaub?\n\nZwei Angebote, mit denen du sorgenfrei unterwegs \nbist – jedes für sich buchbar:\n\n🧳 Urlaubs-Check – 29,90 €\nBremsen, Reifen, Beleuchtung, Ölstand, Wischwasser \nund Batterie. Damit auf der langen Strecke nichts \nschiefgeht.\n\n❄️ Klima-Check – KOSTENLOS\nFunktions- und Sichtprüfung deiner Klimaanlage. \nFrische Luft, auch wenn's draußen heiß wird.\n\nOb beides oder nur eins – du entscheidest, wir prüfen.\n\nFalls bei der Klimaanlage Wartung, Reinigung oder \nneues Kältemittel nötig ist, beraten wir dich \nvorher transparent zu den Kosten – bevor wir loslegen.\n\n📍 AutoMobile Daxenbichler · Tuntenhausen-Ostermünchen\n📞 Termin sichern: 08067 1252\n🕗 Mo–Fr 07:30–18:00 · Sa 09:00–12:00",
-        "creativeUrl": "https://scontent-fra3-2.xx.fbcdn.net/v/t39.35426-6/712703837_983694977724350_2495897587274259848_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=CIE0tYj7nUsQ7kNvwF_lfmQ&_nc_oc=AdrHw-NcSJYgYQZmjj3ONqYS3WS9ulVPc0Yu5PDHVJEyxLA5F-yjFm8F6A9kJhoe8c8&_nc_zt=14&_nc_ht=scontent-fra3-2.xx&_nc_gid=3QPnG9_ll3ZipySNSyIYaw&_nc_ss=7f289&oh=00_Af9WuqvfMnwGVsHqIyqKEML7_op0OiPgh8_ymWe9PIp-XA&oe=6A42A9F1",
-        "landingPageUrl": "https://www.automobile-daxenbichler.de/wartung-und-service-nach-herstellervorschrift",
-        "adArchiveId": "1339426791683023",
-        "sourceKeyword": "Mobile Klimaanlage",
-        "adLibraryUrl": "https://www.facebook.com/ads/library/?id=1339426791683023",
-        "pageName": "AutoMobile Daxenbichler",
-        "adDeliveryStart": null,
-        "adDeliveryStop": null,
-        "isActive": true,
-        "spendText": null,
-        "impressionsText": null,
-        "reachText": null
-      },
-      "scrape": {
-        "crawlRunId": "XFeVEMUJW0Tt2K68g",
-        "pageTitle": "AutoMobile Daxenbichler GmbH Tuntenhausen-Ostermünchen. Wartung und Service nach Herstellervorschrift – Wartung und Service nach Herstellervorschrift",
-        "markdownLength": 1947,
-        "loadedUrl": "https://www.automobile-daxenbichler.de/wartung-und-service-nach-herstellervorschrift",
-        "previewImageUrl": "https://onecdn.io/media/d0c9bd71-eeed-4aec-b30d-e90ea7cf3757/preview"
-      },
-      "analysis": {
-        "marketing_hook": "AutoMobile Daxenbichler 提供免费汽车空调检查及 29.90 欧元的假期安全检查，解决夏季高温驾驶不适和故障风险。",
-        "form_questions": [],
-        "localized_translation": "免费空调检查 – 功能和视觉检查您的空调系统，即使外面炎热也能享受清凉空气。"
-      }
-    },
-    {
-      "status": "success",
-      "error": null,
-      "ad": {
-        "adBody": "Meine Hündin ist letzten Juni fast in meiner eigenen Wohnung gestorben. Der Ventilator lief, die Rollläden waren unten. Und das Schlimmste ist: Ich habe drei Monate lang zugesehen, wie es passiert ist, und dachte, ich könnte nichts tun.\n\nSie heißt Luna. Sie ist eine Australian-Shepherd-Mix-Hündin, fünf Jahre alt, ein braunes Auge, ein blaues. Die Art Hund, bei der im Park alle stehen bleiben und nach dem Namen fragen.\n\nUnd ich muss dir erzählen, was fast passiert wäre. Weil das, was Luna fast umgebracht hätte, gerade jetzt wahrscheinlich auch bei deinem Hund passiert. Und du denkst vielleicht, wie ich, dass du nichts dagegen tun kannst.\n\nDu kannst.\n\nVorgeschichte, die du kennen musst: Luna ist nicht mein erster Hund. Vor zwei Jahren habe ich Emma verloren. Golden Retriever, fünf Jahre alt. Hitzschlag, an einem Tag, an dem es nicht mal richtig heiß war. Ich dachte damals, ich hätte etwas übersehen.\n\nAls Luna kam, habe ich mir geschworen, alles richtig zu machen.\n\nUnd dann bin ich umgezogen.\n\nLetztes Jahr im Frühjahr habe ich eine neue Wohnung bezogen. Dachgeschoss, schön hell, große Fenster nach Süden. Ich habe mich verliebt, als ich sie das erste Mal gesehen habe. Im April.\n\nDie Maklerin hat gesagt: „Im Sommer wird's hier oben schön warm, aber mit Rollläden und einem guten Ventilator kein Problem.\"\n\nIch hatte keine Ahnung, worauf ich mich da eingelassen habe.\n\nDer erste Sommer ist zum Gefängnis geworden.\n\nMorgens um halb sechs raus mit Luna, bevor der Asphalt zu heiß für ihre Pfoten wurde. Um Viertel vor sieben zurück. Und dann den Rest des Tages — sechzehn Stunden — gefangen in einer Wohnung, die sich unter dem Dach aufgeheizt hat wie ein Backofen.\n\nRollläden den ganzen Tag unten. Zwei Ventilatoren. Ich habe nasse Tücher aufgehängt. Trotzdem hatte es nachmittags 29, 30 Grad in der Wohnung, egal was ich gemacht habe. Dachgeschoss im Hochsommer. Die Hitze kam von oben, von den Wänden, vom Boden.\n\nIch habe mir gesagt, es ist okay. Luna ist drinnen. Der Ventilator läuft. Was hätte ich sonst tun sollen.\n\nAber jeden Nachmittag, so gegen zwei, habe ich Luna auf den Badezimmerfliesen gefunden.\n\nSie hat im Wohnzimmer auf dem Teppich angefangen. Dann ist sie in die Küche gewandert, auf die Fliesen. Zwanzig Minuten später in den Flur. Dann ins Bad. Dann zurück in die Küche.\n\nSie hat sich im Kreis gedreht, sich hingelegt, leise gehechelt, fünfzehn Minuten gelegen, ist wieder aufgestanden und hat das Ganze von vorne gemacht.\n\nNicht panisch. Nicht so, als wäre etwas falsch. Einfach… nie angekommen.\n\nUnd sie hat gehechelt. Jeden einzelnen Nachmittag. Nicht das dramatische, Zunge-raushängende Hecheln. Einfach schwerer geatmet, als es Sinn ergab für eine Hündin, die nur rumliegt.\n\nIch habe es einer Nachbarin erzählt. Sie hat einen Husky. Sie hat gelacht.\n\n„Im Dachgeschoss im Sommer? Da hecheln alle Hunde. Roll die Rollläden runter und stell den Ventilator an, dann passt das schon.\"\n\nAlso habe ich das gemacht.\n\nIch habe Luna einen zweiten Wassernapf hingestellt. Eis ins Wasser gegeben. Hundeeis gemacht. Nachts um Mitternacht „Australian Shepherd Hitze\" gegoogelt und Artikel gefunden, die sagten, sie kämen gut klar, solange sie tagsüber drinnen bleiben.\n\nAlso blieben wir drinnen.\n\nIch habe sogar überlegt, wieder auszuziehen. Aber ich hatte gerade erst den Mietvertrag unterschrieben, die Kaution war weg, ein erneuter Umzug nicht drin.\n\nWir saßen fest.\n\nUnd ich hatte das Gefühl, ich hätte Luna an einen Ort gesperrt, der sie langsam umbringt.\n\nDer Tag, an dem es fast passiert ist, war ein Mittwoch Ende Juni. 34 Grad draußen.\n\nIch hatte einen Arzttermin. Anderthalb Stunden, vielleicht zwei. Ich habe die Rollläden runtergelassen, beide Ventilatoren angestellt, beide Wassernäpfe gefüllt. Luna einen Kuss auf den Kopf gegeben. Ihr gesagt, ich bin gleich zurück.\n\nUm Viertel nach drei war ich wieder da.\n\nDie Wohnung war still auf eine Art, die sich falsch angefühlt hat.\n\nLuna kommt mir immer an der Tür entgegen. Immer.\n\nIch habe ihren Namen gerufen.\n\nNichts.\n\nIch habe sie auf den Küchenfliesen gefunden. Auf der Seite. Schnell und flach atmend. Augen halb geschlossen. Ihr Zahnfleisch war blass und klebrig.\n\nIch weiß nicht mehr, wie ich sie ins Auto bekommen habe. Ich weiß noch ihr Gewicht. Ich weiß noch, dass ich auf der ganzen Fahrt mit ihr geredet habe. Ich weiß noch, dass ich jede rote Ampel überfahren habe.\n\nIn der Notfallpraxis haben sie sie sofort nach hinten gebracht.\n\nDiesmal kam die Tierärztin nach einer Stunde zurück — nicht mit den Worten, die ich nach Emma gehört hatte.\n\n„Wir haben sie stabilisiert. Es war ein Hitzschlag, und es war knapp. Eine halbe Stunde später, und wir hätten sie nicht mehr zurückgeholt. Aber sie wird durchkommen.\"\n\nIch habe geweint, wie ich seit Emmas Tod nicht mehr geweint hatte. Diesmal aus Erleichterung.\n\nAber ich konnte nicht loslassen von dem, was als Nächstes kam.\n\n„Ich habe alles gemacht\", habe ich gesagt. „Die Rollläden waren unten. Zwei Ventilatoren liefen. Sie hatte frisches Wasser. Sie war nur zwei Stunden allein.\"\n\nDie Tierärztin hat genickt.\n\n„Ihre Ventilatoren haben einwandfrei funktioniert. Aber da ist Luna nicht überhitzt.\"\n\nSie hat sich Zeit genommen, es zu erklären. Und ich werde es nie vergessen.\n\n„Ein Hund hat eine Körpertemperatur von rund 38,5 Grad. Jede Fläche, auf der er liegt — der Teppich, die Fliese, sein Bett — nimmt diese Wärme auf. Innerhalb von Minuten erwärmt sich die Fläche unter ihm. Und sobald sie genug Körperwärme aufgenommen hat, hört sie auf zu kühlen. Sie hält die Wärme einfach fest, gegen seinen Bauch und seine Brust gedrückt.\"\n\nDann hat sie gesagt:\n\n„Und in einer Wohnung, die sich so aufheizt wie ein Dachgeschoss im Hochsommer, passiert das schneller und schlimmer. Die Raumtemperatur ist so hoch, dass die Flächen die Wärme gar nicht mehr loswerden. Sie laden sich auf und bleiben warm. Ihre Ventilatoren bewegen die Luft über Luna. Aber sie können den Boden unter ihr nicht kühlen. Und genau da liegt das Problem.\"\n\n„Warum sagt einem das niemand?\", habe ich gefragt.\n\n„Weil es normal aussieht. Ein Hund, der auf die Fliesen wechselt, der in einer Wohnung mit Ventilator hechelt — das sieht aus wie ein Hund, der einfach ein Hund ist. Bis es zu spät ist.\"\n\nDann hat sie etwas gesagt, das mich zerstört hat:\n\n„Denken Sie daran, wie Sie nachts Ihr Kissen wenden, auf die kühle Seite. Sie machen das, weil Ihre Körperwärme es aufgewärmt hat. Genau das hat Luna jeden Nachmittag getan. Sie hat ihr Kissen gewendet. Nur kann man einen Fußboden nicht wenden. Irgendwann gibt es keine kühle Stelle mehr.\"\n\nUnd plötzlich hat jede einzelne Sache, die ich drei Monate lang beobachtet hatte, Sinn ergeben.\n\nDas Wandern von Platz zu Platz. Die Badezimmerfliesen. Das Hecheln in einer Wohnung mit zwei Ventilatoren.\n\nLuna war nicht ruhelos. Sie hat versucht zu überleben.\n\nUnd ich wusste es nicht.\n\n„Hätte es etwas geändert, wenn ich noch einen dritten Ventilator gehabt hätte?\", habe ich gefragt. „Oder eine mobile Klimaanlage?\"\n\n„Nein\", hat sie sanft gesagt. „Kühlere Luft löst das Flächen-Problem nicht. Sie könnten die Wohnung auf 20 Grad runterkühlen, und der Boden würde sich trotzdem unter ihrem Körper aufheizen.\"\n\nIch habe eine Woche kaum geschlafen.\n\nIch bin jeder Hundegruppe beigetreten, die ich finden konnte. Habe alles über Hitze in Wohnungen gelesen. Habe verstanden, warum alles, was ich getan hatte — alles, was jeder Halter in einer heißen Wohnung tut — das eigentliche Problem nicht löst.\n\nDer Ventilator? Bewegt die Luft einen halben Meter über dem Hund. Macht nichts für die Fläche, auf der er liegt. Luna hat ihre Körperwärme direkt in den Boden abgegeben. Da kommt kein Ventilator hin.\n\nGel-Kühlmatten? Nehmen Wärme für zwanzig, dreißig Minuten auf, dann sind sie gesättigt. Danach eine warme Matte mit Gel drin.\n\nNasse Handtücher? Nach zehn Minuten körperwarm. Dann schließen sie Feuchtigkeit und Wärme am Hund ein wie eine Isolierdecke. Schlimmer als der nackte Boden.\n\nJede Lösung kühlt entweder die Luft oder nimmt Wärme auf, bis sie nicht mehr kann.\n\nKeine macht das eine, worauf es ankommt: die Wärme kontinuierlich vom Körper wegleiten, ohne je aufzuhören.\n\nDie Worte der Tierärztin haben sich in meinem Kopf wiederholt: „Sie brauchen eine Fläche, die die Wärme durchgehend ableitet. Eine, die nie an den Punkt kommt, an dem sie aufhört zu funktionieren.\"\n\nZwei Wochen später hat meine Schwester aus Stuttgart angerufen. Sie wohnt auch oben unterm Dach. Ihr Golden, Max, hat genau dasselbe gemacht. Jeden Nachmittag gehechelt. Vom Teppich auf die Fliesen, in den Flur und zurück. Sie war in Panik.\n\nIch habe ihr alles erzählt, was die Tierärztin mir gesagt hatte.\n\n„Also hilft der Ventilator nicht?\"\n\n„Er hilft der Luft. Nicht dem, worauf Max liegt.\"\n\nSie hat gefragt, was sie tun soll.\n\nIch hatte noch keine Antwort.\n\nIch habe weiter recherchiert. Über Wärmeleitfähigkeit gelesen. Mit Leuten geredet, die in heißen Dachwohnungen mit Hund leben.\n\nDann habe ich in einer Gruppe einen Beitrag von einer Frau gefunden. Sie hat nichts verkauft. Sie hat nur geteilt, was bei ihr funktioniert hat.\n\nSie hat genau dasselbe Muster beschrieben. Das Fliesen-Suchen. Das Nachmittagshecheln. Das ständige Wandern.\n\nDann: „Seit die Matte da liegt, geht er nicht mehr runter. Das Hecheln hat komplett aufgehört. Ich dachte, ich bilde mir das ein, aber es ist echt.\"\n\nJemand hat gefragt, welche Marke.\n\nFellStern.\n\nKein Gel. Kein Wasser. Nichts zum Einfrieren. Ein Funktionstextil aus drei Schichten, das die Körperwärme des Hundes durchgehend ableitet — statt sie aufzunehmen und sich aufzuwärmen wie jede andere Fläche.\n\nDas Material leitet Wärme weg, ohne je aufzuhören. Kein Sättigungspunkt. Es wird einfach nicht warm, egal wie lange der Hund drauf liegt und egal wie heiß die Wohnung ist.\n\nWenn das Problem Flächen sind, die Wärme festhalten, ist die Lösung eine Fläche, die sie nie aufhört abzuleiten.\n\nIch habe in derselben Nacht eine bestellt. Und eine an meine Schwester nach Stuttgart geschickt.\n\nAls meine ankam, habe ich sie dahin gelegt, wo Luna im Wohnzimmer immer gelegen hatte.\n\nIch habe mich danebengesetzt.\n\nDer erste richtig heiße Tag danach. Ich habe Luna beobachtet wie nichts vorher in meinem Leben.\n\nStunde 1: Sie hat geschnuppert. Sich einmal im Kreis gedreht. Hingelegt. Ich habe auf dem Sofa gesessen und auf das Hecheln gewartet. Nichts. Innerhalb von Minuten eingeschlafen, langsam und gleichmäßig atmend. Ich habe die Hand neben sie auf die Matte gelegt — nach einer vollen Stunde mit einer Hündin drauf immer noch kühl. Nicht eiskalt. Aber spürbar kühl.\n\nStunde 2: Sie hatte sich nicht bewegt. Auf dem Teppich hätte sie bis jetzt schon zweimal den Platz gewechselt. Luna lag am selben Fleck. Kein Hecheln.\n\nStunde 4: Immer noch da. Ich habe die Matte direkt neben ihrem Bauch angefasst. Kühl. Den Teppich daneben? Warm von der aufgeheizten Wohnung. Die Matte nicht.\n\nEnde des Tages: Mir ist aufgefallen, dass ich seit dem Morgen den Atem angehalten hatte. Das Nachmittagshecheln, das seit drei Monaten jeden Tag um zwei angefangen hatte? Es kam nicht. Das ruhelose Wandern? Luna hat es nicht gemacht. Sie hat sich ihren Platz gesucht und ist geblieben.\n\nMeine Schwester hat mir vier Tage später geschrieben.\n\n„Max ist den ganzen Tag nicht von der Matte runter. Kein Hecheln. Ich hab nach drei Stunden die Hand draufgelegt — immer noch kühl. Die Fliese daneben war warm.\"\n\nEine Woche später: „Das Nachmittagshecheln ist komplett weg. Er kommt jetzt zur Ruhe. Mir war gar nicht klar, wie sehr ich jeden Nachmittag gefürchtet habe, bis er aufgehört hat.\"\n\nZwei Wochen später: „Ich fühl mich nicht mehr gefangen. Ich weiß, das klingt dramatisch, aber ich hab jeden Tag zugesehen, wie er leidet, und konnte nichts tun. Jetzt schon.\"\n\nIch kenne dieses Gefühl genau.\n\nHier ist, was ich verstanden habe, und es hat zu spät für Emma und fast zu spät für Luna gedauert:\n\nIn einer Wohnung, die sich im Sommer aufheizt — Dachgeschoss, Südseite, schlecht gedämmt — reicht der Ventilator nicht. Reichen die Rollläden nicht. Reicht selbst eine Klimaanlage nicht, wenn du eine hättest.\n\nWeil keines davon die Fläche kühlt, auf der dein Hund acht, zehn, sechzehn Stunden am Tag liegt.\n\nDie Luft war nie das Problem. Die Fläche war immer das Problem.\n\nWenn du in einer Wohnung lebst, die im Sommer heiß wird…\n\nWenn dein Hund die Fliesen sucht, obwohl der Ventilator läuft…\n\nWenn er nachmittags hechelt, obwohl er nur liegt…\n\nWenn du das Gefühl hast, du hast alles getan, was du tun kannst, und es reicht trotzdem nicht…\n\nDann ist das nicht normal. Und du bist nicht machtlos.\n\nEs ist dein Hund, der dir sagt, dass die Fläche unter ihm seine Wärme nicht mehr ableitet. Und dieser Stress summiert sich. Jeden Nachmittag. Jeden Tag. Jeden Sommer.\n\nIch dachte, ich könnte nichts tun. Ich lag falsch.\n\nIch konnte Emma nicht mehr retten. Luna fast nicht. Aber jetzt liegt sie jeden Nachmittag auf ihrer Matte, in derselben heißen Dachwohnung, und sie hechelt nicht mehr, sie wandert nicht mehr, sie sucht keine Fliesen mehr.\n\nDie Matte gibt es direkt beim Hersteller, mit 90 Tagen Geld-zurück-Garantie. Wenn dein Hund sie nicht annimmt, schickst du sie zurück und hast nichts verloren.\n\nUnd warte nicht: Diese Matten sind jeden Sommer ausverkauft, sobald die erste Hitzewelle kommt. Letzten August stand drei Wochen Lieferzeit auf der Website. Meine Schwester wollte im August eine zweite und musste sechs Wochen warten. Im Moment liefern sie in drei Werktagen. Der beste Zeitpunkt ist, bevor du sie brauchst.\n\n→ Hier geht's zur FellStern Kühlmatte: https://artikel.fellstern.com/pb-1\n\nLuna liegt gerade drauf, während ich das tippe. In genau der Wohnung, von der ich dachte, sie würde sie umbringen. Kopf zwischen den Pfoten. Schnarcht. Hechelt nicht. Bewegt sich nicht. Einfach ruhig.\n\nIch kann sie atmen hören.\n\nUnd zum ersten Mal seit diesem Mittwoch im Juni habe ich keine Angst mehr davor, was mich erwartet, wenn ich nach Hause komme.\n\nP.S. Ich habe nach Emmas Tod gedacht, ich hätte einen Fehler gemacht, den ich nie wieder machen würde. Dann bin ich in eine Wohnung gezogen, die Luna fast genauso umgebracht hätte — und ich habe drei Monate lang zugesehen und mich machtlos gefühlt. Das Schlimmste an dieser Geschichte ist nicht, dass ich es nicht wusste. Es ist, dass ich dachte, es gäbe nichts, was ich tun kann. Es gab etwas. Es lag nur an der Fläche, nicht an der Luft.\n\n→ https://artikel.fellstern.com/pb-1",
-        "creativeUrl": "https://scontent-fra3-1.xx.fbcdn.net/v/t39.35426-6/725153591_1827046398259460_6392316447795907309_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=Mswq7wvG_LEQ7kNvwGQGH5Y&_nc_oc=AdoCeOmHSQt4ZfmEZ77aePaebLYPJaL3k21d6m3YYq_MclphCG3jfn-XWfM16K_kI5I&_nc_zt=14&_nc_ht=scontent-fra3-1.xx&_nc_gid=3QPnG9_ll3ZipySNSyIYaw&_nc_ss=7f289&oh=00_Af88Bflm0bxvBYxTpZGUFBsl0t4j-R0CayTvwda7GxURRQ&oe=6A42C7D7",
-        "landingPageUrl": "https://artikel.fellstern.com/pb-1",
-        "adArchiveId": "1353116226715740",
-        "sourceKeyword": "Mobile Klimaanlage",
-        "adLibraryUrl": "https://www.facebook.com/ads/library/?id=1353116226715740",
-        "pageName": "Sabines Hunde-Tagebuch",
-        "adDeliveryStart": null,
-        "adDeliveryStop": null,
-        "isActive": true,
-        "spendText": null,
-        "impressionsText": null,
-        "reachText": null
-      },
-      "scrape": {
-        "crawlRunId": "XFeVEMUJW0Tt2K68g",
-        "pageTitle": "Fellstern Kühlmatte: 3 Sommer Garantie, ohne Gel",
-        "markdownLength": 12747,
-        "loadedUrl": "https://artikel.fellstern.com/pb-1",
-        "previewImageUrl": "https://4ry0pubjmsokqgsz.public.blob.vercel-storage.com/pages/4e4db32a-b4a2-4cc0-b1b1-aad2cff66bfb/el-86-1778891143797.png"
-      },
-      "analysis": {
-        "marketing_hook": "FellStern 狗狗降温垫，针对阁楼高温导致爱犬喘气、寻凉席垫的痛点，提供90天无条件退货及三夏功能保证。",
-        "form_questions": [
-          "选择尺码（S、M、L、XL，适用于伯恩斯、伯纳德、纽芬兰等大型犬）",
-          "加入购物车",
-          "3个工作日内收货后铺开，让狗狗自行找到凉爽位置"
-        ],
-        "localized_translation": "30天全额退款＋三夏功能保证·德国发货，3个工作日送达"
       }
     },
     {
@@ -324,19 +300,32 @@
         "sourceKeyword": "Mobile Klimaanlage",
         "adLibraryUrl": "https://www.facebook.com/ads/library/?id=841151082058464",
         "pageName": "Ozeanos Technology",
-        "adDeliveryStart": null,
-        "adDeliveryStop": null,
+        "adDeliveryStart": "2026-06-08 07:00:00",
+        "adDeliveryStop": "2026-06-24 07:00:00",
         "isActive": true,
         "spendText": null,
         "impressionsText": null,
-        "reachText": null
+        "reachText": null,
+        "publisherPlatforms": [
+          "FACEBOOK",
+          "INSTAGRAM"
+        ],
+        "variantCount": 1,
+        "adsCount": 1,
+        "productTitle": "Endlich abkühlen, wann und wo du willst. 🧊 Die OZEANOS Eisberg Klimaanlage kühlt deinen Raum – ganz ohne festen Einbau, in wenigen Minuten aufgebaut. 3 Modelle für jeden Raum – such dir deins aus und sichere jetzt noch die Pre-Summer-Preise. ☀️",
+        "productPageUrl": "https://www.mediamarkt.de/de/search.html?query=OZEANOS%20Klimaanlage",
+        "creativeType": "video",
+        "videoUrl": "https://video-fra5-2.xx.fbcdn.net/o1/v/t2/f2/m412/AQMxJrp7rb0c9Ms68--VUatKhTgjF_Pgjpg7N6AcnNU-FQum801koaP2eD3WyPEZhU2wi8sQ6tePk-BT6hnJ_T3Hkm3YfG4kMOJetlzFvw.mp4?_nc_cat=109&_nc_sid=ef5aa3&_nc_ht=video-fra5-2.xx.fbcdn.net&_nc_ohc=CYCE8IZ9Z80Q7kNvwEEMr2r&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MTIyMTU1MTg5OTg2OTU5OCwiYXNzZXRfYWdlX2RheXMiOjUyLCJ2aV91c2VjYXNlX2lkIjoxMDc5OSwiZHVyYXRpb25fcyI6NDIsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=3QPnG9_ll3ZipySNSyIYaw&_nc_ss=7f289&_nc_zt=28&oh=00_Af81KZNvYg6PWros0n-R-4Zt1QXuqcGDbiGK6OFg_H7rbQ&oe=6A42A131"
       },
       "scrape": {
-        "crawlRunId": "XFeVEMUJW0Tt2K68g",
+        "crawlRunId": "gC8KSx67C1qwBs8Uw",
         "pageTitle": "Suchergebnis für \"OZEANOS Klimaanlage\" | MediaMarkt",
-        "markdownLength": 1442,
+        "markdownLength": 1226,
         "loadedUrl": "https://www.mediamarkt.de/de/search.html?query=OZEANOS%20Klimaanlage",
-        "previewImageUrl": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.mediamarkt.de%2Fde%2Fsearch.html%3Fquery%3DOZEANOS%2520Klimaanlage?w=800"
+        "previewImageUrl": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.mediamarkt.de%2Fde%2Fsearch.html%3Fquery%3DOZEANOS%2520Klimaanlage?w=1200",
+        "productImageUrl": null,
+        "productTitle": "Suchergebnis für \"OZEANOS Klimaanlage\"",
+        "productPrice": null
       },
       "analysis": {
         "marketing_hook": "OZEANOS Eisberg 便携式空调，解决炎热无需安装，预夏特惠价格。",
@@ -362,7 +351,9 @@
         "isActive": true,
         "spendText": null,
         "impressionsText": null,
-        "reachText": null
+        "reachText": null,
+        "creativeType": "image",
+        "videoUrl": null
       },
       "scrape": null,
       "analysis": null
@@ -383,7 +374,9 @@
         "isActive": false,
         "spendText": null,
         "impressionsText": null,
-        "reachText": null
+        "reachText": null,
+        "creativeType": "image",
+        "videoUrl": null
       },
       "scrape": null,
       "analysis": null
@@ -404,16 +397,257 @@
         "isActive": true,
         "spendText": null,
         "impressionsText": null,
-        "reachText": null
+        "reachText": null,
+        "creativeType": "video",
+        "videoUrl": "https://video-fra5-1.xx.fbcdn.net/o1/v/t2/f2/m412/AQMqy1hQT8S8TJWkfo-wQXKoCzCc0wBlOUybXiFr8zvMEhmLuH0aodm9fsq62v-KmL8LPxmvQYbRFqQ3bT6X1rEI7k7cgV_I-yhxzCaoNw.mp4?_nc_cat=110&_nc_sid=ef5aa3&_nc_ht=video-fra5-1.xx.fbcdn.net&_nc_ohc=2BOD-UOl2RcQ7kNvwE_o0Ry&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MjAzMjAwNTUxMTAyNjc2NSwiYXNzZXRfYWdlX2RheXMiOjI4LCJ2aV91c2VjYXNlX2lkIjoxMDc5OSwiZHVyYXRpb25fcyI6MTUsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=3QPnG9_ll3ZipySNSyIYaw&_nc_ss=7f289&_nc_zt=28&oh=00_Af96K_WoG0Lpu96VW5S2bJwcP5Zm4jec_fb7eMXUsgUriw&oe=6A42BB40"
       },
       "scrape": {
         "crawlRunId": "XFeVEMUJW0Tt2K68g",
         "pageTitle": "2026 Neue Verdunstungsklimaanlage – Kompakter USB-Tischventilator, per – firewalky",
         "markdownLength": 409,
         "loadedUrl": "https://firewalky.com/products/usb-desktop-air-cooler-fan",
-        "previewImageUrl": "https://firewalky.com/cdn/shop/files/spp_shopify20260527105603_a80464d7ef792e375e7cac0194fa2c07_small.jpg?v=1779850614"
+        "previewImageUrl": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Ffirewalky.com%2Fproducts%2Fusb-desktop-air-cooler-fan?w=1200",
+        "productImageUrl": null
       },
       "analysis": null
+    },
+    {
+      "status": "failed",
+      "error": "not-ac-relevant",
+      "ad": {
+        "adBody": "▶️Jetzt sommerlich unterwegs z.B. mit dem 𝐓-𝐑𝐨𝐜 𝐂𝐚𝐛𝐫𝐢𝐨𝐥𝐞𝐭 𝐑-𝐋𝐢𝐧𝐞 1.5 TSI OPF 110 kW (150 PS) 7-Gang-DSG als Jahreswagen-𝐋𝐞𝐚𝐬𝐢𝐧𝐠-Angebot für Privatkunden: Energieverbrauch (kombiniert): 6,7 l/100 km, CO₂-Emissionen (kombiniert): 152 g/km, CO₂-Klasse: E, Energiekosten bei 15.000 km Jahresfahrleistung 1.805,00 €/Jahr (Super-Preis: 1,80 € pro Liter Jahresdurchschnitt 2024). Weiteres dazu auf www.dat.de/co2 und www.volkswagen.de/de/modelle/t-roc-cabriolet.html \nKalkulationsbeispiel: ▶️Monatliche Leasingrate: 𝟐𝟒𝟗,𝟎𝟎  𝐄𝐮𝐫𝐨 x 24 Monate Vertragslaufzeit | Leasing-Sonderzahlung: 990,00 € | jährliche Fahrleistung: 10.000 km | Mehrkilometer: 10 Cent | Minderkilometer: 4,4 Cent | Sollzinssatz (fest) p.a.: 6,09 % | effektiver Jahreszinssatz: 6,09 % | Gesamtkreditbetrag: 5.976,00 € | Kaufpreis: 35.930,00 € | zzgl. Zulassungskosten | Ein freibleibendes Angebot der Volkswagen Leasing GmbH, Gifhorner Str. 57, 38112 Braunschweig. Bonität vorausgesetzt. Irrtum und Änderungen vorbehalten. Es besteht ein gesetzliches Widerrufsrecht für Verbraucher im Fernabsatz. \n▶️ Hier geht es zu den Angebotsdetails: https://home.mobile.de/home/vip?id=453641996&customerId=451412\n▶️ Farbe: Ravennablau Metallic\n▶️ EZ: 05/2025 | 6.300 km\n▶️ 7-Gang-DSG\n▶️ Design-Paket Black Style\n▶️ Park Assist: Einparkhilfe vorn und hinten\n▶️ IQ.DRIVE-Paket inkl. IQ.Light: Spurhalteassistent (Lane Assist), Insassen-Schutzsystem proaktiv, Spurwechselassistent (Side Assist), LED Lichtleiste zwischen Scheinwerfer, Matrix-LED-Scheinwerfer (IQ.Light), Heckleuchten LED, dunkelrot, dynamische Blinkleuchten und Fernlichtregulierung (Dynamic Light Assist) \n▶️ Sitzbezug Leder Vienna + Sitzheizung vorn\n▶️ Navigationsfunktion Discover Pro inkl. Streaming & Internet (Touchscreen-Farbdisplay): Sprachsteuerungs-System\n▶️ Klimaanlage Air Care Climatronic 2-Zonen\n▶️ Scheckheftgepflegtes Nichtraucherfahrzeug u.v.m.\nWir von Autohaus Westkamp beraten Euch gern: Telefon 02234-95781-44!\n#jahreswagen #gebrauchtwagenleasing #leasing #TRocCabriolet #trocCabrio #leasingangebot",
+        "creativeUrl": "https://scontent-fra5-1.xx.fbcdn.net/v/t39.35426-6/724795024_1954336125284977_8429075268439015543_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=fFheDuUeytIQ7kNvwHcNiSV&_nc_oc=AdoQc-7qwrPq6e53H33xffdNGOBoIeBLZuM7T4Sa1aTPH6PpHF9gYh9itWVY_g8PF6E&_nc_zt=14&_nc_ht=scontent-fra5-1.xx&_nc_gid=3QPnG9_ll3ZipySNSyIYaw&_nc_ss=7f289&oh=00_Af9pcmUWS_N1DWI12fDEz-KxgChINp_XZq5haslPcE8ODg&oe=6A42AFC8",
+        "landingPageUrl": "https://home.mobile.de/home/vip?id=453641996&customerId=451412",
+        "adArchiveId": "1349890750688511",
+        "sourceKeyword": "Mobile Klimaanlage",
+        "adLibraryUrl": "https://www.facebook.com/ads/library/?id=1349890750688511",
+        "pageName": "Autohaus Westkamp",
+        "adDeliveryStart": "2026-06-15 07:00:00",
+        "adDeliveryStop": "2026-06-24 07:00:00",
+        "isActive": true,
+        "spendText": null,
+        "impressionsText": null,
+        "reachText": null,
+        "publisherPlatforms": [
+          "FACEBOOK",
+          "INSTAGRAM",
+          "AUDIENCE_NETWORK",
+          "MESSENGER"
+        ],
+        "variantCount": 1,
+        "adsCount": 1,
+        "productTitle": "home.mobile.de",
+        "productPageUrl": "https://home.mobile.de/home/vip?id=453641996&customerId=451412",
+        "creativeType": "image",
+        "videoUrl": null
+      },
+      "scrape": {
+        "crawlRunId": "ml04XYwU8Vv2Af7jr",
+        "pageTitle": "Hans Westkamp GmbH & Co. KG in Frechen",
+        "markdownLength": 11166,
+        "loadedUrl": "https://home.mobile.de/home/vip?id=453641996&customerId=451412",
+        "previewImageUrl": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fhome.mobile.de%2Fhome%2Fvip%3Fid%3D453641996%26customerId%3D451412?w=1200",
+        "productImageUrl": null,
+        "productTitle": "Hans Westkamp GmbH & Co. KG in Frechen",
+        "productPrice": null
+      },
+      "analysis": {
+        "marketing_hook": "大众T-Roc敞篷车，缓解夏日炎热出行烦恼，低首付月供379欧元起",
+        "form_questions": [],
+        "localized_translation": "大众T-Roc Cabriolet R-Line 1.5 TSI DSG，月租金249欧元，租期24个月，特别付款990欧元"
+      }
+    },
+    {
+      "status": "failed",
+      "error": "not-ac-relevant",
+      "ad": {
+        "adBody": "Der mobile Mechaniker wollte 1.700 Euro für den Wechsel einer Lichtmaschine die im Teileladen 180 Euro kostet.\n\nIch hab ihn gefragt wie drei Schrauben so viel kosten können. Er hat nur gelacht. „Drei Schrauben an die man nicht rankommt. Ich mach das hier mehrmals im Jahr. Immer dasselbe. Vier Stunden Minimum nur für den Zugang.\"\n\nDie Hochzeit von unserem Enkel in Kroatien war in zwei Tagen.\n\nDann kam der Platzwart vom Campingplatz rüber und fragte ob er mal schauen soll.\n\nWas er mir gezeigt hat, hat alles verändert.\n\nAber der Reihe nach.\n\nMeine Frau Helga und ich sind seit knapp drei Jahren mit dem Wohnmobil unterwegs. Haus in Mönchengladbach verkauft, nen Teilintegrierten gekauft. Ducato Basis, wie die meisten.\n\nDie Idee war einfach. Winter ans Mittelmeer. Sommer hoch zu den Kindern. Keine Heizkosten, kein Schneeschippen.\n\nZweieinhalb Jahre lang hat das besser funktioniert als wir uns das vorgestellt hatten.\n\nAlgarve. Toskana. Drei Monate Peloponnes. Letzten Herbst die kroatische Küste runter, rechtzeitig bevor die ganzen Wintercamper kommen.\n\nWir standen auf nem kleinen Campingplatz südlich von Split, direkt am Wasser, als die Ladekontrollleuchte anging. Motor lief, Klimaanlage an. Erst wurden die Instrumente dunkler, dann ging die Spannung runter.\n\nHaube auf, und ich wusste sofort. Lichtmaschine.\n\nKein Drama, dachte ich. Hab ich schon mal gemacht. Vor zehn Jahren am alten Transporter. Paar Stunden, nichts Wildes.\n\nDas war bevor ich gesehen hab wo Fiat die Lichtmaschine beim Ducato hingebaut hat.\n\nDie sitzt unten rechts, eingequetscht zwischen Klimakompressor und Motorblock. Die Schrauben zeigen nach innen Richtung Rahmen. Platz ist vielleicht drei Zentimeter. Auf nen guten Tag.\n\nIch konnte alle drei Schrauben sehen. Konnte zwei davon mit den Fingerspitzen berühren.\n\nAber ich hab kein Werkzeug draufbekommen.\n\nNormale Ratsche probiert. Der Griff knallt gegen den Kompressor bevor die Nuss auf der Schraube sitzt.\n\nKurze Ratsche probiert. Auf eine Schraube draufgekommen, aber fünf Grad Drehwinkel. Hätte zwei Stunden für eine Schraube gebraucht.\n\nGelenk-Kopf probiert. Die Nuss ist sofort seitlich weggekippt sobald ich Druck gegeben hab.\n\nWobble-Verlängerung probiert. Einmal drauf, angefangen zu drehen, und die Nuss ist abgesprungen. Fast hätte es mir die Knöchel aufgerissen.\n\nVier Stunden hab ich in dem Motorraum rumgemacht. Vier Stunden in der kroatischen Hitze, über nen heißen Motor gebeugt, Schweiß in den Augen, Haut an den Händen auf.\n\nHelga hat immer wieder nachgeschaut. Ob ich Wasser will. Ob ich ne Pause mach. Ich wollte keine Pause. Ich wollte das Ding reparieren damit wir es zur Hochzeit schaffen.\n\nUnser Enkel Lukas hat am Samstag geheiratet. Seit Monaten geplant. Helga hatte ein neues Kleid. Ich hatte ne Rede geschrieben an der ich wochenlang gefeilt hatte.\n\nDie Hochzeit war drei Stunden südlich. In zwei Tagen.\n\nUnd ich hab drei Schrauben nicht aus einer Lichtmaschine rausbekommen.\n\nIrgendwann hab ich aufgegeben und angefangen mobile Mechaniker in der Gegend zu suchen. Einen gefunden der am nächsten Morgen kommen konnte.\n\nKam gegen zehn. Hat dreißig Sekunden unter die Haube geschaut.\n\n„Ja, die kenn ich. Kann ich machen, dauert aber.\"\n\nDann hat er seinen Preis genannt.\n\n1.700 Euro.\n\nIch hab gefragt wie sich das zusammensetzt.\n\n„Lichtmaschine besorgen, 180 Euro. Arbeit 1.520. 130 die Stunde, mindestens vier Stunden. Meistens eher sechs beim Ducato.\"\n\nSechs Stunden. Für drei Schrauben.\n\nIch hab gesagt ich überleg mir das.\n\nEr hat mit den Schultern gezuckt, seine Karte dagelassen und ist abgehauen.\n\nIch bin zurück ins Wohnmobil. Helga saß an der Sitzgruppe.\n\n„Wie schlimm?\"\n\nIch hab ihr den Preis gesagt.\n\nSie hat ne Weile nichts gesagt. Hat nur aus dem Fenster aufs Wasser geguckt.\n\n„Wir könnten uns nen Mietwagen nehmen. Zur Hochzeit fahren. Das Wohnmobil danach klären.\"\n\nHatte sie recht. Aber das hieß Mobil stehen lassen, Stellplatz weiterbezahlen, Mietwagen bezahlen, irgendwann zurückkommen. Statt wie geplant direkt weiter nach Slowenien.\n\nEin Defekt hat sich in einen Monat Durcheinander verwandelt.\n\nIch bin rausgegangen und hab mich in den Campingstuhl gesetzt. Einfach nur dagesessen.\n\nDa kam der Platzwart rüber.\n\nÄlterer Typ, Mitte siebzig. Hieß Karel. Wir hatten die Tage schon ein paar Mal gequatscht. Ehemaliger Nutzfahrzeug-Mechaniker aus Tschechien, seit fünfzehn Jahren auf Campingplätzen unterwegs.\n\n„Hab gesehen dass der Mechaniker wieder weg ist,\" hat er gesagt. „Lichtmaschine?\"\n\nIch hab genickt.\n\n„Wie viel?\"\n\nIch hab es ihm gesagt.\n\nEr hat ne Grimasse gezogen als hätte er in ne Zitrone gebissen.\n\n„Lass mich raten. Ducato. Schrauben zum Rahmen. Vier bis sechs Stunden.\"\n\nIch hab wieder genickt.\n\n„Hast du ne halbe Stunde?\"\n\nIch hab nicht verstanden.\n\n„Komm mit.\"\n\nWir sind zu seinem Platz gelaufen. Ein alter Wohnwagen der aussah als hätte er jede Straße zweimal gesehen. Er hat im Staukasten gewühlt und ist mit einem Ding zurückgekommen das ich noch nie gesehen hatte.\n\nFlaches Metallteil, vielleicht 40 Zentimeter lang. Vorne ne Nuss-Aufnahme. Hinten ein Vierkant-Antrieb. Irgendeine Kette die durch die Mitte lief.\n\n„Offset-Schlüssel. Kettenantrieb innen drin. Das Einzige was an diese Schrauben rankommt ohne den halben Motorraum zu zerlegen.\"\n\nIch hab gesagt ich hab alles probiert. Da ist einfach kein Platz.\n\nEr hat nur gegrinst. „Wart's ab.\"\n\nWir sind zurück zu meinem Mobil. Haube auf.\n\nKarel hat das Ding in die Lücke zwischen Kompressor und Block geschoben. Es ist genau an der Stelle vorbei die meine Ratsche den ganzen Tag blockiert hat.\n\nDie Nuss hat auf die erste Schraube geklickt.\n\nEr hat mir das Ratschen-Ende gegeben. „Dreh mal.\"\n\nIch hab gedreht.\n\nDie Schraube hat sich bewegt.\n\nDreißig Sekunden später war sie draußen.\n\nDie zweite saß fester, eingeklemmt am Motorlager. Aber das Werkzeug kam aus nem anderen Winkel rein, hat sauber aufgesetzt, und mit etwas Druck hat sie sich gelöst.\n\nDie dritte war die einfachste. Geradeaus rein, sobald man den Dreh raushatte.\n\nAlle drei Schrauben in unter fünf Minuten.\n\nIch stand da mit der Lichtmaschine in der Hand und hab versucht zu begreifen was gerade passiert ist.\n\nKarel hat sein Werkzeug schon eingepackt. „Beim ersten Mal ist das immer so. Man denkt es ist unmöglich. Und dann hat man das richtige Werkzeug und merkt, das Einzige was unmöglich war, war die Art wie man es versucht hat.\"\n\nIch hab gefragt wo man sowas herbekommt.\n\n„Online. Achtzig, neunzig Euro. Ich hab drei Stück. Geh ohne nicht mehr auf Tour.\"\n\nIch hab gefragt ob ich seins ausleihen kann bis meins da ist.\n\n„Behalt's bis deins kommt. Ich weiß ja wo ihr steht.\"\n\nAm Nachmittag bin ich nach Split gefahren und hab ne passende Lichtmaschine besorgt. 185 Euro.\n\nOnline das gleiche Werkzeug bestellt das Karel mir geliehen hatte. 85 Euro. An den Campingplatz liefern lassen. Kam vier Tage später.\n\nDa hatte ich die neue Lichtmaschine mit Karels Werkzeug längst eingebaut. Arbeitszeit: knapp eine Stunde.\n\nGesamtkosten: 185 Euro Teil. 85 Euro Werkzeug. 0 Euro Arbeitslohn.\n\n270 Euro.\n\nDer mobile Mechaniker wollte 1.700.\n\nGespart: 1.430 Euro.\n\nUnd wir haben die Hochzeit geschafft.\n\nFreitagnachmittag runtergefahren. Samstag Abend zugeschaut wie Lukas geheiratet hat. Meine Rede gehalten ohne mich einmal zu verhaspeln. Mit Helga unter den Olivenbäumen getanzt bis uns die Füße wehtaten.\n\nNichts davon wäre passiert wenn ich auf den Mechaniker gewartet hätte.\n\nSeit der Woche in Split hab ich das Werkzeug ständig benutzt.\n\nAnlasser am Generator. Gleiche Geschichte, Karel hatte mich schon gewarnt. Versteckt hinter der Abgasanlage.\n\nServolenkungspumpe. Schraube zwei Zentimeter vom Rahmen entfernt.\n\nEinem Paar in Slowenien geholfen. Schraube so verbaut dass der Mann schon den ADAC rufen wollte. Zehn Minuten.\n\nMassekabel der Aufbaubatterie. Hinter die Motorhalterung geschraubt.\n\nJeder dieser Jobs hätte Werkstatt bedeutet. Abschlepper. Eine Rechnung die in keinem Verhältnis steht.\n\nJetzt sind das Samstagmorgen-Projekte.\n\nWas ich nach drei Jahren auf der Straße verstanden hab:\n\nDiese Fahrzeuge sind nicht dafür gebaut dass man als Besitzer daran schraubt. Die sind gebaut für Vertragswerkstätten mit 150 Euro Stundensatz und drei Wochen Wartezeit.\n\nJede Schraube ist vergraben. Jeder Job braucht „besonderen Zugang\" der sechs Stunden dauert und mehr kostet als das Ersatzteil. Aber es ist nicht kompliziert. Es ist nur schwer zu erreichen. Und schwer zu erreichen ist ein Werkzeugproblem, kein Könnerproblem.\n\nWenn man was hat das in diese engen Stellen passt, flach genug zum Reinschieben und stabil genug zum Drehen, dann wird aus dem Sechs-Stunden-Werkstatt-Job eine Stunde auf dem Stellplatz.\n\nAuf einmal ist man nicht mehr abhängig von Mechanikern die 130 die Stunde nehmen.\n\nAuf einmal verpasst man keine Hochzeiten und keine Geburtstage und keinen von den Momenten wegen denen man das Haus überhaupt verkauft hat.\n\nAuf einmal erinnert man sich warum man das Ganze hier eigentlich macht.\n\nIch sag nicht dass das Ding alles repariert.\n\nAber irgendwann, wahrscheinlich zum schlechtesten Zeitpunkt, wird irgendeine Schraube das Einzige sein das zwischen dir und dem Moment steht für den du vierzig Jahre gearbeitet hast.\n\nUnd dann kommst du entweder ran. Oder eben nicht.\n\nIch bin nicht rangekommen.\n\nJetzt schon.\n\nWer das hier draußen auch macht und es satt hat dass einfache Jobs 1.700 Euro kosten weil „der Zugang so schwierig\" ist: Das Ding gehört in den Staukasten.\n\nNicht weil ich das sage.\n\nSondern weil ein Platzwart namens Karel auf nem Campingplatz in Kroatien mir gezeigt hat was ich drei Jahre lang nicht gewusst hab.\n\nLink ist unten drunter, wer mag kann ja mal reinschauen.\n\nGute Fahrt euch allen da draußen.\n\nUnd wenn ihr nen weißen Teilintegrierten mit Mönchengladbacher Kennzeichen und Fahrrädern hinten drauf seht, hupt mal kurz. Das sind wir.\n\nHelga sagt ich soll euch ausrichten: Eure Frauen schaffen das auch.",
+        "creativeUrl": "https://scontent-fra3-1.xx.fbcdn.net/v/t39.35426-6/722306052_1269079211970128_1417663633573708108_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=CEsoF7WnjsoQ7kNvwEL6lzG&_nc_oc=AdqxaTTGQQC3qr7LAWNBd2L8X6B1UKDTpKwjuCRkF12YiDmTBudnxn6ZawPHHxDLVTo&_nc_zt=14&_nc_ht=scontent-fra3-1.xx&_nc_gid=3QPnG9_ll3ZipySNSyIYaw&_nc_ss=7f289&oh=00_Af-H36Qf2WV8Lo_xh_a1PwIL_fJWqgGOWP7A9Df1b3swUg&oe=6A42ADD1",
+        "landingPageUrl": "https://schraubwerk.eu/products/schraubwerk",
+        "adArchiveId": "2443975309427077",
+        "sourceKeyword": "Mobile Klimaanlage",
+        "adLibraryUrl": "https://www.facebook.com/ads/library/?id=2443975309427077",
+        "pageName": "Thomas Becker",
+        "adDeliveryStart": "2026-06-17 07:00:00",
+        "adDeliveryStop": "2026-06-24 07:00:00",
+        "isActive": true,
+        "spendText": null,
+        "impressionsText": null,
+        "reachText": null,
+        "publisherPlatforms": [
+          "FACEBOOK",
+          "INSTAGRAM",
+          "AUDIENCE_NETWORK",
+          "MESSENGER",
+          "THREADS"
+        ],
+        "variantCount": null,
+        "adsCount": 4,
+        "productTitle": "Falls es jemanden interessiert 👉",
+        "productPageUrl": "https://schraubwerk.eu/products/schraubwerk",
+        "creativeType": "image",
+        "videoUrl": null
+      },
+      "scrape": {
+        "crawlRunId": "ml04XYwU8Vv2Af7jr",
+        "pageTitle": "Offset Verlängerungsschlüssel | Schraubwerk | Für schwer zugängliche Stellen | Inkl. 1/4\" 3/8\" 1/2\" Adapter | Schlagfeste Konstruktion | Ratschenverlängerung | Kfz Werkzeug",
+        "markdownLength": 9238,
+        "loadedUrl": "https://schraubwerk.eu/products/schraubwerk",
+        "previewImageUrl": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fschraubwerk.eu%2Fproducts%2Fschraubwerk?w=1200",
+        "productImageUrl": "https://schraubwerk.eu/cdn/shop/files/3_30fd07d6-2267-4164-b1dc-4edc3a339c66.png?v=1782319388",
+        "productTitle": "Offset Verlängerungsschlüssel | Schraubwerk | Für schwer zugängliche Stellen | Inkl. 1/4\" 3/8\" 1/2\" Adapter | Schlagfeste Konstruktion | Ratschenverlängerung | Kfz Werkzeug",
+        "productPrice": "59,99 EUR"
+      },
+      "analysis": {
+        "marketing_hook": "Offset Schlüssel 2.0（Schraubwerk）解决难以触及的螺丝问题，避免高额维修费用，夏季特惠立省40%。",
+        "form_questions": [
+          "选择数量（1件或2件）",
+          "可选：添加LED头灯礼品",
+          "可选：添加免费送货",
+          "点击‘抢购优惠’"
+        ],
+        "localized_translation": "Offset Schlüssel 2.0 夏季特惠 – 立省 40%，仅需 €59.99（原价 €99.99），附赠 60 天无条件退款保证。"
+      }
+    },
+    {
+      "status": "failed",
+      "error": "not-ac-relevant",
+      "ad": {
+        "adBody": "So günstig geht Geschäftsleasing!👍\n________________\nKombinierte Werte für den PEUGEOT 208 STYLE 1.2l TURBO 100 (Benzin), 74 kW (101 PS), 6-Gang-Schaltgetriebe. Kraftstoffverbrauch 5,1 l/100 km; CO2-Emission 116 g/km; CO2-Klasse D. Abbildung zeigt Designstudie.\n\nDie angegebenen Verbrauchs- und Emissionswerte wurden nach den gesetzlich vorgeschriebenen Messverfahren ermittelt. WLTP (Worldwide Harmonised Light-Duty Vehicles Test Procedure, dt. weltweit einheitliches Leichtfahrzeuge-Testverfahren).\n\nEs werden nur die CO2-Emissionen angegeben, die durch den Betrieb des Pkw entstehen. CO2-Emissionen, die durch die Produktion und Bereitstellung des Pkw sowie des Kraftstoffes bzw. der Energieträger entstehen oder vermieden werden, werden bei der Ermittlung der CO2-Emissionen gemäß WLTP nicht berücksichtigt.\n\n¹Ein Angebot für Gewerbekunden der Leasys S.p.A. Zweigstelle Deutschland, Friedrich-Lutzmann-Ring 1, 65428 Rüsselsheim am Main, für die wir als Vermittler, gemeinsam mit dem Kunden, die für den Abschluss des Leasing-Vertrags nötigen Vertragsunterlagen zusammenstellen. Bonität vorausgesetzt. Angebot gültig bis 30.06.2026. Alle Preise exkl. MwSt. Änderungen und Irrtümer vorbehalten. Gilt für einen PEUGEOT 208 STYLE 1.2l TURBO 100 (Benzin), 74 kW (101 PS), 6-Gang-Schaltgetriebe. Leasing-Sonderzahlung: 0,00 € | Laufzeit: 24 Monate | Fahrleistung gesamt: 20.000 km | Monatliche Leasingrate: 99,00 € zzgl. MwSt. | Gesamtbetrag: 2.376,00 € zzgl. MwSt. | Die Überführungskosten werden separat berechnet.",
+        "creativeUrl": "https://scontent-fra3-2.xx.fbcdn.net/v/t39.35426-6/722490238_1357437466294224_440766809002894471_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=bnsuayt94oMQ7kNvwFoMhqA&_nc_oc=AdrvEY9fCcoRijRjJ24jgRxxMHOJjv7pnGk7UThnHtqcDhxt3vuUdBynGijXdY__Smo&_nc_zt=14&_nc_ht=scontent-fra3-2.xx&_nc_gid=3QPnG9_ll3ZipySNSyIYaw&_nc_ss=7f289&oh=00_Af-JAy4gx83d2ekvnuJsvW3ouo9TuuzDKJ9kQin9hH98tQ&oe=6A42ABB8",
+        "landingPageUrl": "https://peugeot.pkw-angebote.com/beckerfrancemobile-peugeot208/",
+        "adArchiveId": "1327592742831846",
+        "sourceKeyword": "Mobile Klimaanlage",
+        "adLibraryUrl": "https://www.facebook.com/ads/library/?id=1327592742831846",
+        "pageName": "BECKERfrance mobile",
+        "adDeliveryStart": "2026-06-12 07:00:00",
+        "adDeliveryStop": "2026-06-24 07:00:00",
+        "isActive": true,
+        "spendText": null,
+        "impressionsText": null,
+        "reachText": null,
+        "publisherPlatforms": [
+          "FACEBOOK",
+          "INSTAGRAM",
+          "AUDIENCE_NETWORK",
+          "MESSENGER",
+          "THREADS"
+        ],
+        "variantCount": 1,
+        "adsCount": 1,
+        "productTitle": "PEUGEOT 208 für nur 99,00 € netto mtl.¹",
+        "productPageUrl": "https://peugeot.pkw-angebote.com/beckerfrancemobile-peugeot208/",
+        "creativeType": "image",
+        "videoUrl": null
+      },
+      "scrape": {
+        "crawlRunId": "ml04XYwU8Vv2Af7jr",
+        "pageTitle": "PEUGEOT 208 für Gewerbekunden",
+        "markdownLength": 1456,
+        "loadedUrl": "https://peugeot.pkw-angebote.com/beckerfrancemobile-peugeot208/",
+        "previewImageUrl": "https://perspective.imgix.net/69fbb4ae6c8776b080deed0f.jpg?w=1200&h=630&fit=crop&auto=compress%2Cformat",
+        "productImageUrl": "https://perspective.imgix.net/69fbb4ae6c8776b080deed0f.jpg?w=1200&h=630&fit=crop&auto=compress%2Cformat",
+        "productTitle": "PEUGEOT 208 für Gewerbekunden",
+        "productPrice": null
+      },
+      "analysis": {
+        "marketing_hook": "标致208商务租赁，零首付月付99欧，解决企业出行成本痛点",
+        "form_questions": [],
+        "localized_translation": "标致208商务租赁，月租仅99欧元（不含增税），零首付，24个月/2万公里"
+      }
+    },
+    {
+      "status": "failed",
+      "error": "not-ac-relevant",
+      "ad": {
+        "adBody": "🚗 Startklar für Sommer und Urlaub?\n\nZwei Angebote, mit denen du sorgenfrei unterwegs \nbist – jedes für sich buchbar:\n\n🧳 Urlaubs-Check – 29,90 €\nBremsen, Reifen, Beleuchtung, Ölstand, Wischwasser \nund Batterie. Damit auf der langen Strecke nichts \nschiefgeht.\n\n❄️ Klima-Check – KOSTENLOS\nFunktions- und Sichtprüfung deiner Klimaanlage. \nFrische Luft, auch wenn's draußen heiß wird.\n\nOb beides oder nur eins – du entscheidest, wir prüfen.\n\nFalls bei der Klimaanlage Wartung, Reinigung oder \nneues Kältemittel nötig ist, beraten wir dich \nvorher transparent zu den Kosten – bevor wir loslegen.\n\n📍 AutoMobile Daxenbichler · Tuntenhausen-Ostermünchen\n📞 Termin sichern: 08067 1252\n🕗 Mo–Fr 07:30–18:00 · Sa 09:00–12:00",
+        "creativeUrl": "https://scontent-fra3-2.xx.fbcdn.net/v/t39.35426-6/712703837_983694977724350_2495897587274259848_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=CIE0tYj7nUsQ7kNvwF_lfmQ&_nc_oc=AdrHw-NcSJYgYQZmjj3ONqYS3WS9ulVPc0Yu5PDHVJEyxLA5F-yjFm8F6A9kJhoe8c8&_nc_zt=14&_nc_ht=scontent-fra3-2.xx&_nc_gid=3QPnG9_ll3ZipySNSyIYaw&_nc_ss=7f289&oh=00_Af9WuqvfMnwGVsHqIyqKEML7_op0OiPgh8_ymWe9PIp-XA&oe=6A42A9F1",
+        "landingPageUrl": "https://www.automobile-daxenbichler.de/wartung-und-service-nach-herstellervorschrift",
+        "adArchiveId": "1339426791683023",
+        "sourceKeyword": "Mobile Klimaanlage",
+        "adLibraryUrl": "https://www.facebook.com/ads/library/?id=1339426791683023",
+        "pageName": "AutoMobile Daxenbichler",
+        "adDeliveryStart": "2026-05-31 07:00:00",
+        "adDeliveryStop": "2026-06-24 07:00:00",
+        "isActive": true,
+        "spendText": null,
+        "impressionsText": null,
+        "reachText": null,
+        "publisherPlatforms": [
+          "FACEBOOK",
+          "INSTAGRAM"
+        ],
+        "variantCount": null,
+        "adsCount": 1,
+        "productTitle": "Urlaubs-Check für 29,90 € · Klima-Check gratis",
+        "productPageUrl": "https://www.automobile-daxenbichler.de/wartung-und-service-nach-herstellervorschrift",
+        "creativeType": "image",
+        "videoUrl": null
+      },
+      "scrape": {
+        "crawlRunId": "CMxL5J54ea6wQ9gy7",
+        "pageTitle": "AutoMobile Daxenbichler GmbH Tuntenhausen-Ostermünchen. Wartung und Service nach Herstellervorschrift – Wartung und Service nach Herstellervorschrift",
+        "markdownLength": 1947,
+        "loadedUrl": "https://www.automobile-daxenbichler.de/wartung-und-service-nach-herstellervorschrift",
+        "previewImageUrl": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.automobile-daxenbichler.de%2Fwartung-und-service-nach-herstellervorschrift?w=1200",
+        "productImageUrl": null,
+        "productTitle": "Wartung und Service nach Herstellervorschrift",
+        "productPrice": null
+      },
+      "analysis": {
+        "marketing_hook": "AutoMobile Daxenbichler 提供免费汽车空调检查及 29.90 欧元的假期安全检查，解决夏季高温驾驶不适和故障风险。",
+        "form_questions": [],
+        "localized_translation": "免费空调检查 – 功能和视觉检查您的空调系统，即使外面炎热也能享受清凉空气。"
+      }
+    },
+    {
+      "status": "failed",
+      "error": "not-ac-relevant",
+      "ad": {
+        "adBody": "Meine Hündin ist letzten Juni fast in meiner eigenen Wohnung gestorben. Der Ventilator lief, die Rollläden waren unten. Und das Schlimmste ist: Ich habe drei Monate lang zugesehen, wie es passiert ist, und dachte, ich könnte nichts tun.\n\nSie heißt Luna. Sie ist eine Australian-Shepherd-Mix-Hündin, fünf Jahre alt, ein braunes Auge, ein blaues. Die Art Hund, bei der im Park alle stehen bleiben und nach dem Namen fragen.\n\nUnd ich muss dir erzählen, was fast passiert wäre. Weil das, was Luna fast umgebracht hätte, gerade jetzt wahrscheinlich auch bei deinem Hund passiert. Und du denkst vielleicht, wie ich, dass du nichts dagegen tun kannst.\n\nDu kannst.\n\nVorgeschichte, die du kennen musst: Luna ist nicht mein erster Hund. Vor zwei Jahren habe ich Emma verloren. Golden Retriever, fünf Jahre alt. Hitzschlag, an einem Tag, an dem es nicht mal richtig heiß war. Ich dachte damals, ich hätte etwas übersehen.\n\nAls Luna kam, habe ich mir geschworen, alles richtig zu machen.\n\nUnd dann bin ich umgezogen.\n\nLetztes Jahr im Frühjahr habe ich eine neue Wohnung bezogen. Dachgeschoss, schön hell, große Fenster nach Süden. Ich habe mich verliebt, als ich sie das erste Mal gesehen habe. Im April.\n\nDie Maklerin hat gesagt: „Im Sommer wird's hier oben schön warm, aber mit Rollläden und einem guten Ventilator kein Problem.\"\n\nIch hatte keine Ahnung, worauf ich mich da eingelassen habe.\n\nDer erste Sommer ist zum Gefängnis geworden.\n\nMorgens um halb sechs raus mit Luna, bevor der Asphalt zu heiß für ihre Pfoten wurde. Um Viertel vor sieben zurück. Und dann den Rest des Tages — sechzehn Stunden — gefangen in einer Wohnung, die sich unter dem Dach aufgeheizt hat wie ein Backofen.\n\nRollläden den ganzen Tag unten. Zwei Ventilatoren. Ich habe nasse Tücher aufgehängt. Trotzdem hatte es nachmittags 29, 30 Grad in der Wohnung, egal was ich gemacht habe. Dachgeschoss im Hochsommer. Die Hitze kam von oben, von den Wänden, vom Boden.\n\nIch habe mir gesagt, es ist okay. Luna ist drinnen. Der Ventilator läuft. Was hätte ich sonst tun sollen.\n\nAber jeden Nachmittag, so gegen zwei, habe ich Luna auf den Badezimmerfliesen gefunden.\n\nSie hat im Wohnzimmer auf dem Teppich angefangen. Dann ist sie in die Küche gewandert, auf die Fliesen. Zwanzig Minuten später in den Flur. Dann ins Bad. Dann zurück in die Küche.\n\nSie hat sich im Kreis gedreht, sich hingelegt, leise gehechelt, fünfzehn Minuten gelegen, ist wieder aufgestanden und hat das Ganze von vorne gemacht.\n\nNicht panisch. Nicht so, als wäre etwas falsch. Einfach… nie angekommen.\n\nUnd sie hat gehechelt. Jeden einzelnen Nachmittag. Nicht das dramatische, Zunge-raushängende Hecheln. Einfach schwerer geatmet, als es Sinn ergab für eine Hündin, die nur rumliegt.\n\nIch habe es einer Nachbarin erzählt. Sie hat einen Husky. Sie hat gelacht.\n\n„Im Dachgeschoss im Sommer? Da hecheln alle Hunde. Roll die Rollläden runter und stell den Ventilator an, dann passt das schon.\"\n\nAlso habe ich das gemacht.\n\nIch habe Luna einen zweiten Wassernapf hingestellt. Eis ins Wasser gegeben. Hundeeis gemacht. Nachts um Mitternacht „Australian Shepherd Hitze\" gegoogelt und Artikel gefunden, die sagten, sie kämen gut klar, solange sie tagsüber drinnen bleiben.\n\nAlso blieben wir drinnen.\n\nIch habe sogar überlegt, wieder auszuziehen. Aber ich hatte gerade erst den Mietvertrag unterschrieben, die Kaution war weg, ein erneuter Umzug nicht drin.\n\nWir saßen fest.\n\nUnd ich hatte das Gefühl, ich hätte Luna an einen Ort gesperrt, der sie langsam umbringt.\n\nDer Tag, an dem es fast passiert ist, war ein Mittwoch Ende Juni. 34 Grad draußen.\n\nIch hatte einen Arzttermin. Anderthalb Stunden, vielleicht zwei. Ich habe die Rollläden runtergelassen, beide Ventilatoren angestellt, beide Wassernäpfe gefüllt. Luna einen Kuss auf den Kopf gegeben. Ihr gesagt, ich bin gleich zurück.\n\nUm Viertel nach drei war ich wieder da.\n\nDie Wohnung war still auf eine Art, die sich falsch angefühlt hat.\n\nLuna kommt mir immer an der Tür entgegen. Immer.\n\nIch habe ihren Namen gerufen.\n\nNichts.\n\nIch habe sie auf den Küchenfliesen gefunden. Auf der Seite. Schnell und flach atmend. Augen halb geschlossen. Ihr Zahnfleisch war blass und klebrig.\n\nIch weiß nicht mehr, wie ich sie ins Auto bekommen habe. Ich weiß noch ihr Gewicht. Ich weiß noch, dass ich auf der ganzen Fahrt mit ihr geredet habe. Ich weiß noch, dass ich jede rote Ampel überfahren habe.\n\nIn der Notfallpraxis haben sie sie sofort nach hinten gebracht.\n\nDiesmal kam die Tierärztin nach einer Stunde zurück — nicht mit den Worten, die ich nach Emma gehört hatte.\n\n„Wir haben sie stabilisiert. Es war ein Hitzschlag, und es war knapp. Eine halbe Stunde später, und wir hätten sie nicht mehr zurückgeholt. Aber sie wird durchkommen.\"\n\nIch habe geweint, wie ich seit Emmas Tod nicht mehr geweint hatte. Diesmal aus Erleichterung.\n\nAber ich konnte nicht loslassen von dem, was als Nächstes kam.\n\n„Ich habe alles gemacht\", habe ich gesagt. „Die Rollläden waren unten. Zwei Ventilatoren liefen. Sie hatte frisches Wasser. Sie war nur zwei Stunden allein.\"\n\nDie Tierärztin hat genickt.\n\n„Ihre Ventilatoren haben einwandfrei funktioniert. Aber da ist Luna nicht überhitzt.\"\n\nSie hat sich Zeit genommen, es zu erklären. Und ich werde es nie vergessen.\n\n„Ein Hund hat eine Körpertemperatur von rund 38,5 Grad. Jede Fläche, auf der er liegt — der Teppich, die Fliese, sein Bett — nimmt diese Wärme auf. Innerhalb von Minuten erwärmt sich die Fläche unter ihm. Und sobald sie genug Körperwärme aufgenommen hat, hört sie auf zu kühlen. Sie hält die Wärme einfach fest, gegen seinen Bauch und seine Brust gedrückt.\"\n\nDann hat sie gesagt:\n\n„Und in einer Wohnung, die sich so aufheizt wie ein Dachgeschoss im Hochsommer, passiert das schneller und schlimmer. Die Raumtemperatur ist so hoch, dass die Flächen die Wärme gar nicht mehr loswerden. Sie laden sich auf und bleiben warm. Ihre Ventilatoren bewegen die Luft über Luna. Aber sie können den Boden unter ihr nicht kühlen. Und genau da liegt das Problem.\"\n\n„Warum sagt einem das niemand?\", habe ich gefragt.\n\n„Weil es normal aussieht. Ein Hund, der auf die Fliesen wechselt, der in einer Wohnung mit Ventilator hechelt — das sieht aus wie ein Hund, der einfach ein Hund ist. Bis es zu spät ist.\"\n\nDann hat sie etwas gesagt, das mich zerstört hat:\n\n„Denken Sie daran, wie Sie nachts Ihr Kissen wenden, auf die kühle Seite. Sie machen das, weil Ihre Körperwärme es aufgewärmt hat. Genau das hat Luna jeden Nachmittag getan. Sie hat ihr Kissen gewendet. Nur kann man einen Fußboden nicht wenden. Irgendwann gibt es keine kühle Stelle mehr.\"\n\nUnd plötzlich hat jede einzelne Sache, die ich drei Monate lang beobachtet hatte, Sinn ergeben.\n\nDas Wandern von Platz zu Platz. Die Badezimmerfliesen. Das Hecheln in einer Wohnung mit zwei Ventilatoren.\n\nLuna war nicht ruhelos. Sie hat versucht zu überleben.\n\nUnd ich wusste es nicht.\n\n„Hätte es etwas geändert, wenn ich noch einen dritten Ventilator gehabt hätte?\", habe ich gefragt. „Oder eine mobile Klimaanlage?\"\n\n„Nein\", hat sie sanft gesagt. „Kühlere Luft löst das Flächen-Problem nicht. Sie könnten die Wohnung auf 20 Grad runterkühlen, und der Boden würde sich trotzdem unter ihrem Körper aufheizen.\"\n\nIch habe eine Woche kaum geschlafen.\n\nIch bin jeder Hundegruppe beigetreten, die ich finden konnte. Habe alles über Hitze in Wohnungen gelesen. Habe verstanden, warum alles, was ich getan hatte — alles, was jeder Halter in einer heißen Wohnung tut — das eigentliche Problem nicht löst.\n\nDer Ventilator? Bewegt die Luft einen halben Meter über dem Hund. Macht nichts für die Fläche, auf der er liegt. Luna hat ihre Körperwärme direkt in den Boden abgegeben. Da kommt kein Ventilator hin.\n\nGel-Kühlmatten? Nehmen Wärme für zwanzig, dreißig Minuten auf, dann sind sie gesättigt. Danach eine warme Matte mit Gel drin.\n\nNasse Handtücher? Nach zehn Minuten körperwarm. Dann schließen sie Feuchtigkeit und Wärme am Hund ein wie eine Isolierdecke. Schlimmer als der nackte Boden.\n\nJede Lösung kühlt entweder die Luft oder nimmt Wärme auf, bis sie nicht mehr kann.\n\nKeine macht das eine, worauf es ankommt: die Wärme kontinuierlich vom Körper wegleiten, ohne je aufzuhören.\n\nDie Worte der Tierärztin haben sich in meinem Kopf wiederholt: „Sie brauchen eine Fläche, die die Wärme durchgehend ableitet. Eine, die nie an den Punkt kommt, an dem sie aufhört zu funktionieren.\"\n\nZwei Wochen später hat meine Schwester aus Stuttgart angerufen. Sie wohnt auch oben unterm Dach. Ihr Golden, Max, hat genau dasselbe gemacht. Jeden Nachmittag gehechelt. Vom Teppich auf die Fliesen, in den Flur und zurück. Sie war in Panik.\n\nIch habe ihr alles erzählt, was die Tierärztin mir gesagt hatte.\n\n„Also hilft der Ventilator nicht?\"\n\n„Er hilft der Luft. Nicht dem, worauf Max liegt.\"\n\nSie hat gefragt, was sie tun soll.\n\nIch hatte noch keine Antwort.\n\nIch habe weiter recherchiert. Über Wärmeleitfähigkeit gelesen. Mit Leuten geredet, die in heißen Dachwohnungen mit Hund leben.\n\nDann habe ich in einer Gruppe einen Beitrag von einer Frau gefunden. Sie hat nichts verkauft. Sie hat nur geteilt, was bei ihr funktioniert hat.\n\nSie hat genau dasselbe Muster beschrieben. Das Fliesen-Suchen. Das Nachmittagshecheln. Das ständige Wandern.\n\nDann: „Seit die Matte da liegt, geht er nicht mehr runter. Das Hecheln hat komplett aufgehört. Ich dachte, ich bilde mir das ein, aber es ist echt.\"\n\nJemand hat gefragt, welche Marke.\n\nFellStern.\n\nKein Gel. Kein Wasser. Nichts zum Einfrieren. Ein Funktionstextil aus drei Schichten, das die Körperwärme des Hundes durchgehend ableitet — statt sie aufzunehmen und sich aufzuwärmen wie jede andere Fläche.\n\nDas Material leitet Wärme weg, ohne je aufzuhören. Kein Sättigungspunkt. Es wird einfach nicht warm, egal wie lange der Hund drauf liegt und egal wie heiß die Wohnung ist.\n\nWenn das Problem Flächen sind, die Wärme festhalten, ist die Lösung eine Fläche, die sie nie aufhört abzuleiten.\n\nIch habe in derselben Nacht eine bestellt. Und eine an meine Schwester nach Stuttgart geschickt.\n\nAls meine ankam, habe ich sie dahin gelegt, wo Luna im Wohnzimmer immer gelegen hatte.\n\nIch habe mich danebengesetzt.\n\nDer erste richtig heiße Tag danach. Ich habe Luna beobachtet wie nichts vorher in meinem Leben.\n\nStunde 1: Sie hat geschnuppert. Sich einmal im Kreis gedreht. Hingelegt. Ich habe auf dem Sofa gesessen und auf das Hecheln gewartet. Nichts. Innerhalb von Minuten eingeschlafen, langsam und gleichmäßig atmend. Ich habe die Hand neben sie auf die Matte gelegt — nach einer vollen Stunde mit einer Hündin drauf immer noch kühl. Nicht eiskalt. Aber spürbar kühl.\n\nStunde 2: Sie hatte sich nicht bewegt. Auf dem Teppich hätte sie bis jetzt schon zweimal den Platz gewechselt. Luna lag am selben Fleck. Kein Hecheln.\n\nStunde 4: Immer noch da. Ich habe die Matte direkt neben ihrem Bauch angefasst. Kühl. Den Teppich daneben? Warm von der aufgeheizten Wohnung. Die Matte nicht.\n\nEnde des Tages: Mir ist aufgefallen, dass ich seit dem Morgen den Atem angehalten hatte. Das Nachmittagshecheln, das seit drei Monaten jeden Tag um zwei angefangen hatte? Es kam nicht. Das ruhelose Wandern? Luna hat es nicht gemacht. Sie hat sich ihren Platz gesucht und ist geblieben.\n\nMeine Schwester hat mir vier Tage später geschrieben.\n\n„Max ist den ganzen Tag nicht von der Matte runter. Kein Hecheln. Ich hab nach drei Stunden die Hand draufgelegt — immer noch kühl. Die Fliese daneben war warm.\"\n\nEine Woche später: „Das Nachmittagshecheln ist komplett weg. Er kommt jetzt zur Ruhe. Mir war gar nicht klar, wie sehr ich jeden Nachmittag gefürchtet habe, bis er aufgehört hat.\"\n\nZwei Wochen später: „Ich fühl mich nicht mehr gefangen. Ich weiß, das klingt dramatisch, aber ich hab jeden Tag zugesehen, wie er leidet, und konnte nichts tun. Jetzt schon.\"\n\nIch kenne dieses Gefühl genau.\n\nHier ist, was ich verstanden habe, und es hat zu spät für Emma und fast zu spät für Luna gedauert:\n\nIn einer Wohnung, die sich im Sommer aufheizt — Dachgeschoss, Südseite, schlecht gedämmt — reicht der Ventilator nicht. Reichen die Rollläden nicht. Reicht selbst eine Klimaanlage nicht, wenn du eine hättest.\n\nWeil keines davon die Fläche kühlt, auf der dein Hund acht, zehn, sechzehn Stunden am Tag liegt.\n\nDie Luft war nie das Problem. Die Fläche war immer das Problem.\n\nWenn du in einer Wohnung lebst, die im Sommer heiß wird…\n\nWenn dein Hund die Fliesen sucht, obwohl der Ventilator läuft…\n\nWenn er nachmittags hechelt, obwohl er nur liegt…\n\nWenn du das Gefühl hast, du hast alles getan, was du tun kannst, und es reicht trotzdem nicht…\n\nDann ist das nicht normal. Und du bist nicht machtlos.\n\nEs ist dein Hund, der dir sagt, dass die Fläche unter ihm seine Wärme nicht mehr ableitet. Und dieser Stress summiert sich. Jeden Nachmittag. Jeden Tag. Jeden Sommer.\n\nIch dachte, ich könnte nichts tun. Ich lag falsch.\n\nIch konnte Emma nicht mehr retten. Luna fast nicht. Aber jetzt liegt sie jeden Nachmittag auf ihrer Matte, in derselben heißen Dachwohnung, und sie hechelt nicht mehr, sie wandert nicht mehr, sie sucht keine Fliesen mehr.\n\nDie Matte gibt es direkt beim Hersteller, mit 90 Tagen Geld-zurück-Garantie. Wenn dein Hund sie nicht annimmt, schickst du sie zurück und hast nichts verloren.\n\nUnd warte nicht: Diese Matten sind jeden Sommer ausverkauft, sobald die erste Hitzewelle kommt. Letzten August stand drei Wochen Lieferzeit auf der Website. Meine Schwester wollte im August eine zweite und musste sechs Wochen warten. Im Moment liefern sie in drei Werktagen. Der beste Zeitpunkt ist, bevor du sie brauchst.\n\n→ Hier geht's zur FellStern Kühlmatte: https://artikel.fellstern.com/pb-1\n\nLuna liegt gerade drauf, während ich das tippe. In genau der Wohnung, von der ich dachte, sie würde sie umbringen. Kopf zwischen den Pfoten. Schnarcht. Hechelt nicht. Bewegt sich nicht. Einfach ruhig.\n\nIch kann sie atmen hören.\n\nUnd zum ersten Mal seit diesem Mittwoch im Juni habe ich keine Angst mehr davor, was mich erwartet, wenn ich nach Hause komme.\n\nP.S. Ich habe nach Emmas Tod gedacht, ich hätte einen Fehler gemacht, den ich nie wieder machen würde. Dann bin ich in eine Wohnung gezogen, die Luna fast genauso umgebracht hätte — und ich habe drei Monate lang zugesehen und mich machtlos gefühlt. Das Schlimmste an dieser Geschichte ist nicht, dass ich es nicht wusste. Es ist, dass ich dachte, es gäbe nichts, was ich tun kann. Es gab etwas. Es lag nur an der Fläche, nicht an der Luft.\n\n→ https://artikel.fellstern.com/pb-1",
+        "creativeUrl": "https://scontent-fra3-1.xx.fbcdn.net/v/t39.35426-6/725153591_1827046398259460_6392316447795907309_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=Mswq7wvG_LEQ7kNvwGQGH5Y&_nc_oc=AdoCeOmHSQt4ZfmEZ77aePaebLYPJaL3k21d6m3YYq_MclphCG3jfn-XWfM16K_kI5I&_nc_zt=14&_nc_ht=scontent-fra3-1.xx&_nc_gid=3QPnG9_ll3ZipySNSyIYaw&_nc_ss=7f289&oh=00_Af88Bflm0bxvBYxTpZGUFBsl0t4j-R0CayTvwda7GxURRQ&oe=6A42C7D7",
+        "landingPageUrl": "https://artikel.fellstern.com/pb-1",
+        "adArchiveId": "1353116226715740",
+        "sourceKeyword": "Mobile Klimaanlage",
+        "adLibraryUrl": "https://www.facebook.com/ads/library/?id=1353116226715740",
+        "pageName": "Sabines Hunde-Tagebuch",
+        "adDeliveryStart": "2026-06-19 07:00:00",
+        "adDeliveryStop": "2026-06-24 07:00:00",
+        "isActive": true,
+        "spendText": null,
+        "impressionsText": null,
+        "reachText": null,
+        "publisherPlatforms": [
+          "FACEBOOK",
+          "INSTAGRAM",
+          "MESSENGER"
+        ],
+        "variantCount": 1,
+        "adsCount": 1,
+        "productTitle": "Wenn du einen Hund hast, lies das 👆",
+        "productPageUrl": "https://artikel.fellstern.com/pb-1",
+        "creativeType": "image",
+        "videoUrl": null
+      },
+      "scrape": {
+        "crawlRunId": "XFeVEMUJW0Tt2K68g",
+        "pageTitle": "Fellstern Kühlmatte: 3 Sommer Garantie, ohne Gel",
+        "markdownLength": 12747,
+        "loadedUrl": "https://artikel.fellstern.com/pb-1",
+        "previewImageUrl": "https://4ry0pubjmsokqgsz.public.blob.vercel-storage.com/pages/4e4db32a-b4a2-4cc0-b1b1-aad2cff66bfb/el-86-1778891143797.png",
+        "productImageUrl": null,
+        "productTitle": "Fellstern Kühlmatte: 3 Sommer Garantie, ohne Gel",
+        "productPrice": null
+      },
+      "analysis": {
+        "marketing_hook": "FellStern 狗狗降温垫，针对阁楼高温导致爱犬喘气、寻凉席垫的痛点，提供90天无条件退货及三夏功能保证。",
+        "form_questions": [
+          "选择尺码（S、M、L、XL，适用于伯恩斯、伯纳德、纽芬兰等大型犬）",
+          "加入购物车",
+          "3个工作日内收货后铺开，让狗狗自行找到凉爽位置"
+        ],
+        "localized_translation": "30天全额退款＋三夏功能保证·德国发货，3个工作日送达"
+      }
     }
   ]
 }

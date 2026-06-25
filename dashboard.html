@@ -88,6 +88,55 @@
           {{ loadWarning }}
         </div>
 
+        <div v-if="meta?.trends" class="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
+          <div class="flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between">
+            <div>
+              <p class="text-xs font-semibold uppercase tracking-wide text-slate-400">市场趋势（代理指标）</p>
+              <p class="mt-1 text-sm text-slate-600">{{ meta.trends.spendNote }}</p>
+            </div>
+            <div class="flex flex-wrap gap-2 text-xs">
+              <span class="rounded-full bg-slate-100 px-3 py-1 font-medium text-slate-700">
+                语料 {{ meta.trends.adsInCorpus }} 条
+              </span>
+              <span class="rounded-full bg-emerald-50 px-3 py-1 font-medium text-emerald-700">
+                投放中 {{ meta.trends.activeAds }}
+              </span>
+              <span class="rounded-full bg-sky-50 px-3 py-1 font-medium text-sky-700">
+                近14天上新 {{ meta.trends.startedLast14d }}
+              </span>
+            </div>
+          </div>
+          <div class="mt-5 grid gap-4 md:grid-cols-3">
+            <div>
+              <p class="mb-2 text-xs font-semibold uppercase tracking-wide text-slate-400">广告主 Top</p>
+              <ul class="space-y-1.5 text-sm">
+                <li v-for="row in meta.trends.topAdvertisers" :key="row.name" class="flex justify-between gap-2">
+                  <span class="truncate text-slate-700">{{ row.name }}</span>
+                  <span class="shrink-0 font-medium text-slate-900">{{ row.count }}</span>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <p class="mb-2 text-xs font-semibold uppercase tracking-wide text-slate-400">投放平台</p>
+              <ul class="space-y-1.5 text-sm">
+                <li v-for="row in meta.trends.platformMix" :key="row.platform" class="flex justify-between gap-2">
+                  <span class="text-slate-700">{{ formatPlatform(row.platform) }}</span>
+                  <span class="font-medium text-slate-900">{{ row.count }}</span>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <p class="mb-2 text-xs font-semibold uppercase tracking-wide text-slate-400">关键词命中</p>
+              <ul class="space-y-1.5 text-sm">
+                <li v-for="row in meta.trends.keywordMix" :key="row.keyword" class="flex justify-between gap-2">
+                  <span class="truncate text-slate-700">{{ row.keyword }}</span>
+                  <span class="shrink-0 font-medium text-slate-900">{{ row.count }}</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
         <div v-if="items.length === 0" class="rounded-xl border border-dashed border-slate-300 bg-white p-12 text-center text-slate-500">
           暂无竞品卡片。请刷新或重新选择 final_report.json。
         </div>
@@ -97,32 +146,86 @@
           :key="item.ad.adArchiveId || index"
           class="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition hover:shadow-md"
         >
-          <!-- Visual hero: ad creative + landing preview -->
-          <div class="grid gap-0 border-b border-slate-100 md:grid-cols-2">
-            <div class="media-frame border-b border-slate-100 p-4 md:border-b-0 md:border-r">
+          <!-- Visual hero: ad creative + product thumb + landing preview -->
+          <div class="grid gap-0 border-b border-slate-100 lg:grid-cols-3">
+            <div class="media-frame border-b border-slate-100 p-4 lg:border-b-0 lg:border-r">
               <p class="mb-2 flex items-center justify-between text-xs font-semibold uppercase tracking-wide text-slate-400">
                 <span>FB 广告素材</span>
-                <span v-if="isVideoCreative(item)" class="normal-case font-normal text-slate-400">视频广告帧</span>
+                <span v-if="isVideoCreative(item)" class="normal-case font-medium text-emerald-700">视频广告 · 可播放</span>
+                <span v-else-if="item.ad.creativeType === 'image'" class="normal-case font-normal text-slate-400">图片广告</span>
               </p>
-              <a
-                v-if="item.ad.creativeUrl"
-                :href="item.ad.creativeUrl"
-                target="_blank"
-                rel="noopener noreferrer"
-                class="media-slot block overflow-hidden rounded-xl border border-slate-200 bg-slate-900/5"
+              <div
+                v-if="item.ad.videoUrl && !videoFailed[index]"
+                class="media-slot relative overflow-hidden rounded-xl border border-slate-200 bg-slate-900"
               >
-                <img
-                  :src="item.ad.creativeUrl"
-                  :alt="'Ad creative ' + (index + 1)"
+                <video
+                  controls
+                  playsinline
+                  preload="metadata"
+                  :poster="item.ad.creativeUrl || undefined"
                   class="h-full w-full object-cover"
-                  loading="lazy"
-                  referrerpolicy="no-referrer"
-                  @error="onImgError($event, 'creative')"
-                />
-              </a>
+                  @error="onVideoError(index)"
+                >
+                  <source :src="item.ad.videoUrl" type="video/mp4" />
+                </video>
+              </div>
+              <template v-else-if="item.ad.creativeUrl">
+                <a
+                  :href="item.ad.adLibraryUrl || item.ad.creativeUrl"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="media-slot block overflow-hidden rounded-xl border border-slate-200 bg-slate-900/5"
+                >
+                  <img
+                    :src="item.ad.creativeUrl"
+                    :alt="'Ad creative ' + (index + 1)"
+                    class="h-full w-full object-cover"
+                    loading="lazy"
+                    referrerpolicy="no-referrer"
+                    @error="onImgError($event, 'creative')"
+                  />
+                </a>
+                <a
+                  v-if="item.ad.videoUrl && videoFailed[index] && item.ad.adLibraryUrl"
+                  :href="item.ad.adLibraryUrl"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="mt-2 block text-center text-xs text-indigo-600 underline"
+                >
+                  视频已过期 · 在 Meta 广告库查看
+                </a>
+              </template>
               <div v-else class="flex h-48 items-center justify-center rounded-xl border border-dashed border-slate-200 text-sm text-slate-400">
                 无素材图
               </div>
+            </div>
+            <div class="media-frame border-b border-slate-100 p-4 lg:border-b-0 lg:border-r">
+              <p class="mb-2 flex items-center justify-between text-xs font-semibold uppercase tracking-wide text-slate-400">
+                <span>产品缩略图</span>
+                <span v-if="productPriceLabel(item)" class="normal-case font-medium text-emerald-700">{{ productPriceLabel(item) }}</span>
+              </p>
+              <a
+                v-if="productPageUrl(item)"
+                :href="productPageUrl(item)"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="media-slot block overflow-hidden rounded-xl border border-slate-200 bg-white"
+              >
+                <img
+                  v-if="productThumbSrc(item)"
+                  :src="productThumbSrc(item)"
+                  :alt="productTitleLabel(item) || ('Product ' + (index + 1))"
+                  class="h-full w-full object-contain bg-white p-2"
+                  loading="lazy"
+                  referrerpolicy="no-referrer"
+                  @error="onProductImgError($event, item)"
+                />
+                <div v-else class="flex h-48 flex-col items-center justify-center gap-2 px-4 text-center text-sm text-slate-500">
+                  <span>暂无产品图</span>
+                  <span class="line-clamp-2 text-xs text-slate-600">{{ productTitleLabel(item) || '点击访问商品页' }}</span>
+                </div>
+              </a>
+              <p v-if="productTitleLabel(item)" class="mt-2 line-clamp-2 text-xs text-slate-600">{{ productTitleLabel(item) }}</p>
             </div>
             <div class="media-frame p-4">
               <p class="mb-2 flex items-center justify-between text-xs font-semibold uppercase tracking-wide text-slate-400">
@@ -165,6 +268,19 @@
               <span v-if="item.ad.isActive === true" class="rounded-md bg-emerald-50 px-2 py-0.5 text-xs font-medium text-emerald-700">投放中</span>
               <span v-if="item.ad.adDeliveryStart" class="rounded-md bg-slate-50 px-2 py-0.5 text-xs text-slate-600">
                 开始 {{ formatShortDate(item.ad.adDeliveryStart) }}
+              </span>
+              <span v-if="runDaysLabel(item)" class="rounded-md bg-slate-50 px-2 py-0.5 text-xs text-slate-600">
+                已跑 {{ runDaysLabel(item) }}
+              </span>
+              <span
+                v-for="platform in item.ad.publisherPlatforms || []"
+                :key="platform"
+                class="rounded-md bg-indigo-50 px-2 py-0.5 text-xs font-medium text-indigo-700"
+              >
+                {{ formatPlatform(platform) }}
+              </span>
+              <span v-if="item.ad.variantCount" class="rounded-md bg-slate-50 px-2 py-0.5 text-xs text-slate-600">
+                {{ item.ad.variantCount }} 变体
               </span>
               <span v-if="item.ad.spendText" class="rounded-md bg-amber-50 px-2 py-0.5 text-xs font-medium text-amber-800">
                 花费 {{ item.ad.spendText }}
@@ -271,11 +387,13 @@
         const items = ref([]);
         const openAccordion = ref(null);
         const loadWarning = ref(null);
+        const videoFailed = ref({});
 
         function parseReport(data) {
           meta.value = data.meta || null;
           const successItems = (data.items || []).filter((i) => i.status === 'success');
           items.value = successItems;
+          videoFailed.value = {};
           loadWarning.value = buildLoadWarning(data, items.value.length);
         }
 
@@ -325,7 +443,7 @@
         function landingScreenshotUrl(url) {
           if (!url) return null;
           try {
-            return `https://s.wordpress.com/mshots/v1/${encodeURIComponent(url)}?w=800`;
+            return `https://s.wordpress.com/mshots/v1/${encodeURIComponent(url)}?w=1200`;
           } catch { return null; }
         }
 
@@ -341,9 +459,59 @@
           return !preview || isLikelyUiIconUrl(preview);
         }
 
+        function formatPlatform(code) {
+          const map = { FACEBOOK: 'Facebook', INSTAGRAM: 'Instagram', MESSENGER: 'Messenger', AUDIENCE_NETWORK: 'Audience Network' };
+          return map[code] || code;
+        }
+
+        function runDaysLabel(item) {
+          const start = item.ad?.adDeliveryStart;
+          if (!start) return null;
+          try {
+            const startDate = new Date(String(start).replace(' ', 'T'));
+            const endDate = item.ad.adDeliveryStop ? new Date(String(item.ad.adDeliveryStop).replace(' ', 'T')) : new Date();
+            const days = Math.max(1, Math.round((endDate - startDate) / 86400000));
+            return `${days} 天`;
+          } catch { return null; }
+        }
+
+        function productPageUrl(item) {
+          return item.ad.productPageUrl || item.ad.landingPageUrl;
+        }
+
+        function productTitleLabel(item) {
+          return item.scrape?.productTitle || item.ad.productTitle || null;
+        }
+
+        function productPriceLabel(item) {
+          return item.scrape?.productPrice || null;
+        }
+
+        function productThumbSrc(item) {
+          return item.scrape?.productImageUrl || null;
+        }
+
+        function onProductImgError(event, item) {
+          const el = event.target;
+          if (item.ad.creativeUrl && el.src !== item.ad.creativeUrl) {
+            el.src = item.ad.creativeUrl;
+            el.classList.remove('object-contain', 'p-2');
+            el.classList.add('object-cover');
+            return;
+          }
+          onImgError(event, 'product');
+        }
+
         function isVideoCreative(item) {
+          if (item.ad.creativeType === 'video' || item.ad.videoUrl) {
+            return true;
+          }
           const body = item.ad.adBody || '';
-          return /video|reel|▶️|🎬/i.test(body) || (item.ad.creativeUrl || '').includes('video');
+          return /video|reel|▶️|🎬/i.test(body);
+        }
+
+        function onVideoError(index) {
+          videoFailed.value = { ...videoFailed.value, [index]: true };
         }
 
         function onLandingImgError(event, item) {
@@ -363,7 +531,12 @@
           if (parent && !parent.querySelector('.img-fallback')) {
             const div = document.createElement('div');
             div.className = 'img-fallback flex h-48 items-center justify-center text-sm text-slate-400';
-            div.textContent = kind === 'creative' ? '素材图已过期或无法加载' : '落地页预览无法加载';
+            const labels = {
+              creative: '素材图已过期或无法加载',
+              landing: '落地页预览无法加载',
+              product: '产品图无法加载',
+            };
+            div.textContent = labels[kind] || '图片无法加载';
             parent.appendChild(div);
           }
         }
@@ -406,9 +579,10 @@
 
         return {
           loading, error, meta, items, loadWarning, openAccordion,
-          formatDate, formatShortDate, displayHost, topFormQuestions,
-          toggleAccordion, onFilePick, onImgError, onLandingImgError,
-          landingPreviewSrc, landingPreviewIsScreenshot, isVideoCreative,
+          formatDate, formatShortDate, displayHost, topFormQuestions, formatPlatform,
+          runDaysLabel, productPageUrl, productTitleLabel, productPriceLabel, productThumbSrc,
+          toggleAccordion, onFilePick, onImgError, onLandingImgError, onProductImgError, onVideoError,
+          landingPreviewSrc, landingPreviewIsScreenshot, isVideoCreative, videoFailed,
         };
       },
     }).mount('#app');
