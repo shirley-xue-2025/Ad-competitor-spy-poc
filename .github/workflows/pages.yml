@@ -30,15 +30,18 @@ jobs:
       - name: Bundle dashboard with report JSON
         run: node scripts/bundle-site.mjs
 
+      - name: Prepare site artifact
+        run: |
+          mkdir -p _site
+          cp index.html dashboard.html final_report.json _site/
+          mkdir -p _site/output
+          cp output/final_report.json _site/output/
+
       - uses: actions/configure-pages@v5
 
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: |
-            index.html
-            dashboard.html
-            output/final_report.json
-            final_report.json
+          path: _site
 
       - uses: actions/deploy-pages@v4
         id: deployment
