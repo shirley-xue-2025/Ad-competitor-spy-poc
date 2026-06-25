@@ -1,19 +1,49 @@
 {
   "meta": {
-    "generatedAt": "2026-06-25T09:20:42.009Z",
-    "sourceFile": "output-ac/ads-2026-06-25T08-45-29-157Z.json",
-    "targetSuccessCount": 12,
-    "candidatesAttempted": 12,
-    "successCount": 12,
-    "failedCount": 0,
+    "generatedAt": "2026-06-25T09:50:37.447Z",
+    "sourceFile": "/Users/chao.xue/shirley/affiliate ad spy/output-ac/ads-2026-06-25T08-45-29-157Z.json",
+    "targetSuccessCount": 10,
+    "candidatesAttempted": 13,
+    "successCount": 10,
+    "failedCount": 3,
     "websiteCrawlerActor": "apify/website-content-crawler",
-    "llmModel": "hybrid-scrape-only",
+    "llmModel": "nvidia/nemotron-3-super-120b-a12b:free",
+    "crawlCacheEntries": 45,
     "vertical": "ac",
-    "verticalLabel": "DE AC / Heatwave (Klimaanlage)",
-    "hybrid": true,
-    "note": "Gemini free-tier daily limit reached; visual intel from FB scrape + landing crawl. Re-run deep-analyze:ac when quota resets for full AI hooks."
+    "verticalLabel": "DE AC / Heatwave (Klimaanlage)"
   },
   "items": [
+    {
+      "status": "success",
+      "error": null,
+      "ad": {
+        "adBody": "▶️Jetzt sommerlich unterwegs z.B. mit dem 𝐓-𝐑𝐨𝐜 𝐂𝐚𝐛𝐫𝐢𝐨𝐥𝐞𝐭 𝐑-𝐋𝐢𝐧𝐞 1.5 TSI OPF 110 kW (150 PS) 7-Gang-DSG als Jahreswagen-𝐋𝐞𝐚𝐬𝐢𝐧𝐠-Angebot für Privatkunden: Energieverbrauch (kombiniert): 6,7 l/100 km, CO₂-Emissionen (kombiniert): 152 g/km, CO₂-Klasse: E, Energiekosten bei 15.000 km Jahresfahrleistung 1.805,00 €/Jahr (Super-Preis: 1,80 € pro Liter Jahresdurchschnitt 2024). Weiteres dazu auf www.dat.de/co2 und www.volkswagen.de/de/modelle/t-roc-cabriolet.html \nKalkulationsbeispiel: ▶️Monatliche Leasingrate: 𝟐𝟒𝟗,𝟎𝟎  𝐄𝐮𝐫𝐨 x 24 Monate Vertragslaufzeit | Leasing-Sonderzahlung: 990,00 € | jährliche Fahrleistung: 10.000 km | Mehrkilometer: 10 Cent | Minderkilometer: 4,4 Cent | Sollzinssatz (fest) p.a.: 6,09 % | effektiver Jahreszinssatz: 6,09 % | Gesamtkreditbetrag: 5.976,00 € | Kaufpreis: 35.930,00 € | zzgl. Zulassungskosten | Ein freibleibendes Angebot der Volkswagen Leasing GmbH, Gifhorner Str. 57, 38112 Braunschweig. Bonität vorausgesetzt. Irrtum und Änderungen vorbehalten. Es besteht ein gesetzliches Widerrufsrecht für Verbraucher im Fernabsatz. \n▶️ Hier geht es zu den Angebotsdetails: https://home.mobile.de/home/vip?id=453641996&customerId=451412\n▶️ Farbe: Ravennablau Metallic\n▶️ EZ: 05/2025 | 6.300 km\n▶️ 7-Gang-DSG\n▶️ Design-Paket Black Style\n▶️ Park Assist: Einparkhilfe vorn und hinten\n▶️ IQ.DRIVE-Paket inkl. IQ.Light: Spurhalteassistent (Lane Assist), Insassen-Schutzsystem proaktiv, Spurwechselassistent (Side Assist), LED Lichtleiste zwischen Scheinwerfer, Matrix-LED-Scheinwerfer (IQ.Light), Heckleuchten LED, dunkelrot, dynamische Blinkleuchten und Fernlichtregulierung (Dynamic Light Assist) \n▶️ Sitzbezug Leder Vienna + Sitzheizung vorn\n▶️ Navigationsfunktion Discover Pro inkl. Streaming & Internet (Touchscreen-Farbdisplay): Sprachsteuerungs-System\n▶️ Klimaanlage Air Care Climatronic 2-Zonen\n▶️ Scheckheftgepflegtes Nichtraucherfahrzeug u.v.m.\nWir von Autohaus Westkamp beraten Euch gern: Telefon 02234-95781-44!\n#jahreswagen #gebrauchtwagenleasing #leasing #TRocCabriolet #trocCabrio #leasingangebot",
+        "creativeUrl": "https://scontent-fra5-1.xx.fbcdn.net/v/t39.35426-6/724795024_1954336125284977_8429075268439015543_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=fFheDuUeytIQ7kNvwHcNiSV&_nc_oc=AdoQc-7qwrPq6e53H33xffdNGOBoIeBLZuM7T4Sa1aTPH6PpHF9gYh9itWVY_g8PF6E&_nc_zt=14&_nc_ht=scontent-fra5-1.xx&_nc_gid=3QPnG9_ll3ZipySNSyIYaw&_nc_ss=7f289&oh=00_Af9pcmUWS_N1DWI12fDEz-KxgChINp_XZq5haslPcE8ODg&oe=6A42AFC8",
+        "landingPageUrl": "https://home.mobile.de/home/vip?id=453641996&customerId=451412",
+        "adArchiveId": "1349890750688511",
+        "sourceKeyword": "Mobile Klimaanlage",
+        "adLibraryUrl": "https://www.facebook.com/ads/library/?id=1349890750688511",
+        "pageName": "Autohaus Westkamp",
+        "adDeliveryStart": null,
+        "adDeliveryStop": null,
+        "isActive": true,
+        "spendText": null,
+        "impressionsText": null,
+        "reachText": null
+      },
+      "scrape": {
+        "crawlRunId": "PhsuX0drEEGzUGdak",
+        "pageTitle": "Hans Westkamp GmbH & Co. KG in Frechen",
+        "markdownLength": 11166,
+        "loadedUrl": "https://home.mobile.de/home/vip?id=453641996&customerId=451412",
+        "previewImageUrl": "https://img.classistatic.de/api/v1/mo-prod/images/bd/bd6c78fc-6d2b-4777-806a-8bf8617e543b?rule=mo-160"
+      },
+      "analysis": {
+        "marketing_hook": "大众T-Roc敞篷车，缓解夏日炎热出行烦恼，低首付月供379欧元起",
+        "form_questions": [],
+        "localized_translation": "大众T-Roc Cabriolet R-Line 1.5 TSI DSG，月租金249欧元，租期24个月，特别付款990欧元"
+      }
+    },
     {
       "status": "success",
       "error": null,
@@ -40,9 +70,9 @@
         "previewImageUrl": null
       },
       "analysis": {
-        "marketing_hook": "【视觉情报】Klimaworld.com — 德国降温/空调品类投放（AI 分析待配额恢复后补充）",
+        "marketing_hook": "KlimaWorld 提供节能智能空调（分体式或移动式），解决夏季炎热及多房间制冷制热需求，并可结合光伏提高自用率，享受成本节约与智能控制。",
         "form_questions": [],
-        "localized_translation": "Die besten Klimaanlagen  – kostensparend, nachhaltig - einfach smart! 🌿🔥❄️"
+        "localized_translation": "最佳空调——节能、环保、智能！无论是分体式还是移动式空调，这里都有您需要的空调解决方案。可自动冷却多个房间或供暖，整合光伏系统提高自用率，现代热泵技术实现高效供暖。让我们对话，共同积极塑造未来！"
       }
     },
     {
@@ -71,9 +101,53 @@
         "previewImageUrl": "https://assets.prd.heyflow.com/flows/sdjPbuFHPQZM5N0U6TJt/www/assets/4208fb7b-f6c4-4c30-a186-677da466aff3/original.webp"
       },
       "analysis": {
-        "marketing_hook": "【视觉情报】Klivatec - Klimaanlagen & Klimatechnik — 德国降温/空调品类投放（AI 分析待配额恢复后补充）",
-        "form_questions": [],
-        "localized_translation": "Dieser eine Fehler kostet dich im Sommer Hunderte Euro. 💸"
+        "marketing_hook": "KLIVATEC 固定式空调，解决夏季高温导致的睡眠差、电费高、便携式空调无效问题，免费上门咨询。",
+        "form_questions": [
+          "Privat oder Gewerbe?",
+          "Wie viele Räume sollen klimatisiert werden?",
+          "Umsetzungszeitraum",
+          "Vorname",
+          "Nachname",
+          "E-Mail Adresse",
+          "Telefonnummer"
+        ],
+        "localized_translation": "免费首次咨询，包含规划与固定价格报价"
+      }
+    },
+    {
+      "status": "success",
+      "error": null,
+      "ad": {
+        "adBody": "Der mobile Mechaniker wollte 1.700 Euro für den Wechsel einer Lichtmaschine die im Teileladen 180 Euro kostet.\n\nIch hab ihn gefragt wie drei Schrauben so viel kosten können. Er hat nur gelacht. „Drei Schrauben an die man nicht rankommt. Ich mach das hier mehrmals im Jahr. Immer dasselbe. Vier Stunden Minimum nur für den Zugang.\"\n\nDie Hochzeit von unserem Enkel in Kroatien war in zwei Tagen.\n\nDann kam der Platzwart vom Campingplatz rüber und fragte ob er mal schauen soll.\n\nWas er mir gezeigt hat, hat alles verändert.\n\nAber der Reihe nach.\n\nMeine Frau Helga und ich sind seit knapp drei Jahren mit dem Wohnmobil unterwegs. Haus in Mönchengladbach verkauft, nen Teilintegrierten gekauft. Ducato Basis, wie die meisten.\n\nDie Idee war einfach. Winter ans Mittelmeer. Sommer hoch zu den Kindern. Keine Heizkosten, kein Schneeschippen.\n\nZweieinhalb Jahre lang hat das besser funktioniert als wir uns das vorgestellt hatten.\n\nAlgarve. Toskana. Drei Monate Peloponnes. Letzten Herbst die kroatische Küste runter, rechtzeitig bevor die ganzen Wintercamper kommen.\n\nWir standen auf nem kleinen Campingplatz südlich von Split, direkt am Wasser, als die Ladekontrollleuchte anging. Motor lief, Klimaanlage an. Erst wurden die Instrumente dunkler, dann ging die Spannung runter.\n\nHaube auf, und ich wusste sofort. Lichtmaschine.\n\nKein Drama, dachte ich. Hab ich schon mal gemacht. Vor zehn Jahren am alten Transporter. Paar Stunden, nichts Wildes.\n\nDas war bevor ich gesehen hab wo Fiat die Lichtmaschine beim Ducato hingebaut hat.\n\nDie sitzt unten rechts, eingequetscht zwischen Klimakompressor und Motorblock. Die Schrauben zeigen nach innen Richtung Rahmen. Platz ist vielleicht drei Zentimeter. Auf nen guten Tag.\n\nIch konnte alle drei Schrauben sehen. Konnte zwei davon mit den Fingerspitzen berühren.\n\nAber ich hab kein Werkzeug draufbekommen.\n\nNormale Ratsche probiert. Der Griff knallt gegen den Kompressor bevor die Nuss auf der Schraube sitzt.\n\nKurze Ratsche probiert. Auf eine Schraube draufgekommen, aber fünf Grad Drehwinkel. Hätte zwei Stunden für eine Schraube gebraucht.\n\nGelenk-Kopf probiert. Die Nuss ist sofort seitlich weggekippt sobald ich Druck gegeben hab.\n\nWobble-Verlängerung probiert. Einmal drauf, angefangen zu drehen, und die Nuss ist abgesprungen. Fast hätte es mir die Knöchel aufgerissen.\n\nVier Stunden hab ich in dem Motorraum rumgemacht. Vier Stunden in der kroatischen Hitze, über nen heißen Motor gebeugt, Schweiß in den Augen, Haut an den Händen auf.\n\nHelga hat immer wieder nachgeschaut. Ob ich Wasser will. Ob ich ne Pause mach. Ich wollte keine Pause. Ich wollte das Ding reparieren damit wir es zur Hochzeit schaffen.\n\nUnser Enkel Lukas hat am Samstag geheiratet. Seit Monaten geplant. Helga hatte ein neues Kleid. Ich hatte ne Rede geschrieben an der ich wochenlang gefeilt hatte.\n\nDie Hochzeit war drei Stunden südlich. In zwei Tagen.\n\nUnd ich hab drei Schrauben nicht aus einer Lichtmaschine rausbekommen.\n\nIrgendwann hab ich aufgegeben und angefangen mobile Mechaniker in der Gegend zu suchen. Einen gefunden der am nächsten Morgen kommen konnte.\n\nKam gegen zehn. Hat dreißig Sekunden unter die Haube geschaut.\n\n„Ja, die kenn ich. Kann ich machen, dauert aber.\"\n\nDann hat er seinen Preis genannt.\n\n1.700 Euro.\n\nIch hab gefragt wie sich das zusammensetzt.\n\n„Lichtmaschine besorgen, 180 Euro. Arbeit 1.520. 130 die Stunde, mindestens vier Stunden. Meistens eher sechs beim Ducato.\"\n\nSechs Stunden. Für drei Schrauben.\n\nIch hab gesagt ich überleg mir das.\n\nEr hat mit den Schultern gezuckt, seine Karte dagelassen und ist abgehauen.\n\nIch bin zurück ins Wohnmobil. Helga saß an der Sitzgruppe.\n\n„Wie schlimm?\"\n\nIch hab ihr den Preis gesagt.\n\nSie hat ne Weile nichts gesagt. Hat nur aus dem Fenster aufs Wasser geguckt.\n\n„Wir könnten uns nen Mietwagen nehmen. Zur Hochzeit fahren. Das Wohnmobil danach klären.\"\n\nHatte sie recht. Aber das hieß Mobil stehen lassen, Stellplatz weiterbezahlen, Mietwagen bezahlen, irgendwann zurückkommen. Statt wie geplant direkt weiter nach Slowenien.\n\nEin Defekt hat sich in einen Monat Durcheinander verwandelt.\n\nIch bin rausgegangen und hab mich in den Campingstuhl gesetzt. Einfach nur dagesessen.\n\nDa kam der Platzwart rüber.\n\nÄlterer Typ, Mitte siebzig. Hieß Karel. Wir hatten die Tage schon ein paar Mal gequatscht. Ehemaliger Nutzfahrzeug-Mechaniker aus Tschechien, seit fünfzehn Jahren auf Campingplätzen unterwegs.\n\n„Hab gesehen dass der Mechaniker wieder weg ist,\" hat er gesagt. „Lichtmaschine?\"\n\nIch hab genickt.\n\n„Wie viel?\"\n\nIch hab es ihm gesagt.\n\nEr hat ne Grimasse gezogen als hätte er in ne Zitrone gebissen.\n\n„Lass mich raten. Ducato. Schrauben zum Rahmen. Vier bis sechs Stunden.\"\n\nIch hab wieder genickt.\n\n„Hast du ne halbe Stunde?\"\n\nIch hab nicht verstanden.\n\n„Komm mit.\"\n\nWir sind zu seinem Platz gelaufen. Ein alter Wohnwagen der aussah als hätte er jede Straße zweimal gesehen. Er hat im Staukasten gewühlt und ist mit einem Ding zurückgekommen das ich noch nie gesehen hatte.\n\nFlaches Metallteil, vielleicht 40 Zentimeter lang. Vorne ne Nuss-Aufnahme. Hinten ein Vierkant-Antrieb. Irgendeine Kette die durch die Mitte lief.\n\n„Offset-Schlüssel. Kettenantrieb innen drin. Das Einzige was an diese Schrauben rankommt ohne den halben Motorraum zu zerlegen.\"\n\nIch hab gesagt ich hab alles probiert. Da ist einfach kein Platz.\n\nEr hat nur gegrinst. „Wart's ab.\"\n\nWir sind zurück zu meinem Mobil. Haube auf.\n\nKarel hat das Ding in die Lücke zwischen Kompressor und Block geschoben. Es ist genau an der Stelle vorbei die meine Ratsche den ganzen Tag blockiert hat.\n\nDie Nuss hat auf die erste Schraube geklickt.\n\nEr hat mir das Ratschen-Ende gegeben. „Dreh mal.\"\n\nIch hab gedreht.\n\nDie Schraube hat sich bewegt.\n\nDreißig Sekunden später war sie draußen.\n\nDie zweite saß fester, eingeklemmt am Motorlager. Aber das Werkzeug kam aus nem anderen Winkel rein, hat sauber aufgesetzt, und mit etwas Druck hat sie sich gelöst.\n\nDie dritte war die einfachste. Geradeaus rein, sobald man den Dreh raushatte.\n\nAlle drei Schrauben in unter fünf Minuten.\n\nIch stand da mit der Lichtmaschine in der Hand und hab versucht zu begreifen was gerade passiert ist.\n\nKarel hat sein Werkzeug schon eingepackt. „Beim ersten Mal ist das immer so. Man denkt es ist unmöglich. Und dann hat man das richtige Werkzeug und merkt, das Einzige was unmöglich war, war die Art wie man es versucht hat.\"\n\nIch hab gefragt wo man sowas herbekommt.\n\n„Online. Achtzig, neunzig Euro. Ich hab drei Stück. Geh ohne nicht mehr auf Tour.\"\n\nIch hab gefragt ob ich seins ausleihen kann bis meins da ist.\n\n„Behalt's bis deins kommt. Ich weiß ja wo ihr steht.\"\n\nAm Nachmittag bin ich nach Split gefahren und hab ne passende Lichtmaschine besorgt. 185 Euro.\n\nOnline das gleiche Werkzeug bestellt das Karel mir geliehen hatte. 85 Euro. An den Campingplatz liefern lassen. Kam vier Tage später.\n\nDa hatte ich die neue Lichtmaschine mit Karels Werkzeug längst eingebaut. Arbeitszeit: knapp eine Stunde.\n\nGesamtkosten: 185 Euro Teil. 85 Euro Werkzeug. 0 Euro Arbeitslohn.\n\n270 Euro.\n\nDer mobile Mechaniker wollte 1.700.\n\nGespart: 1.430 Euro.\n\nUnd wir haben die Hochzeit geschafft.\n\nFreitagnachmittag runtergefahren. Samstag Abend zugeschaut wie Lukas geheiratet hat. Meine Rede gehalten ohne mich einmal zu verhaspeln. Mit Helga unter den Olivenbäumen getanzt bis uns die Füße wehtaten.\n\nNichts davon wäre passiert wenn ich auf den Mechaniker gewartet hätte.\n\nSeit der Woche in Split hab ich das Werkzeug ständig benutzt.\n\nAnlasser am Generator. Gleiche Geschichte, Karel hatte mich schon gewarnt. Versteckt hinter der Abgasanlage.\n\nServolenkungspumpe. Schraube zwei Zentimeter vom Rahmen entfernt.\n\nEinem Paar in Slowenien geholfen. Schraube so verbaut dass der Mann schon den ADAC rufen wollte. Zehn Minuten.\n\nMassekabel der Aufbaubatterie. Hinter die Motorhalterung geschraubt.\n\nJeder dieser Jobs hätte Werkstatt bedeutet. Abschlepper. Eine Rechnung die in keinem Verhältnis steht.\n\nJetzt sind das Samstagmorgen-Projekte.\n\nWas ich nach drei Jahren auf der Straße verstanden hab:\n\nDiese Fahrzeuge sind nicht dafür gebaut dass man als Besitzer daran schraubt. Die sind gebaut für Vertragswerkstätten mit 150 Euro Stundensatz und drei Wochen Wartezeit.\n\nJede Schraube ist vergraben. Jeder Job braucht „besonderen Zugang\" der sechs Stunden dauert und mehr kostet als das Ersatzteil. Aber es ist nicht kompliziert. Es ist nur schwer zu erreichen. Und schwer zu erreichen ist ein Werkzeugproblem, kein Könnerproblem.\n\nWenn man was hat das in diese engen Stellen passt, flach genug zum Reinschieben und stabil genug zum Drehen, dann wird aus dem Sechs-Stunden-Werkstatt-Job eine Stunde auf dem Stellplatz.\n\nAuf einmal ist man nicht mehr abhängig von Mechanikern die 130 die Stunde nehmen.\n\nAuf einmal verpasst man keine Hochzeiten und keine Geburtstage und keinen von den Momenten wegen denen man das Haus überhaupt verkauft hat.\n\nAuf einmal erinnert man sich warum man das Ganze hier eigentlich macht.\n\nIch sag nicht dass das Ding alles repariert.\n\nAber irgendwann, wahrscheinlich zum schlechtesten Zeitpunkt, wird irgendeine Schraube das Einzige sein das zwischen dir und dem Moment steht für den du vierzig Jahre gearbeitet hast.\n\nUnd dann kommst du entweder ran. Oder eben nicht.\n\nIch bin nicht rangekommen.\n\nJetzt schon.\n\nWer das hier draußen auch macht und es satt hat dass einfache Jobs 1.700 Euro kosten weil „der Zugang so schwierig\" ist: Das Ding gehört in den Staukasten.\n\nNicht weil ich das sage.\n\nSondern weil ein Platzwart namens Karel auf nem Campingplatz in Kroatien mir gezeigt hat was ich drei Jahre lang nicht gewusst hab.\n\nLink ist unten drunter, wer mag kann ja mal reinschauen.\n\nGute Fahrt euch allen da draußen.\n\nUnd wenn ihr nen weißen Teilintegrierten mit Mönchengladbacher Kennzeichen und Fahrrädern hinten drauf seht, hupt mal kurz. Das sind wir.\n\nHelga sagt ich soll euch ausrichten: Eure Frauen schaffen das auch.",
+        "creativeUrl": "https://scontent-fra3-1.xx.fbcdn.net/v/t39.35426-6/722306052_1269079211970128_1417663633573708108_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=CEsoF7WnjsoQ7kNvwEL6lzG&_nc_oc=AdqxaTTGQQC3qr7LAWNBd2L8X6B1UKDTpKwjuCRkF12YiDmTBudnxn6ZawPHHxDLVTo&_nc_zt=14&_nc_ht=scontent-fra3-1.xx&_nc_gid=3QPnG9_ll3ZipySNSyIYaw&_nc_ss=7f289&oh=00_Af-H36Qf2WV8Lo_xh_a1PwIL_fJWqgGOWP7A9Df1b3swUg&oe=6A42ADD1",
+        "landingPageUrl": "https://schraubwerk.eu/products/schraubwerk",
+        "adArchiveId": "2443975309427077",
+        "sourceKeyword": "Mobile Klimaanlage",
+        "adLibraryUrl": "https://www.facebook.com/ads/library/?id=2443975309427077",
+        "pageName": "Thomas Becker",
+        "adDeliveryStart": null,
+        "adDeliveryStop": null,
+        "isActive": true,
+        "spendText": null,
+        "impressionsText": null,
+        "reachText": null
+      },
+      "scrape": {
+        "crawlRunId": "PhsuX0drEEGzUGdak",
+        "pageTitle": "Offset Verlängerungsschlüssel | Schraubwerk | Für schwer zugängliche Stellen | Inkl. 1/4\" 3/8\" 1/2\" Adapter | Schlagfeste Konstruktion | Ratschenverlängerung | Kfz Werkzeug",
+        "markdownLength": 9257,
+        "loadedUrl": "https://schraubwerk.eu/products/schraubwerk",
+        "previewImageUrl": "https://schraubwerk.eu/cdn/shop/files/3_30fd07d6-2267-4164-b1dc-4edc3a339c66_530x.png?v=1782319388"
+      },
+      "analysis": {
+        "marketing_hook": "Offset Schlüssel 2.0（Schraubwerk）解决难以触及的螺丝问题，避免高额维修费用，夏季特惠立省40%。",
+        "form_questions": [
+          "选择数量（1件或2件）",
+          "可选：添加LED头灯礼品",
+          "可选：添加免费送货",
+          "点击‘抢购优惠’"
+        ],
+        "localized_translation": "Offset Schlüssel 2.0 夏季特惠 – 立省 40%，仅需 €59.99（原价 €99.99），附赠 60 天无条件退款保证。"
       }
     },
     {
@@ -102,9 +176,13 @@
         "previewImageUrl": "https://d1y4tm6t3pzfj.cloudfront.net/other/images/1716623467_%E5%A4%B4%E5%83%8F27.jpg"
       },
       "analysis": {
-        "marketing_hook": "【视觉情报】Libiyi_AU — 德国降温/空调品类投放（AI 分析待配额恢复后补充）",
-        "form_questions": [],
-        "localized_translation": "Entfliehen Sie der LKW-Hitze. Schlafen Sie kühl. Kein Leerlauf. ⚡❄️ Libiyi Mobile Klimaanlage – speziell für Sattelzüge. Leise Kühlung für die Schlafkabine. Kraftstoff sparen. Erholt bleiben. 🚛"
+        "marketing_hook": "Libiyi 便携式空调（Cooling Ace）解决卡车司机夏季炎热难眠问题，限时50折仅售59.98欧元，省电又安静",
+        "form_questions": [
+          "Besuchen Sie die offizielle Website, indem Sie hier klicken.",
+          "Holen Sie sich eins (oder mehrere) für sich oder Ihre Familie.",
+          "Genießen Sie einen erfrischenden Sommer in Ihrem Zuhause und Büro!"
+        ],
+        "localized_translation": "Libiyi Cooling Ace 仅售 59.98 欧元，享受限时 50% 折扣！"
       }
     },
     {
@@ -133,9 +211,40 @@
         "previewImageUrl": null
       },
       "analysis": {
-        "marketing_hook": "【视觉情报】CoolFix Klimaanlagen — 德国降温/空调品类投放（AI 分析待配额恢复后补充）",
+        "marketing_hook": "CoolFix 专业空调：解决炎热夜晚失眠问题，免费上门咨询，快速安装，省去繁琐手续",
         "form_questions": [],
-        "localized_translation": "Kennen Sie das auch? Es ist 2 Uhr nachts, das Schlafzimmer ist stickig heiss und an Schlaf ist nicht zu denken. Am nächsten Tag sind Sie müde, gereizt und können sich bei der Arbeit nicht konzentrieren. Das mobile Klimagerät brummt laut vor sich hin und die Stromrechnung explodie"
+        "localized_translation": "现在免费咨询，让您今夏终于能够安稳入睡！"
+      }
+    },
+    {
+      "status": "success",
+      "error": null,
+      "ad": {
+        "adBody": "So günstig geht Geschäftsleasing!👍\n________________\nKombinierte Werte für den PEUGEOT 208 STYLE 1.2l TURBO 100 (Benzin), 74 kW (101 PS), 6-Gang-Schaltgetriebe. Kraftstoffverbrauch 5,1 l/100 km; CO2-Emission 116 g/km; CO2-Klasse D. Abbildung zeigt Designstudie.\n\nDie angegebenen Verbrauchs- und Emissionswerte wurden nach den gesetzlich vorgeschriebenen Messverfahren ermittelt. WLTP (Worldwide Harmonised Light-Duty Vehicles Test Procedure, dt. weltweit einheitliches Leichtfahrzeuge-Testverfahren).\n\nEs werden nur die CO2-Emissionen angegeben, die durch den Betrieb des Pkw entstehen. CO2-Emissionen, die durch die Produktion und Bereitstellung des Pkw sowie des Kraftstoffes bzw. der Energieträger entstehen oder vermieden werden, werden bei der Ermittlung der CO2-Emissionen gemäß WLTP nicht berücksichtigt.\n\n¹Ein Angebot für Gewerbekunden der Leasys S.p.A. Zweigstelle Deutschland, Friedrich-Lutzmann-Ring 1, 65428 Rüsselsheim am Main, für die wir als Vermittler, gemeinsam mit dem Kunden, die für den Abschluss des Leasing-Vertrags nötigen Vertragsunterlagen zusammenstellen. Bonität vorausgesetzt. Angebot gültig bis 30.06.2026. Alle Preise exkl. MwSt. Änderungen und Irrtümer vorbehalten. Gilt für einen PEUGEOT 208 STYLE 1.2l TURBO 100 (Benzin), 74 kW (101 PS), 6-Gang-Schaltgetriebe. Leasing-Sonderzahlung: 0,00 € | Laufzeit: 24 Monate | Fahrleistung gesamt: 20.000 km | Monatliche Leasingrate: 99,00 € zzgl. MwSt. | Gesamtbetrag: 2.376,00 € zzgl. MwSt. | Die Überführungskosten werden separat berechnet.",
+        "creativeUrl": "https://scontent-fra3-2.xx.fbcdn.net/v/t39.35426-6/722490238_1357437466294224_440766809002894471_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=bnsuayt94oMQ7kNvwFoMhqA&_nc_oc=AdrvEY9fCcoRijRjJ24jgRxxMHOJjv7pnGk7UThnHtqcDhxt3vuUdBynGijXdY__Smo&_nc_zt=14&_nc_ht=scontent-fra3-2.xx&_nc_gid=3QPnG9_ll3ZipySNSyIYaw&_nc_ss=7f289&oh=00_Af-JAy4gx83d2ekvnuJsvW3ouo9TuuzDKJ9kQin9hH98tQ&oe=6A42ABB8",
+        "landingPageUrl": "https://peugeot.pkw-angebote.com/beckerfrancemobile-peugeot208/",
+        "adArchiveId": "1327592742831846",
+        "sourceKeyword": "Mobile Klimaanlage",
+        "adLibraryUrl": "https://www.facebook.com/ads/library/?id=1327592742831846",
+        "pageName": "BECKERfrance mobile",
+        "adDeliveryStart": null,
+        "adDeliveryStop": null,
+        "isActive": true,
+        "spendText": null,
+        "impressionsText": null,
+        "reachText": null
+      },
+      "scrape": {
+        "crawlRunId": "XFeVEMUJW0Tt2K68g",
+        "pageTitle": "PEUGEOT 208 für Gewerbekunden",
+        "markdownLength": 1456,
+        "loadedUrl": "https://peugeot.pkw-angebote.com/beckerfrancemobile-peugeot208/",
+        "previewImageUrl": null
+      },
+      "analysis": {
+        "marketing_hook": "标致208商务租赁，零首付月付99欧，解决企业出行成本痛点",
+        "form_questions": [],
+        "localized_translation": "标致208商务租赁，月租仅99欧元（不含增税），零首付，24个月/2万公里"
       }
     },
     {
@@ -164,9 +273,9 @@
         "previewImageUrl": "https://onecdn.io/media/b50eb416-cbed-4a25-ae5b-9cc425c3541c/preview"
       },
       "analysis": {
-        "marketing_hook": "【视觉情报】AutoMobile Daxenbichler — 德国降温/空调品类投放（AI 分析待配额恢复后补充）",
+        "marketing_hook": "AutoMobile Daxenbichler 提供免费汽车空调检查及 29.90 欧元的假期安全检查，解决夏季高温驾驶不适和故障风险。",
         "form_questions": [],
-        "localized_translation": "🚗 Startklar für Sommer und Urlaub?"
+        "localized_translation": "免费空调检查 – 功能和视觉检查您的空调系统，即使外面炎热也能享受清凉空气。"
       }
     },
     {
@@ -195,40 +304,13 @@
         "previewImageUrl": "https://4ry0pubjmsokqgsz.public.blob.vercel-storage.com/pages/4e4db32a-b4a2-4cc0-b1b1-aad2cff66bfb/el-36-1778890239139.png"
       },
       "analysis": {
-        "marketing_hook": "【视觉情报】Sabines Hunde-Tagebuch — 德国降温/空调品类投放（AI 分析待配额恢复后补充）",
-        "form_questions": [],
-        "localized_translation": "Meine Hündin ist letzten Juni fast in meiner eigenen Wohnung gestorben. Der Ventilator lief, die Rollläden waren unten. Und das Schlimmste ist: Ich habe drei Monate lang zugesehen, wie es passiert ist, und dachte, ich könnte nichts tun."
-      }
-    },
-    {
-      "status": "success",
-      "error": null,
-      "ad": {
-        "adBody": "🌬️ Kühle Brise aus der Steckdose – der mobile USB-Verdunstungskühler für Schreibtisch & Nachttisch! 💧\n\nDer kompakte 2‑in‑1‑Ventilator mit 300 ml Wassertank (Kaltwasserverdunstung) senkt die Umgebungstemperatur spürbar – ideal für heiße Tage im Büro, Schlafzimmer, Wohnmobil oder auf Reisen. 3 Geschwindigkeiten, Timer & flüsterleiser Betrieb. ⚡✨\n\n🌟 Ihr smarter Luftbefeuchter & Kühler:\n✅ Verdunstungskühlung durch Bienenwabenfilter – senkt die Temperatur um bis zu 5 °C (Wassertank optional)\n✅ 3 Geschwindigkeitsstufen & Timer (2/4/8 Stunden) – individuell einstellbar\n✅ Flüsterleiser Betrieb (45 dB) – ideal für Büro & Schlafbereich\n✅ USB‑betrieben – per Powerbank, Laptop oder Netzteil nutzbar\n✅ Kompaktes, leichtes Design mit praktischem Tragegriff – für zu Hause & unterwegs\n\nVom stickigen Homeoffice bis zum heißen Campingzelt – angenehme Kühle, immer dabei! 🏕️🌟\n\n👉 Wasser einfüllen, einschalten, genießen.\nhttps://firewalky.com/products/usb-desktop-air-cooler-fan\n\n#Verdunstungskühler #USBVentilator #Mobil #Schlafzimmer #Reise #Deutschland #KühleBrise",
-        "creativeUrl": "https://scontent-fra3-1.xx.fbcdn.net/v/t39.35426-6/708488771_1656912122240112_3199195253561064468_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=MUkTkgUAdCYQ7kNvwG6FZgj&_nc_oc=Ado_XJfEhNKxeitO9xsGv_6dScuRpBgtjVv90OQHTIGhU1D6LcKYBceKFgLv90L82y8&_nc_zt=14&_nc_ht=scontent-fra3-1.xx&_nc_gid=3QPnG9_ll3ZipySNSyIYaw&_nc_ss=7f289&oh=00_Af8F6JCUpUMe2ovlTIb18kpXF3Sf2hr4ZFve_TsVV0_o-A&oe=6A42B9BD",
-        "landingPageUrl": "https://firewalky.com/products/usb-desktop-air-cooler-fan",
-        "adArchiveId": "1601665487602712",
-        "sourceKeyword": "Mobile Klimaanlage",
-        "adLibraryUrl": "https://www.facebook.com/ads/library/?id=1601665487602712",
-        "pageName": "Firewalky",
-        "adDeliveryStart": null,
-        "adDeliveryStop": null,
-        "isActive": true,
-        "spendText": null,
-        "impressionsText": null,
-        "reachText": null
-      },
-      "scrape": {
-        "crawlRunId": "XFeVEMUJW0Tt2K68g",
-        "pageTitle": "2026 Neue Verdunstungsklimaanlage – Kompakter USB-Tischventilator, per – firewalky",
-        "markdownLength": 409,
-        "loadedUrl": "https://firewalky.com/products/usb-desktop-air-cooler-fan",
-        "previewImageUrl": "https://firewalky.com/cdn/shop/files/spp_shopify20260527105603_a80464d7ef792e375e7cac0194fa2c07_small.jpg?v=1779850614"
-      },
-      "analysis": {
-        "marketing_hook": "【视觉情报】Firewalky — 德国降温/空调品类投放（AI 分析待配额恢复后补充）",
-        "form_questions": [],
-        "localized_translation": "🌬️ Kühle Brise aus der Steckdose – der mobile USB-Verdunstungskühler für Schreibtisch & Nachttisch! 💧"
+        "marketing_hook": "FellStern 狗狗降温垫，针对阁楼高温导致爱犬喘气、寻凉席垫的痛点，提供90天无条件退货及三夏功能保证。",
+        "form_questions": [
+          "选择尺码（S、M、L、XL，适用于伯恩斯、伯纳德、纽芬兰等大型犬）",
+          "加入购物车",
+          "3个工作日内收货后铺开，让狗狗自行找到凉爽位置"
+        ],
+        "localized_translation": "30天全额退款＋三夏功能保证·德国发货，3个工作日送达"
       }
     },
     {
@@ -257,22 +339,66 @@
         "previewImageUrl": null
       },
       "analysis": {
-        "marketing_hook": "【视觉情报】Ozeanos Technology — 德国降温/空调品类投放（AI 分析待配额恢复后补充）",
+        "marketing_hook": "OZEANOS Eisberg 便携式空调，解决炎热无需安装，预夏特惠价格。",
         "form_questions": [],
-        "localized_translation": "Endlich abkühlen, wann und wo du willst. 🧊 Die OZEANOS Eisberg Klimaanlage kühlt deinen Raum – ganz ohne festen Einbau, in wenigen Minuten aufgebaut. 3 Modelle für jeden Raum – such dir deins aus und sichere jetzt noch die Pre-Summer-Preise. ☀️"
+        "localized_translation": "OZEANOS 冰山空调能够冷却您的房间——无需固定安装，几分钟内即可搭建，享受预夏特惠价格。"
       }
+    }
+  ],
+  "skipped": [
+    {
+      "status": "failed",
+      "error": "No valid markdown (not cached after crawl)",
+      "ad": {
+        "adBody": "Schlau kaufen, clever abkühlen! 😎🌬️\n\nWenn draußen die Temperaturen steigen, wird es drinnen schnell ungemütlich. Unser Schlaukauf im Juni bringt Dir mit der mobilen Split-Klimaanlage von Midea genau die Abkühlung, die Du brauchst. ☝️🧊\n\nOb im Schlafzimmer, im Arbeitszimmer oder überall dort, wo es schnell zu warm wird: Die mobile Klimaanlage ist vielseitig einsetzbar, angenehm leise und dank Plug and Play schnell startklar. 💪\nEin Gerät, vier Möglichkeiten: Sie kühlt, heizt, entfeuchtet und ventiliert, arbeitet dabei stromsparend und lässt sich ganz bequem per Fernbedienung, App oder Sprachbefehl steuern. ☀️❄️\n\n👉 Jetzt Schlaukauf im Juni entdecken und clever durch die heißen Tage kommen.\n\n#hagebaumarktMUC #muenchen #münchen #handwerker #minga #baumarkt #hagebau #hagebaumarkt #zusammengehtdas #schlaukauf",
+        "creativeUrl": "https://scontent-fra3-2.xx.fbcdn.net/v/t39.35426-6/714403471_1647308286498226_3352172678037874089_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=wfChCkIfg30Q7kNvwGigIiy&_nc_oc=AdppTJPxuCYefqIfZTlXuVACbUiCaVXnJfnoj66bI8PGMU0_RZh4F1A3ge7fk7A6N38&_nc_zt=14&_nc_ht=scontent-fra3-2.xx&_nc_gid=3QPnG9_ll3ZipySNSyIYaw&_nc_ss=7f289&oh=00_Af_0b0eqzm4bEv-6w9Y_G_mIyDGhJCKr5R_1bzyclBvtTA&oe=6A42CE11",
+        "landingPageUrl": "https://www.hagebaumarkt-muenchen.de/angebote/mn_27222",
+        "adArchiveId": "1284124253806399",
+        "sourceKeyword": "Mobile Klimaanlage",
+        "adLibraryUrl": "https://www.facebook.com/ads/library/?id=1284124253806399",
+        "pageName": "hagebaumarkt München",
+        "adDeliveryStart": null,
+        "adDeliveryStop": null,
+        "isActive": true,
+        "spendText": null,
+        "impressionsText": null,
+        "reachText": null
+      },
+      "scrape": null,
+      "analysis": null
     },
     {
-      "status": "success",
-      "error": null,
+      "status": "failed",
+      "error": "No valid markdown (not cached after crawl)",
       "ad": {
-        "adBody": "💨Die mobile Klimaanlage, die dich deinen alten Ventilator wegwerfen lässt, mit Energieklasse A+++, kostet dich nur 0,10 € pro Tag",
-        "creativeUrl": "https://scontent-fra5-2.xx.fbcdn.net/v/t39.35426-6/718868577_1717319265967936_8260019192897614037_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=5K9UxmkSC4QQ7kNvwG2niPW&_nc_oc=AdpTetuD8kQL9CfITOd0PxqHlZt5GUpIRk09DP-EY5-zPgG_NLcPS9eke_tPhom9FpM&_nc_zt=14&_nc_ht=scontent-fra5-2.xx&_nc_gid=3QPnG9_ll3ZipySNSyIYaw&_nc_ss=7f289&oh=00_Af91FqiazSURxLHCAS4sZLUcZCKSsoNTS05JIzkAkAsoYw&oe=6A42AA76",
-        "landingPageUrl": "https://thebestgadgeto.com/air-conditioner-de/",
-        "adArchiveId": "1635020314237806",
+        "adBody": "Du suchst ein Auto in Buchholz in der Nordheide? Finde dein passendes Auto auf Deutschlands größtem Fahrzeugmarkt.",
+        "creativeUrl": "https://scontent-fra3-1.xx.fbcdn.net/v/t39.35426-6/688374652_931536346549139_346666660694309539_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=zpqoz-r_sCAQ7kNvwEE8gcb&_nc_oc=Adq4TeXt5hL61VjcZdCorqZw9I1KOQNdZQCyD1keD0uceaY2NG5WqcZzHXzSxp6DRPo&_nc_zt=14&_nc_ht=scontent-fra3-1.xx&_nc_gid=3QPnG9_ll3ZipySNSyIYaw&_nc_ss=7f289&oh=00_Af9IiCRk3EO1eJyGjBHev0EUZcLseuhpQOShsiAtCe0ICQ&oe=6A42B9D5",
+        "landingPageUrl": "https://www.mobile.de/",
+        "adArchiveId": "1688621135816756",
         "sourceKeyword": "Mobile Klimaanlage",
-        "adLibraryUrl": "https://www.facebook.com/ads/library/?id=1635020314237806",
-        "pageName": "Secret Finds",
+        "adLibraryUrl": "https://www.facebook.com/ads/library/?id=1688621135816756",
+        "pageName": "mobile.de Top-Angebote",
+        "adDeliveryStart": null,
+        "adDeliveryStop": null,
+        "isActive": false,
+        "spendText": null,
+        "impressionsText": null,
+        "reachText": null
+      },
+      "scrape": null,
+      "analysis": null
+    },
+    {
+      "status": "failed",
+      "error": "OpenRouter returned an empty response.",
+      "ad": {
+        "adBody": "🌬️ Kühle Brise aus der Steckdose – der mobile USB-Verdunstungskühler für Schreibtisch & Nachttisch! 💧\n\nDer kompakte 2‑in‑1‑Ventilator mit 300 ml Wassertank (Kaltwasserverdunstung) senkt die Umgebungstemperatur spürbar – ideal für heiße Tage im Büro, Schlafzimmer, Wohnmobil oder auf Reisen. 3 Geschwindigkeiten, Timer & flüsterleiser Betrieb. ⚡✨\n\n🌟 Ihr smarter Luftbefeuchter & Kühler:\n✅ Verdunstungskühlung durch Bienenwabenfilter – senkt die Temperatur um bis zu 5 °C (Wassertank optional)\n✅ 3 Geschwindigkeitsstufen & Timer (2/4/8 Stunden) – individuell einstellbar\n✅ Flüsterleiser Betrieb (45 dB) – ideal für Büro & Schlafbereich\n✅ USB‑betrieben – per Powerbank, Laptop oder Netzteil nutzbar\n✅ Kompaktes, leichtes Design mit praktischem Tragegriff – für zu Hause & unterwegs\n\nVom stickigen Homeoffice bis zum heißen Campingzelt – angenehme Kühle, immer dabei! 🏕️🌟\n\n👉 Wasser einfüllen, einschalten, genießen.\nhttps://firewalky.com/products/usb-desktop-air-cooler-fan\n\n#Verdunstungskühler #USBVentilator #Mobil #Schlafzimmer #Reise #Deutschland #KühleBrise",
+        "creativeUrl": "https://scontent-fra3-1.xx.fbcdn.net/v/t39.35426-6/708488771_1656912122240112_3199195253561064468_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=MUkTkgUAdCYQ7kNvwG6FZgj&_nc_oc=Ado_XJfEhNKxeitO9xsGv_6dScuRpBgtjVv90OQHTIGhU1D6LcKYBceKFgLv90L82y8&_nc_zt=14&_nc_ht=scontent-fra3-1.xx&_nc_gid=3QPnG9_ll3ZipySNSyIYaw&_nc_ss=7f289&oh=00_Af8F6JCUpUMe2ovlTIb18kpXF3Sf2hr4ZFve_TsVV0_o-A&oe=6A42B9BD",
+        "landingPageUrl": "https://firewalky.com/products/usb-desktop-air-cooler-fan",
+        "adArchiveId": "1601665487602712",
+        "sourceKeyword": "Mobile Klimaanlage",
+        "adLibraryUrl": "https://www.facebook.com/ads/library/?id=1601665487602712",
+        "pageName": "Firewalky",
         "adDeliveryStart": null,
         "adDeliveryStop": null,
         "isActive": true,
@@ -282,110 +408,12 @@
       },
       "scrape": {
         "crawlRunId": "XFeVEMUJW0Tt2K68g",
-        "pageTitle": "Air conditioner DE – thebestgadgeto",
-        "markdownLength": 10004,
-        "loadedUrl": "https://thebestgadgeto.com/air-conditioner-de/",
-        "previewImageUrl": "https://thebestgadgeto.com/wp-content/uploads/2026/06/1-1-1.webp"
+        "pageTitle": "2026 Neue Verdunstungsklimaanlage – Kompakter USB-Tischventilator, per – firewalky",
+        "markdownLength": 409,
+        "loadedUrl": "https://firewalky.com/products/usb-desktop-air-cooler-fan",
+        "previewImageUrl": "https://firewalky.com/cdn/shop/files/spp_shopify20260527105603_a80464d7ef792e375e7cac0194fa2c07_small.jpg?v=1779850614"
       },
-      "analysis": {
-        "marketing_hook": "【视觉情报】Secret Finds — 德国降温/空调品类投放（AI 分析待配额恢复后补充）",
-        "form_questions": [],
-        "localized_translation": "💨Die mobile Klimaanlage, die dich deinen alten Ventilator wegwerfen lässt, mit Energieklasse A+++, kostet dich nur 0,10 € pro Tag"
-      }
-    },
-    {
-      "status": "success",
-      "error": null,
-      "ad": {
-        "adBody": "Meine Hündin ist letzten Juni fast in meiner eigenen Wohnung gestorben. Der Ventilator lief, die Rollläden waren unten. Und das Schlimmste ist: Ich habe drei Monate lang zugesehen, wie es passiert ist, und dachte, ich könnte nichts tun.\n\nSie heißt Luna. Sie ist eine Australian-Shepherd-Mix-Hündin, fünf Jahre alt, ein braunes Auge, ein blaues. Die Art Hund, bei der im Park alle stehen bleiben und nach dem Namen fragen.\n\nUnd ich muss dir erzählen, was fast passiert wäre. Weil das, was Luna fast umgebracht hätte, gerade jetzt wahrscheinlich auch bei deinem Hund passiert. Und du denkst vielleicht, wie ich, dass du nichts dagegen tun kannst.\n\nDu kannst.\n\nVorgeschichte, die du kennen musst: Luna ist nicht mein erster Hund. Vor zwei Jahren habe ich Emma verloren. Golden Retriever, fünf Jahre alt. Hitzschlag, an einem Tag, an dem es nicht mal richtig heiß war. Ich dachte damals, ich hätte etwas übersehen.\n\nAls Luna kam, habe ich mir geschworen, alles richtig zu machen.\n\nUnd dann bin ich umgezogen.\n\nLetztes Jahr im Frühjahr habe ich eine neue Wohnung bezogen. Dachgeschoss, schön hell, große Fenster nach Süden. Ich habe mich verliebt, als ich sie das erste Mal gesehen habe. Im April.\n\nDie Maklerin hat gesagt: „Im Sommer wird's hier oben schön warm, aber mit Rollläden und einem guten Ventilator kein Problem.\"\n\nIch hatte keine Ahnung, worauf ich mich da eingelassen habe.\n\nDer erste Sommer ist zum Gefängnis geworden.\n\nMorgens um halb sechs raus mit Luna, bevor der Asphalt zu heiß für ihre Pfoten wurde. Um Viertel vor sieben zurück. Und dann den Rest des Tages — sechzehn Stunden — gefangen in einer Wohnung, die sich unter dem Dach aufgeheizt hat wie ein Backofen.\n\nRollläden den ganzen Tag unten. Zwei Ventilatoren. Ich habe nasse Tücher aufgehängt. Trotzdem hatte es nachmittags 29, 30 Grad in der Wohnung, egal was ich gemacht habe. Dachgeschoss im Hochsommer. Die Hitze kam von oben, von den Wänden, vom Boden.\n\nIch habe mir gesagt, es ist okay. Luna ist drinnen. Der Ventilator läuft. Was hätte ich sonst tun sollen.\n\nAber jeden Nachmittag, so gegen zwei, habe ich Luna auf den Badezimmerfliesen gefunden.\n\nSie hat im Wohnzimmer auf dem Teppich angefangen. Dann ist sie in die Küche gewandert, auf die Fliesen. Zwanzig Minuten später in den Flur. Dann ins Bad. Dann zurück in die Küche.\n\nSie hat sich im Kreis gedreht, sich hingelegt, leise gehechelt, fünfzehn Minuten gelegen, ist wieder aufgestanden und hat das Ganze von vorne gemacht.\n\nNicht panisch. Nicht so, als wäre etwas falsch. Einfach… nie angekommen.\n\nUnd sie hat gehechelt. Jeden einzelnen Nachmittag. Nicht das dramatische, Zunge-raushängende Hecheln. Einfach schwerer geatmet, als es Sinn ergab für eine Hündin, die nur rumliegt.\n\nIch habe es einer Nachbarin erzählt. Sie hat einen Husky. Sie hat gelacht.\n\n„Im Dachgeschoss im Sommer? Da hecheln alle Hunde. Roll die Rollläden runter und stell den Ventilator an, dann passt das schon.\"\n\nAlso habe ich das gemacht.\n\nIch habe Luna einen zweiten Wassernapf hingestellt. Eis ins Wasser gegeben. Hundeeis gemacht. Nachts um Mitternacht „Australian Shepherd Hitze\" gegoogelt und Artikel gefunden, die sagten, sie kämen gut klar, solange sie tagsüber drinnen bleiben.\n\nAlso blieben wir drinnen.\n\nIch habe sogar überlegt, wieder auszuziehen. Aber ich hatte gerade erst den Mietvertrag unterschrieben, die Kaution war weg, ein erneuter Umzug nicht drin.\n\nWir saßen fest.\n\nUnd ich hatte das Gefühl, ich hätte Luna an einen Ort gesperrt, der sie langsam umbringt.\n\nDer Tag, an dem es fast passiert ist, war ein Mittwoch Ende Juni. 34 Grad draußen.\n\nIch hatte einen Arzttermin. Anderthalb Stunden, vielleicht zwei. Ich habe die Rollläden runtergelassen, beide Ventilatoren angestellt, beide Wassernäpfe gefüllt. Luna einen Kuss auf den Kopf gegeben. Ihr gesagt, ich bin gleich zurück.\n\nUm Viertel nach drei war ich wieder da.\n\nDie Wohnung war still auf eine Art, die sich falsch angefühlt hat.\n\nLuna kommt mir immer an der Tür entgegen. Immer.\n\nIch habe ihren Namen gerufen.\n\nNichts.\n\nIch habe sie auf den Küchenfliesen gefunden. Auf der Seite. Schnell und flach atmend. Augen halb geschlossen. Ihr Zahnfleisch war blass und klebrig.\n\nIch weiß nicht mehr, wie ich sie ins Auto bekommen habe. Ich weiß noch ihr Gewicht. Ich weiß noch, dass ich auf der ganzen Fahrt mit ihr geredet habe. Ich weiß noch, dass ich jede rote Ampel überfahren habe.\n\nIn der Notfallpraxis haben sie sie sofort nach hinten gebracht.\n\nDiesmal kam die Tierärztin nach einer Stunde zurück — nicht mit den Worten, die ich nach Emma gehört hatte.\n\n„Wir haben sie stabilisiert. Es war ein Hitzschlag, und es war knapp. Eine halbe Stunde später, und wir hätten sie nicht mehr zurückgeholt. Aber sie wird durchkommen.\"\n\nIch habe geweint, wie ich seit Emmas Tod nicht mehr geweint hatte. Diesmal aus Erleichterung.\n\nAber ich konnte nicht loslassen von dem, was als Nächstes kam.\n\n„Ich habe alles gemacht\", habe ich gesagt. „Die Rollläden waren unten. Zwei Ventilatoren liefen. Sie hatte frisches Wasser. Sie war nur zwei Stunden allein.\"\n\nDie Tierärztin hat genickt.\n\n„Ihre Ventilatoren haben einwandfrei funktioniert. Aber da ist Luna nicht überhitzt.\"\n\nSie hat sich Zeit genommen, es zu erklären. Und ich werde es nie vergessen.\n\n„Ein Hund hat eine Körpertemperatur von rund 38,5 Grad. Jede Fläche, auf der er liegt — der Teppich, die Fliese, sein Bett — nimmt diese Wärme auf. Innerhalb von Minuten erwärmt sich die Fläche unter ihm. Und sobald sie genug Körperwärme aufgenommen hat, hört sie auf zu kühlen. Sie hält die Wärme einfach fest, gegen seinen Bauch und seine Brust gedrückt.\"\n\nDann hat sie gesagt:\n\n„Und in einer Wohnung, die sich so aufheizt wie ein Dachgeschoss im Hochsommer, passiert das schneller und schlimmer. Die Raumtemperatur ist so hoch, dass die Flächen die Wärme gar nicht mehr loswerden. Sie laden sich auf und bleiben warm. Ihre Ventilatoren bewegen die Luft über Luna. Aber sie können den Boden unter ihr nicht kühlen. Und genau da liegt das Problem.\"\n\n„Warum sagt einem das niemand?\", habe ich gefragt.\n\n„Weil es normal aussieht. Ein Hund, der auf die Fliesen wechselt, der in einer Wohnung mit Ventilator hechelt — das sieht aus wie ein Hund, der einfach ein Hund ist. Bis es zu spät ist.\"\n\nDann hat sie etwas gesagt, das mich zerstört hat:\n\n„Denken Sie daran, wie Sie nachts Ihr Kissen wenden, auf die kühle Seite. Sie machen das, weil Ihre Körperwärme es aufgewärmt hat. Genau das hat Luna jeden Nachmittag getan. Sie hat ihr Kissen gewendet. Nur kann man einen Fußboden nicht wenden. Irgendwann gibt es keine kühle Stelle mehr.\"\n\nUnd plötzlich hat jede einzelne Sache, die ich drei Monate lang beobachtet hatte, Sinn ergeben.\n\nDas Wandern von Platz zu Platz. Die Badezimmerfliesen. Das Hecheln in einer Wohnung mit zwei Ventilatoren.\n\nLuna war nicht ruhelos. Sie hat versucht zu überleben.\n\nUnd ich wusste es nicht.\n\n„Hätte es etwas geändert, wenn ich noch einen dritten Ventilator gehabt hätte?\", habe ich gefragt. „Oder eine mobile Klimaanlage?\"\n\n„Nein\", hat sie sanft gesagt. „Kühlere Luft löst das Flächen-Problem nicht. Sie könnten die Wohnung auf 20 Grad runterkühlen, und der Boden würde sich trotzdem unter ihrem Körper aufheizen.\"\n\nIch habe eine Woche kaum geschlafen.\n\nIch bin jeder Hundegruppe beigetreten, die ich finden konnte. Habe alles über Hitze in Wohnungen gelesen. Habe verstanden, warum alles, was ich getan hatte — alles, was jeder Halter in einer heißen Wohnung tut — das eigentliche Problem nicht löst.\n\nDer Ventilator? Bewegt die Luft einen halben Meter über dem Hund. Macht nichts für die Fläche, auf der er liegt. Luna hat ihre Körperwärme direkt in den Boden abgegeben. Da kommt kein Ventilator hin.\n\nGel-Kühlmatten? Nehmen Wärme für zwanzig, dreißig Minuten auf, dann sind sie gesättigt. Danach eine warme Matte mit Gel drin.\n\nNasse Handtücher? Nach zehn Minuten körperwarm. Dann schließen sie Feuchtigkeit und Wärme am Hund ein wie eine Isolierdecke. Schlimmer als der nackte Boden.\n\nJede Lösung kühlt entweder die Luft oder nimmt Wärme auf, bis sie nicht mehr kann.\n\nKeine macht das eine, worauf es ankommt: die Wärme kontinuierlich vom Körper wegleiten, ohne je aufzuhören.\n\nDie Worte der Tierärztin haben sich in meinem Kopf wiederholt: „Sie brauchen eine Fläche, die die Wärme durchgehend ableitet. Eine, die nie an den Punkt kommt, an dem sie aufhört zu funktionieren.\"\n\nZwei Wochen später hat meine Schwester aus Stuttgart angerufen. Sie wohnt auch oben unterm Dach. Ihr Golden, Max, hat genau dasselbe gemacht. Jeden Nachmittag gehechelt. Vom Teppich auf die Fliesen, in den Flur und zurück. Sie war in Panik.\n\nIch habe ihr alles erzählt, was die Tierärztin mir gesagt hatte.\n\n„Also hilft der Ventilator nicht?\"\n\n„Er hilft der Luft. Nicht dem, worauf Max liegt.\"\n\nSie hat gefragt, was sie tun soll.\n\nIch hatte noch keine Antwort.\n\nIch habe weiter recherchiert. Über Wärmeleitfähigkeit gelesen. Mit Leuten geredet, die in heißen Dachwohnungen mit Hund leben.\n\nDann habe ich in einer Gruppe einen Beitrag von einer Frau gefunden. Sie hat nichts verkauft. Sie hat nur geteilt, was bei ihr funktioniert hat.\n\nSie hat genau dasselbe Muster beschrieben. Das Fliesen-Suchen. Das Nachmittagshecheln. Das ständige Wandern.\n\nDann: „Seit die Matte da liegt, geht er nicht mehr runter. Das Hecheln hat komplett aufgehört. Ich dachte, ich bilde mir das ein, aber es ist echt.\"\n\nJemand hat gefragt, welche Marke.\n\nFellStern.\n\nKein Gel. Kein Wasser. Nichts zum Einfrieren. Ein Funktionstextil aus drei Schichten, das die Körperwärme des Hundes durchgehend ableitet — statt sie aufzunehmen und sich aufzuwärmen wie jede andere Fläche.\n\nDas Material leitet Wärme weg, ohne je aufzuhören. Kein Sättigungspunkt. Es wird einfach nicht warm, egal wie lange der Hund drauf liegt und egal wie heiß die Wohnung ist.\n\nWenn das Problem Flächen sind, die Wärme festhalten, ist die Lösung eine Fläche, die sie nie aufhört abzuleiten.\n\nIch habe in derselben Nacht eine bestellt. Und eine an meine Schwester nach Stuttgart geschickt.\n\nAls meine ankam, habe ich sie dahin gelegt, wo Luna im Wohnzimmer immer gelegen hatte.\n\nIch habe mich danebengesetzt.\n\nDer erste richtig heiße Tag danach. Ich habe Luna beobachtet wie nichts vorher in meinem Leben.\n\nStunde 1: Sie hat geschnuppert. Sich einmal im Kreis gedreht. Hingelegt. Ich habe auf dem Sofa gesessen und auf das Hecheln gewartet. Nichts. Innerhalb von Minuten eingeschlafen, langsam und gleichmäßig atmend. Ich habe die Hand neben sie auf die Matte gelegt — nach einer vollen Stunde mit einer Hündin drauf immer noch kühl. Nicht eiskalt. Aber spürbar kühl.\n\nStunde 2: Sie hatte sich nicht bewegt. Auf dem Teppich hätte sie bis jetzt schon zweimal den Platz gewechselt. Luna lag am selben Fleck. Kein Hecheln.\n\nStunde 4: Immer noch da. Ich habe die Matte direkt neben ihrem Bauch angefasst. Kühl. Den Teppich daneben? Warm von der aufgeheizten Wohnung. Die Matte nicht.\n\nEnde des Tages: Mir ist aufgefallen, dass ich seit dem Morgen den Atem angehalten hatte. Das Nachmittagshecheln, das seit drei Monaten jeden Tag um zwei angefangen hatte? Es kam nicht. Das ruhelose Wandern? Luna hat es nicht gemacht. Sie hat sich ihren Platz gesucht und ist geblieben.\n\nMeine Schwester hat mir vier Tage später geschrieben.\n\n„Max ist den ganzen Tag nicht von der Matte runter. Kein Hecheln. Ich hab nach drei Stunden die Hand draufgelegt — immer noch kühl. Die Fliese daneben war warm.\"\n\nEine Woche später: „Das Nachmittagshecheln ist komplett weg. Er kommt jetzt zur Ruhe. Mir war gar nicht klar, wie sehr ich jeden Nachmittag gefürchtet habe, bis er aufgehört hat.\"\n\nZwei Wochen später: „Ich fühl mich nicht mehr gefangen. Ich weiß, das klingt dramatisch, aber ich hab jeden Tag zugesehen, wie er leidet, und konnte nichts tun. Jetzt schon.\"\n\nIch kenne dieses Gefühl genau.\n\nHier ist, was ich verstanden habe, und es hat zu spät für Emma und fast zu spät für Luna gedauert:\n\nIn einer Wohnung, die sich im Sommer aufheizt — Dachgeschoss, Südseite, schlecht gedämmt — reicht der Ventilator nicht. Reichen die Rollläden nicht. Reicht selbst eine Klimaanlage nicht, wenn du eine hättest.\n\nWeil keines davon die Fläche kühlt, auf der dein Hund acht, zehn, sechzehn Stunden am Tag liegt.\n\nDie Luft war nie das Problem. Die Fläche war immer das Problem.\n\nWenn du in einer Wohnung lebst, die im Sommer heiß wird…\n\nWenn dein Hund die Fliesen sucht, obwohl der Ventilator läuft…\n\nWenn er nachmittags hechelt, obwohl er nur liegt…\n\nWenn du das Gefühl hast, du hast alles getan, was du tun kannst, und es reicht trotzdem nicht…\n\nDann ist das nicht normal. Und du bist nicht machtlos.\n\nEs ist dein Hund, der dir sagt, dass die Fläche unter ihm seine Wärme nicht mehr ableitet. Und dieser Stress summiert sich. Jeden Nachmittag. Jeden Tag. Jeden Sommer.\n\nIch dachte, ich könnte nichts tun. Ich lag falsch.\n\nIch konnte Emma nicht mehr retten. Luna fast nicht. Aber jetzt liegt sie jeden Nachmittag auf ihrer Matte, in derselben heißen Dachwohnung, und sie hechelt nicht mehr, sie wandert nicht mehr, sie sucht keine Fliesen mehr.\n\nDie Matte gibt es direkt beim Hersteller, mit 90 Tagen Geld-zurück-Garantie. Wenn dein Hund sie nicht annimmt, schickst du sie zurück und hast nichts verloren.\n\nUnd warte nicht: Diese Matten sind jeden Sommer ausverkauft, sobald die erste Hitzewelle kommt. Letzten August stand drei Wochen Lieferzeit auf der Website. Meine Schwester wollte im August eine zweite und musste sechs Wochen warten. Im Moment liefern sie in drei Werktagen. Der beste Zeitpunkt ist, bevor du sie brauchst.\n\n→ Hier geht's zur FellStern Kühlmatte: https://wissen.tiermedizin-heute.de/kuehl-adv1\n\nLuna liegt gerade drauf, während ich das tippe. In genau der Wohnung, von der ich dachte, sie würde sie umbringen. Kopf zwischen den Pfoten. Schnarcht. Hechelt nicht. Bewegt sich nicht. Einfach ruhig.\n\nIch kann sie atmen hören.\n\nUnd zum ersten Mal seit diesem Mittwoch im Juni habe ich keine Angst mehr davor, was mich erwartet, wenn ich nach Hause komme.\n\nP.S. Ich habe nach Emmas Tod gedacht, ich hätte einen Fehler gemacht, den ich nie wieder machen würde. Dann bin ich in eine Wohnung gezogen, die Luna fast genauso umgebracht hätte — und ich habe drei Monate lang zugesehen und mich machtlos gefühlt. Das Schlimmste an dieser Geschichte ist nicht, dass ich es nicht wusste. Es ist, dass ich dachte, es gäbe nichts, was ich tun kann. Es gab etwas. Es lag nur an der Fläche, nicht an der Luft.\n\n→ https://wissen.tiermedizin-heute.de/kuehl-adv1",
-        "creativeUrl": "https://scontent-fra3-1.xx.fbcdn.net/v/t39.35426-6/726289708_2575304486246240_3472389275704134549_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=_ifD7GHdWwQQ7kNvwH8gHmu&_nc_oc=AdooMIjXUKzXjWNoY-1EmBZ8vYK3pnSsV-rxTPToP_xFbOx632_N8NbMvtssX1r7BVI&_nc_zt=14&_nc_ht=scontent-fra3-1.xx&_nc_gid=3QPnG9_ll3ZipySNSyIYaw&_nc_ss=7f289&oh=00_Af_FrAavWxFYQJw9qZPPrFcGqb3-DMDM-Cf89m0vKBOwJQ&oe=6A42D479",
-        "landingPageUrl": "https://wissen.tiermedizin-heute.de/kuehl-adv1",
-        "adArchiveId": "1028792012885306",
-        "sourceKeyword": "Mobile Klimaanlage",
-        "adLibraryUrl": "https://www.facebook.com/ads/library/?id=1028792012885306",
-        "pageName": "Sabines Hunde-Tagebuch",
-        "adDeliveryStart": null,
-        "adDeliveryStop": null,
-        "isActive": true,
-        "spendText": null,
-        "impressionsText": null,
-        "reachText": null
-      },
-      "scrape": {
-        "crawlRunId": "gYlwoGAMgJOWiYD2c",
-        "pageTitle": "Hund hechelt im Sommer? Tierärztin warnt vor Fehler",
-        "markdownLength": 13991,
-        "loadedUrl": "https://wissen.tiermedizin-heute.de/kuehl-adv1",
-        "previewImageUrl": "https://4ry0pubjmsokqgsz.public.blob.vercel-storage.com/pages/6b1e750c-baf7-4e9e-9345-6575bfb9df8f/el-42-1778961400471.png"
-      },
-      "analysis": {
-        "marketing_hook": "【视觉情报】Sabines Hunde-Tagebuch — 德国降温/空调品类投放（AI 分析待配额恢复后补充）",
-        "form_questions": [],
-        "localized_translation": "Meine Hündin ist letzten Juni fast in meiner eigenen Wohnung gestorben. Der Ventilator lief, die Rollläden waren unten. Und das Schlimmste ist: Ich habe drei Monate lang zugesehen, wie es passiert ist, und dachte, ich könnte nichts tun."
-      }
-    },
-    {
-      "status": "success",
-      "error": null,
-      "ad": {
-        "adBody": "❄️ Angenehme Abkühlung für heiße Sommertage.\nMit der Comfee Breezy Cool Pro 2.0 genießt du ein angenehmes Raumklima, wenn die Temperaturen steigen. Kühlen, Ventilieren und Entfeuchten – alles in einem kompakten Gerät, bequem steuerbar per App.\n✅ 3-in-1 Funktion: Kühlen, Ventilieren & Entfeuchten\n✅ 7000 BTU / 2,0 kW Kühlleistung\n✅ Für Räume bis ca. 25 m² geeignet\n✅ Bequeme Steuerung per App\n✅ Flexible Nutzung dank mobilem Design\n✅ Inklusive Abluftschlauch für schnelle Inbetriebnahme\nPerfekt für Schlafzimmer, Wohnzimmer oder Homeoffice – für mehr Komfort an heißen Tagen.\n👉 Jetzt entdecken und den Sommer entspannt genießen.",
-        "creativeUrl": "https://scontent-fra3-2.xx.fbcdn.net/v/t39.35426-6/729003883_1691829698728003_5660665966940542497_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=a_W0fKueVj8Q7kNvwEgUe80&_nc_oc=AdrBOcMBKRmPFH32itS05lB2zS9l_b0IDqZz7XM_3QKO30DNXGXhugB0Gxng7kXTpYY&_nc_zt=14&_nc_ht=scontent-fra3-2.xx&_nc_gid=3QPnG9_ll3ZipySNSyIYaw&_nc_ss=7f289&oh=00_Af8X_ClRNwCfcYMQiOwK_0njRipk3Uc6-1-6Vrm1oBSfKQ&oe=6A42A4FA",
-        "landingPageUrl": "https://amzlink.to/az0gRIwH4PjIm",
-        "adArchiveId": "2255144555311547",
-        "sourceKeyword": "Mobile Klimaanlage",
-        "adLibraryUrl": "https://www.facebook.com/ads/library/?id=2255144555311547",
-        "pageName": "Fabiennes.Tipps",
-        "adDeliveryStart": null,
-        "adDeliveryStop": null,
-        "isActive": true,
-        "spendText": null,
-        "impressionsText": null,
-        "reachText": null
-      },
-      "scrape": {
-        "crawlRunId": "gYlwoGAMgJOWiYD2c",
-        "pageTitle": "Comfee Breezy Cool Pro 2.0 Mobile Air Conditioner, 7,000 BTU, 2.0 kW, Cooling, Ventilating & Dehumidifying, App Control, Room Size up to 68 m³ (25 m²), with Exhaust Hose : Amazon.de: Home & Kitchen",
-        "markdownLength": 583,
-        "loadedUrl": "https://www.amazon.de/dp/B0CM8P9PV9?th=1&linkCode=sl2&tag=werbungprime002-21&linkId=a6113fab5b6dc7b26ead5cc0e27afba4&ref_=as_li_ss_tl&ascsubtag=srctok-235f888c140b2761&btn_ref=srctok-235f888c140b2761",
-        "previewImageUrl": null
-      },
-      "analysis": {
-        "marketing_hook": "【视觉情报】Fabiennes.Tipps — 德国降温/空调品类投放（AI 分析待配额恢复后补充）",
-        "form_questions": [],
-        "localized_translation": "❄️ Angenehme Abkühlung für heiße Sommertage."
-      }
-    },
-    {
-      "status": "success",
-      "error": null,
-      "ad": {
-        "adBody": "Es gibt einen intelligenteren Weg, sich abzukühlen.\n\nAerovia™ KylAce kühlt genau dort, wo Sie sitzen – leise, tragbar und zu einem Bruchteil der Betriebskosten einer herkömmlichen Klimaanlage.\n\nAerovia™ KylAce ist ein tragbarer persönlicher Luftkühler mit flügelloser Technologie – flüsterleise (20 dB), per USB aufladbar und sofort einsatzbereit. Keine Installation. Keine Kabel. Kein Techniker.\n\nStellen Sie ihn auf Ihren Schreibtisch, Nachttisch oder montieren Sie ihn an der Wand und wählen Sie zwischen drei Modi: Kühlende Brise, Entspannungsmodus und Frostmodus für schnelle Abkühlung. Kühlen Sie die Luft direkt um sich herum, ohne das ganze Haus klimatisieren zu müssen.\n\nEnergieeffizient und leise genug für warme Sommernächte im Schlafzimmer. Tragbar genug für Büro, Wohnmobil, Terrasse oder Urlaub.\n\nTausende Nutzer berichten vom gleichen Erlebnis: endlich die ganze Nacht durchschlafen, ohne von einem lauten Ventilator geweckt zu werden. Endlich konzentriert arbeiten, ohne am Schreibtisch zu schwitzen. Endlich den Sommer genießen statt ihn nur zu überstehen.\n\n✅ Flügelloses Design – ultraleiser Betrieb mit 20 dB\n✅ 3 Kühlmodi – Brise, Entspannung & Frostmodus\n✅ USB-aufladbar – keine Installation erforderlich\n✅ Tragbar & kompakt – ideal für Schreibtisch, Wand, Schlafzimmer & Camping\n✅ Energieeffizient – nur ein Bruchteil der Kosten einer herkömmlichen Klimaanlage\n✅ Sicher für Kinder & Haustiere – flügelloses Design\n✅ Über 4.452 verifizierte Bewertungen\n✅ 90 Tage Geld-zurück-Garantie\n\nJetzt 50 % Rabatt – exklusiv für Facebook-Nutzer, solange der Vorrat reicht.\n\n➡️ Verfügbarkeit von Aerovia™ KylAce prüfen\nhttps://www.eliovence.com/aervade/adv-",
-        "creativeUrl": "https://scontent-fra5-2.xx.fbcdn.net/v/t39.35426-6/725756407_1317818700483231_6643032813097384373_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=xshDHVIL1DEQ7kNvwEnX5b4&_nc_oc=AdoTPTpf5n5lvDvfK4xlvO-U2WGbl2JbIaRnCpahSoVZVjD60ttDDiPRqRt3Bhvvpng&_nc_zt=14&_nc_ht=scontent-fra5-2.xx&_nc_gid=3QPnG9_ll3ZipySNSyIYaw&_nc_ss=7f289&oh=00_Af8VQVKs-CMIO1d92uYs1r3ucgf6qSoPOpu24DuXly2q4g&oe=6A42A5F3",
-        "landingPageUrl": "https://www.eliovence.com/aervade/adv-",
-        "adArchiveId": "1923299858373839",
-        "sourceKeyword": "Mobile Klimaanlage",
-        "adLibraryUrl": "https://www.facebook.com/ads/library/?id=1923299858373839",
-        "pageName": "Purely Practical Picks",
-        "adDeliveryStart": null,
-        "adDeliveryStop": null,
-        "isActive": true,
-        "spendText": null,
-        "impressionsText": null,
-        "reachText": null
-      },
-      "scrape": {
-        "crawlRunId": "gYlwoGAMgJOWiYD2c",
-        "pageTitle": "Aerovia™",
-        "markdownLength": 10224,
-        "loadedUrl": "https://www.eliovence.com/aervade/adv-",
-        "previewImageUrl": "https://img.funnelish.com/61264/1154327/1780886822-3-a790c50aff-3.jpg"
-      },
-      "analysis": {
-        "marketing_hook": "【视觉情报】Purely Practical Picks — 德国降温/空调品类投放（AI 分析待配额恢复后补充）",
-        "form_questions": [],
-        "localized_translation": "Es gibt einen intelligenteren Weg, sich abzukühlen."
-      }
+      "analysis": null
     }
-  ],
-  "skipped": []
+  ]
 }
