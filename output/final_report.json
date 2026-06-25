@@ -1,330 +1,391 @@
 {
   "meta": {
-    "generatedAt": "2026-06-25T07:15:21.461Z",
-    "sourceFile": "/Users/chao.xue/shirley/affiliate ad spy/output/ads-2026-06-24T22-39-13-613Z.json",
-    "targetSuccessCount": 10,
-    "candidatesAttempted": 15,
-    "successCount": 10,
-    "failedCount": 5,
+    "generatedAt": "2026-06-25T09:20:42.009Z",
+    "sourceFile": "output-ac/ads-2026-06-25T08-45-29-157Z.json",
+    "targetSuccessCount": 12,
+    "candidatesAttempted": 12,
+    "successCount": 12,
+    "failedCount": 0,
     "websiteCrawlerActor": "apify/website-content-crawler",
-    "llmModel": "gemini-2.5-flash",
-    "crawlCacheEntries": 29
+    "llmModel": "hybrid-scrape-only",
+    "vertical": "ac",
+    "verticalLabel": "DE AC / Heatwave (Klimaanlage)",
+    "hybrid": true,
+    "note": "Gemini free-tier daily limit reached; visual intel from FB scrape + landing crawl. Re-run deep-analyze:ac when quota resets for full AI hooks."
   },
   "items": [
     {
       "status": "success",
       "error": null,
       "ad": {
-        "adBody": "Wie viel sollte Ihre Hausratversicherung 2026 wirklich kosten?\nBeantworten Sie ein paar Fragen und erfahren Sie in 2 Minuten, wie günstig Ihr Schutz sein kann.\n\nJetzt Beitrag berechnen",
-        "creativeUrl": "https://scontent-dus1-1.xx.fbcdn.net/v/t39.35426-6/707136612_1015532747482900_4397276189830888273_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=fr7m0CndebUQ7kNvwEha91_&_nc_oc=AdpQnMx_6wJejmOCZSvn4RJKA7gsHlI3rzaIJzG8QxkWZOS6EhwvUhe7Z6vCoyk9Y58&_nc_zt=14&_nc_ht=scontent-dus1-1.xx&_nc_gid=qn1hCZUeyaqNXKKmTWhVjw&_nc_ss=7f289&oh=00_Af9NiejlTWrXsOyFU18CdSP48oPnq3isj3SLl33qrYgqxg&oe=6A42159C",
-        "landingPageUrl": "https://hausrat.versicherungs-profi.com/",
-        "adArchiveId": "995502102943945",
-        "sourceKeyword": "Hausratversicherung"
+        "adBody": "Die besten Klimaanlagen  – kostensparend, nachhaltig - einfach smart! 🌿🔥❄️\nOb Split-Klimaanlage oder mobile Klimageräte. Hier finden Sie alles rund um Ihre Klimatisierung. Mehrere Räume automatisch Kühlen oder auch Heizen. Integrieren Sie Ihre PV-Anlage und erhöhen Sie so den Eigenverbrauch. Moderne Wärmepumpentechnologien ermöglichen auch den effizienten Heitbetrieb. \n\nLassen Sie uns ins Gespräch kommen und gestalten Sie Ihre Zukunft aktiv mit! 🌟🏡",
+        "creativeUrl": "https://scontent-fra5-2.xx.fbcdn.net/v/t39.35426-6/483941840_1287531562543144_8769883365356613241_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=BRknQq-CvCoQ7kNvwHvBUmy&_nc_oc=AdrhfpGnxtk1DDwQeaJwtzrm9oDs8IDwhNAxbRtJidM3o8lYtDz0d2Xq4ytRrybHis0&_nc_zt=14&_nc_ht=scontent-fra5-2.xx&_nc_gid=3QPnG9_ll3ZipySNSyIYaw&_nc_ss=7f289&oh=00_Af8hf8j_HUg5B1bxdUZUqvqxofeLX9Z8q2IcEEUUvyKE0w&oe=6A42A422",
+        "landingPageUrl": "http://www.klimaworld.com/",
+        "adArchiveId": "4141870949467016",
+        "sourceKeyword": "Mobile Klimaanlage",
+        "adLibraryUrl": "https://www.facebook.com/ads/library/?id=4141870949467016",
+        "pageName": "Klimaworld.com",
+        "adDeliveryStart": null,
+        "adDeliveryStop": null,
+        "isActive": true,
+        "spendText": null,
+        "impressionsText": null,
+        "reachText": null
       },
       "scrape": {
-        "crawlRunId": "nU0N9PzoYrz46jmiS",
-        "pageTitle": "Lassen Sie sich persönlich zur Allianz Hausratversicherung beraten -a | hausrat.versicherungs-profi.com",
-        "markdownLength": 1014,
-        "loadedUrl": "https://hausrat.versicherungs-profi.com/"
+        "crawlRunId": "OeFHoz14jRZrzUupQ",
+        "pageTitle": "Klimaanlagen, Wärmepumpen, Photovoltaik, Kaminöfen & vieles mehr! – KlimaWorld",
+        "markdownLength": 2923,
+        "loadedUrl": "https://www.klimaworld.com/",
+        "previewImageUrl": null
       },
       "analysis": {
-        "marketing_hook": "该广告利用消费者对房屋保险费用过高的担忧和对节省开支的渴望，承诺快速发现更优惠的选择，并引导用户寻求安联的个性化咨询服务。",
+        "marketing_hook": "【视觉情报】Klimaworld.com — 德国降温/空调品类投放（AI 分析待配额恢复后补充）",
         "form_questions": [],
-        "localized_translation": "您的家庭财产保险在2026年到底应该花多少钱？只需回答几个问题，2分钟内即可了解您的保障能有多划算。立即获取安联家庭财产保险的个性化咨询服务。"
+        "localized_translation": "Die besten Klimaanlagen  – kostensparend, nachhaltig - einfach smart! 🌿🔥❄️"
       }
     },
     {
       "status": "success",
       "error": null,
       "ad": {
-        "adBody": "🚨 2026 ändert sich's! Solar wird für Hausbesitzer zur wichtigen Erwägung. Informieren sie sich über die aktuellen Ersparnisse.👉 Alle Infos hier!",
-        "creativeUrl": "https://scontent-muc2-1.xx.fbcdn.net/v/t39.35426-6/581929947_2375124486241139_568893456829456112_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=5Ekzd84kBaUQ7kNvwHOqtJN&_nc_oc=Adq3BfhRPpU73Aixe2sXj889BOq9LWa0oFaT-WONPXK8iVBOZ0yU_VCO1aZ0ODl6plw&_nc_zt=14&_nc_ht=scontent-muc2-1.xx&_nc_gid=C6IwlYvsolgG1YPb1Xl1yA&_nc_ss=7f289&oh=00_Af-n4WX0jYdx1fOQbeo96PNHTSAZEqRxlNLF8rmAROwj1w&oe=6A42446B",
-        "landingPageUrl": "https://www.solaranlagen-magazin.de/artikel/solar-forderung-2024-deshalb-mussen-hausbesitzer-jetzt-schnell-sein",
-        "adArchiveId": "1577843636562027",
-        "sourceKeyword": "Solaranlage"
+        "adBody": "Dieser eine Fehler kostet dich im Sommer Hunderte Euro. 💸\n\nEs ist jedes Jahr dasselbe Muster:\n1️⃣ Ventilator kaufen → sorgt nur für Luftzug, kühlt NICHT den Raum\n2️⃣ Mobile Klimaanlage kaufen → laut, stromhungrig, zu schwach\n3️⃣ Am Ende doch die fest installierte Anlage → und ärgern, es nicht gleich gemacht zu haben\n\nRechne mal zusammen: 80 € Ventilator + 500 € mobile Klimaanlage + hunderte Euro Stromkosten = verbranntes Geld für Notlösungen, die nie richtig funktionieren. 😤\nDie einzige Lösung, die WIRKLICH kühlt:\n\n✅ Eine fest installierte Klimaanlage von KLIVATEC\n✅ Geplant exakt für deine Raumgröße\n✅ Effizient, leise, kontrolliert\n✅ Dauerhaft angenehme Temperaturen – statt Luftzug-Placebo\nErgebnis? Besserer Schlaf, mehr Konzentration, echte Lebensqualität.\n\n👉 Spare dir die teuren Umwege. Buche jetzt dein kostenloses Beratungsgespräch:\nhttps://anfrage.klivatec.de/",
+        "creativeUrl": "https://scontent-fra5-1.xx.fbcdn.net/v/t39.35426-6/726860482_1459660005849912_4492455105727775009_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=3QxzMbZ05w4Q7kNvwGEli0I&_nc_oc=AdrVbnkr9E0ruEl2yFkfJp22cCu4m37jqm1ATl6lmfCRD1LohNXH4vniyMwgTMEL2K4&_nc_zt=14&_nc_ht=scontent-fra5-1.xx&_nc_gid=3QPnG9_ll3ZipySNSyIYaw&_nc_ss=7f289&oh=00_Af80MdxRk9DZJFoiRDNuBsnhYFTGotYaRVLhF4SfhSOQqg&oe=6A42CE74",
+        "landingPageUrl": "https://anfrage.klivatec.de/",
+        "adArchiveId": "1710538826624667",
+        "sourceKeyword": "Mobile Klimaanlage",
+        "adLibraryUrl": "https://www.facebook.com/ads/library/?id=1710538826624667",
+        "pageName": "Klivatec - Klimaanlagen & Klimatechnik",
+        "adDeliveryStart": null,
+        "adDeliveryStop": null,
+        "isActive": true,
+        "spendText": null,
+        "impressionsText": null,
+        "reachText": null
       },
       "scrape": {
-        "crawlRunId": "nU0N9PzoYrz46jmiS",
-        "pageTitle": "Solar-Förderung 2024: Deshalb müssen Hausbesitzer jetzt schnell sein",
-        "markdownLength": 3471,
-        "loadedUrl": "https://www.solaranlagen-magazin.de/artikel/solar-forderung-2024-deshalb-mussen-hausbesitzer-jetzt-schnell-sein"
+        "crawlRunId": "PhsuX0drEEGzUGdak",
+        "pageTitle": "Klimaanlage planen & Angebot erhalten - in 60 Sekunden",
+        "markdownLength": 9110,
+        "loadedUrl": "https://anfrage.klivatec.de/",
+        "previewImageUrl": "https://assets.prd.heyflow.com/flows/sdjPbuFHPQZM5N0U6TJt/www/assets/4208fb7b-f6c4-4c30-a186-677da466aff3/original.webp"
       },
       "analysis": {
-        "marketing_hook": "德国房主因电价上涨和政府补贴政策不确定性而面临财务压力，该广告利用2026年政策变化前的紧迫感，推销Enpal零首付太阳能方案，承诺通过自产电力节省开支并获得额外收益。",
+        "marketing_hook": "【视觉情报】Klivatec - Klimaanlagen & Klimatechnik — 德国降温/空调品类投放（AI 分析待配额恢复后补充）",
         "form_questions": [],
-        "localized_translation": "🚨 2026年政策将变！太阳能对德国房主至关重要。现在就了解如何节省开支！房主必须迅速行动，因为政府政策带来不确定性，太阳能补贴即将调整。好消息是，您可以轻松摆脱电价飙升的困境，通过Enpal太阳能系统，不仅能大幅节省电费，还能每年获得高达2000欧元的Enpal补偿，并享受每千瓦时19欧分的Enpal独家电价，彻底摆脱未来电价上涨的恐惧。"
+        "localized_translation": "Dieser eine Fehler kostet dich im Sommer Hunderte Euro. 💸"
       }
     },
     {
       "status": "success",
       "error": null,
       "ad": {
-        "adBody": "Lohnt sich jetzt noch eine Solaranlage für Hausbesitzer? Eine Solaranlage von Enpal rechnet sich schneller, als viele Hausbesitzer denken. Sie wollen wissen, ob sich Solar auch für Sie lohnt? Finden Sie es mit Enpal heraus!\n\n🏠 Das Enpal-Prinzip:\n✔ 0 € Anzahlung inkl. Montage\n✔ Stromtarif ab 16 ct/kWh\n✔ Bis zu 2.000 € Vergütung/Jahr\n✔ Kaufen oder flexibel finanzieren\n\nJetzt in nur 2 Minuten den Check für Ihr Haus machen.",
-        "creativeUrl": "https://scontent-muc2-1.xx.fbcdn.net/v/t39.35426-6/628219186_1466494798355331_6005584860851268092_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=m8RC1TkTFO4Q7kNvwG7IlH_&_nc_oc=Adr7mjGDt_CmMe7xXIc6CBZuAWzHrn3tMr5Edbq6aRz6dvtyyKe8u3RwjMgsq4Iddyg&_nc_zt=14&_nc_ht=scontent-muc2-1.xx&_nc_gid=C6IwlYvsolgG1YPb1Xl1yA&_nc_ss=7f289&oh=00_Af_U_27az2uCBXyF8PJVRLvV4fN3nC6J2psyR-pzWK8J7Q&oe=6A424606",
-        "landingPageUrl": "https://www.angebot.enpal.de/solaranlage-kaufen",
-        "adArchiveId": "1353316406479891",
-        "sourceKeyword": "Solaranlage"
+        "adBody": "Entfliehen Sie der LKW-Hitze. Schlafen Sie kühl. Kein Leerlauf. ⚡❄️ Libiyi Mobile Klimaanlage – speziell für Sattelzüge. Leise Kühlung für die Schlafkabine. Kraftstoff sparen. Erholt bleiben. 🚛",
+        "creativeUrl": "https://scontent-fra3-1.xx.fbcdn.net/v/t39.35426-6/725302034_1256166363082353_8030234485313072254_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=H1NwE_Pc75IQ7kNvwEBNw56&_nc_oc=AdrfHUL-V1bXSNFdCl9dXj6nmcD1XwXm0UMDvSd4BxDHhnOvXwPdB52ArFJMuR3Mfu0&_nc_zt=14&_nc_ht=scontent-fra3-1.xx&_nc_gid=3QPnG9_ll3ZipySNSyIYaw&_nc_ss=7f289&oh=00_Af8dU-2jvpuG5c36QcyEgmpDpr7Gdu8YRTAsf8HYktqm8A&oe=6A42B0F8",
+        "landingPageUrl": "https://shoes.libiyi.com/me/new/Libiyi/portable-ac/view10706?sort_by=&utm_source=facebook&utm_medium=patrick&utm_campaign={{adset.name}}&utm_content={{campaign.name}}",
+        "adArchiveId": "1465667708693235",
+        "sourceKeyword": "Mobile Klimaanlage",
+        "adLibraryUrl": "https://www.facebook.com/ads/library/?id=1465667708693235",
+        "pageName": "Libiyi_AU",
+        "adDeliveryStart": null,
+        "adDeliveryStop": null,
+        "isActive": true,
+        "spendText": null,
+        "impressionsText": null,
+        "reachText": null
       },
       "scrape": {
-        "crawlRunId": "nU0N9PzoYrz46jmiS",
-        "pageTitle": "Mit Solarstrom einfach Geld sparen",
-        "markdownLength": 4605,
-        "loadedUrl": "https://www.angebot.enpal.de/solaranlage-kaufen"
+        "crawlRunId": "PhsuX0drEEGzUGdak",
+        "pageTitle": "Warum Deutsche ihre Klimaanlagen durch diese portable Alternative ersetzen, um Hunderte von Euros bei den Stromrechnungen im Sommer zu sparen?",
+        "markdownLength": 13385,
+        "loadedUrl": "https://shoes.libiyi.com/me/new/Libiyi/portable-ac/view10706?sort_by=&utm_source=facebook&utm_medium=patrick&utm_campaign={{adset.name}}&utm_content={{campaign.name}}",
+        "previewImageUrl": "https://d1y4tm6t3pzfj.cloudfront.net/other/images/1716623467_%E5%A4%B4%E5%83%8F27.jpg"
       },
       "analysis": {
-        "marketing_hook": "该竞争对手通过强调零首付、高补贴和抓住当前上网电价补贴的紧迫性，精准捕捉了房主对太阳能投资回报率的疑虑和对省钱的渴望。",
-        "form_questions": [
-          "In welchem Bundesland leben Sie?"
-        ],
-        "localized_translation": "现在投资太阳能对房主来说还划算吗？Enpal 的太阳能系统比许多房主想象的更快回本。用太阳能轻松省钱。市场领导者提供一站式太阳能套餐：固定价格，含安装。0 欧元首付，含安装。电价低至 16 欧分/千瓦时。每年最高可获得 2,000 欧元补贴。现在就抓住上网电价补贴。立即在 2 分钟内为您的房屋进行检查。"
-      }
-    },
-    {
-      "status": "success",
-      "error": null,
-      "ad": {
-        "adBody": "Viele reden über Qualität. Wir bauen sie. Und das direkt in Deutschland.\n\nSo entwickeln wir unsere Wärmepumpe WPL-A Plus mit dem klaren Anspruch: Effizienz, die bleibt.\n\nEcht \"Made in Germany\".\n\nJetzt mehr über unsere Wärmepumpen erfahren und bis zu 70 % Förderung sichern.\n\n#STIEBELELTRON #Wärmepumpe #Effizienz #Innovation #EchtMadeinGermany #Energie #MadeinGermany #StiebelEltron #Förderung #Heizungstausch #Heizung #Modernisierung",
-        "creativeUrl": "https://scontent-muc2-1.xx.fbcdn.net/v/t39.35426-6/708654197_998717605944116_3207052558015297568_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=2QKx5yOlBZgQ7kNvwH93Y8E&_nc_oc=AdrolXcn_WSWPbpDPDysBuKKh_HSXO7DLOH46YpmnAbFmCUlgacHd4uwub60oZfc_ZE&_nc_zt=14&_nc_ht=scontent-muc2-1.xx&_nc_gid=gX2Cdg-7YHyFTM09vi97aQ&_nc_ss=7f289&oh=00_Af8zs6Ov9um62BN0dGZ5eK2WyCv0EyLJAcVSqNwnpwBTNw&oe=6A422835",
-        "landingPageUrl": "https://www.stiebel-eltron.de/de/waermepumpen-ratgeber/waermepumpe-haus/made-by-stiebel-eltron.html",
-        "adArchiveId": "4552643978303820",
-        "sourceKeyword": "Wärmepumpe"
-      },
-      "scrape": {
-        "crawlRunId": "nU0N9PzoYrz46jmiS",
-        "pageTitle": "STIEBEL ELTRON Wärmepumpen - Made in Germany",
-        "markdownLength": 7762,
-        "loadedUrl": "https://www.stiebel-eltron.de/de/waermepumpen-ratgeber/waermepumpe-haus/made-by-stiebel-eltron.html"
-      },
-      "analysis": {
-        "marketing_hook": "该竞争对手利用德国制造的高品质和50年专业经验，结合高达70%的政府补贴，吸引消费者更换为高效节能的热泵，以实现长期节能并应对能源价格上涨。",
+        "marketing_hook": "【视觉情报】Libiyi_AU — 德国降温/空调品类投放（AI 分析待配额恢复后补充）",
         "form_questions": [],
-        "localized_translation": "许多人谈论品质，我们则直接在德国制造品质。我们以明确的目标开发WPL-A Plus热泵：持久的效率。真正的“德国制造”。立即了解我们的热泵，并获得高达70%的补贴。STIEBEL ELTRON热泵——德国制造。高效热泵：真正的“德国制造”。50年热泵技术。当创新与长期专业知识相遇，真正的未来便由此诞生。现在就抓住史上最佳热泵补贴！计划更换供暖系统？立即享受高达70%的政府补贴，免费且无义务获取报价！"
+        "localized_translation": "Entfliehen Sie der LKW-Hitze. Schlafen Sie kühl. Kein Leerlauf. ⚡❄️ Libiyi Mobile Klimaanlage – speziell für Sattelzüge. Leise Kühlung für die Schlafkabine. Kraftstoff sparen. Erholt bleiben. 🚛"
       }
     },
     {
       "status": "success",
       "error": null,
       "ad": {
-        "adBody": "Bereit für eine Photovoltaikanlage? \n\nDann sichere dir jetzt 11 PV-Module im Wert von 1.000 Euro gratis¹ – mit unserem großen WM-Special.\n\n¹11 PV-Module¹ (im Wert von ca. 1.000 Euro) gratis/ geschenkt\n\nDie Aktion gilt nur bei Beauftragung einer privaten Solaranlage von mind. 7 bis 30 kWp, einem 5 kWh Batteriespeicher und dem E.ON Home Energiemanager bei einer 100% E.ON Tochtergesellschaft (eon.de/solarpotenzial) im Aktionszeitraum vom 13.04. bis 19.07.2026.  Anbieter und Vertragspartner für die Nutzung und die Services des E.ON Home Energiemanagers (https://www.eon.de/de/pk/hems.html) ist die E.ON Energie Deutschland GmbH. Das Angebot gilt ausschließlich für Privatkunden mit Wohnsitz in Deutschland und ist, außer mit dem Treuerabatt, nicht mit anderen Aktionen oder Rabatten kombinierbar. Der Wert von 11 Gratismodulen in Höhe von ca. 1.000 € sowie der Treuerabatt werden auf der Schlussrechnung ausgewiesen. Eine Barauszahlung ist ausgeschlossen",
-        "creativeUrl": "https://scontent-muc2-1.xx.fbcdn.net/v/t39.35426-6/670517931_1444302250783324_6165392010012926779_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=3kAyw4rk2_cQ7kNvwFHeypN&_nc_oc=AdpxnGMA6oL8Z7jVqqoIoPDCCpXWf4dpOiRIlIp-JaEK_PbesAP3AcKeufZnV7ALgAg&_nc_zt=14&_nc_ht=scontent-muc2-1.xx&_nc_gid=C6IwlYvsolgG1YPb1Xl1yA&_nc_ss=7f289&oh=00_Af_rweVgKQIh7llI_8stYA-aqrKznuMDIB9i72lkX5bsLA&oe=6A422D14",
-        "landingPageUrl": "https://www.eon.de/de/pk/landingpage/solar/solar-aktion-nk.html?utm_source=facebook&utm_medium=paid&utm_campaign=SOC_PV_PK_PERF_EWK_25&utm_content=aktion&mc=0811112003",
-        "adArchiveId": "1601224121175080",
-        "sourceKeyword": "Solaranlage"
+        "adBody": "Kennen Sie das auch? Es ist 2 Uhr nachts, das Schlafzimmer ist stickig heiss und an Schlaf ist nicht zu denken. Am nächsten Tag sind Sie müde, gereizt und können sich bei der Arbeit nicht konzentrieren. Das mobile Klimagerät brummt laut vor sich hin und die Stromrechnung explodiert. Viele Hausbesitzer leiden jeden Sommer unter diesem Problem. \nDabei gibt es eine einfache Lösung: Eine professionelle Klimaanlage, die leise läuft und effizient kühlt. \n\nWir von CoolFix installieren sie fair kalkuliert und ohne Papierkram-Stress. \n\n->Lassen Sie sich jetzt kostenlos beraten und schlafen Sie diesen Sommer endlich wieder durch!",
+        "creativeUrl": "https://scontent-fra5-1.xx.fbcdn.net/v/t39.35426-6/683757540_2189636148522108_9160576237836444985_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=9ge_6ckp85QQ7kNvwFXC8n6&_nc_oc=AdoRLEiAajE_Le61USf4ZPiWTbgo-oUANg_kYqe77T-lo8gWcTbVWs92vikydDpDZG0&_nc_zt=14&_nc_ht=scontent-fra5-1.xx&_nc_gid=3QPnG9_ll3ZipySNSyIYaw&_nc_ss=7f289&oh=00_Af9cdFgnQ6WkHhkFZ8_Lovrap0XT69b-bJXqFkGAaUjVPQ&oe=6A42C339",
+        "landingPageUrl": "https://www.beratung-coolfix.com/",
+        "adArchiveId": "1597238041332843",
+        "sourceKeyword": "Mobile Klimaanlage",
+        "adLibraryUrl": "https://www.facebook.com/ads/library/?id=1597238041332843",
+        "pageName": "CoolFix Klimaanlagen",
+        "adDeliveryStart": null,
+        "adDeliveryStop": null,
+        "isActive": true,
+        "spendText": null,
+        "impressionsText": null,
+        "reachText": null
       },
       "scrape": {
-        "crawlRunId": "nU0N9PzoYrz46jmiS",
-        "pageTitle": "Solarrechner » Ertrag & Ersparnis berechnen ☀️ | E.ON",
-        "markdownLength": 2198,
-        "loadedUrl": "https://www.eon.de/de/pk/landingpage/solar/solar-aktion-nk.html?utm_source=facebook&utm_medium=paid&utm_campaign=SOC_PV_PK_PERF_EWK_25&utm_content=aktion&mc=0811112003"
+        "crawlRunId": "PhsuX0drEEGzUGdak",
+        "pageTitle": "Endlich kühle Nächte im Eigenheim",
+        "markdownLength": 486,
+        "loadedUrl": "https://www.beratung-coolfix.com/",
+        "previewImageUrl": null
       },
       "analysis": {
-        "marketing_hook": "竞争对手利用限时免费赠送太阳能组件的优惠，结合品牌信誉和计算器工具，吸引潜在客户计算并实现节能省钱的愿望。",
+        "marketing_hook": "【视觉情报】CoolFix Klimaanlagen — 德国降温/空调品类投放（AI 分析待配额恢复后补充）",
         "form_questions": [],
-        "localized_translation": "准备好安装光伏系统了吗？立即免费获得价值1000欧元的11块光伏组件¹——这是我们的世界杯特惠。太阳能计算器 » 计算收益与节省 ☀️ 仅限至2026年7月19日。"
+        "localized_translation": "Kennen Sie das auch? Es ist 2 Uhr nachts, das Schlafzimmer ist stickig heiss und an Schlaf ist nicht zu denken. Am nächsten Tag sind Sie müde, gereizt und können sich bei der Arbeit nicht konzentrieren. Das mobile Klimagerät brummt laut vor sich hin und die Stromrechnung explodie"
       }
     },
     {
       "status": "success",
       "error": null,
       "ad": {
-        "adBody": "+++ Solar wieder attraktiv +++\n\nNeue Fördermaßnahmen und steuerliche Vorteile machen Solaranlagen in 2026 wieder attraktiv.\n\nWas eine Solaranlage für Ihr Eigenheim kosten würde, welche Anbieter und Förderungen es in Ihrer Region gibt, all das erfahren Sie mit dem kostenlosen Online-Solarcheck.\n\nWas kostet eine Solaranlage für Ihr Eigenheim?",
-        "creativeUrl": "https://scontent-muc2-1.xx.fbcdn.net/v/t39.35426-6/614158475_2376328476150855_4296984198213730105_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=JVInB-2Az9gQ7kNvwEcaZ_P&_nc_oc=Adqp1eBS6wCp3h97K26W9OtL2zATQzs1dcGwjh265aheoKhSjm7mJmQRGKEFdzYku2g&_nc_zt=14&_nc_ht=scontent-muc2-1.xx&_nc_gid=C6IwlYvsolgG1YPb1Xl1yA&_nc_ss=7f289&oh=00_Af-J-K4ffiZ7iOqrTbyPxeSJRMa-UdIEDRCsOA_cyzmzcA&oe=6A423C31",
-        "landingPageUrl": "https://www.hausfrage.de/angebote/solaranlage",
-        "adArchiveId": "25182159284818261",
-        "sourceKeyword": "Solaranlage"
+        "adBody": "🚗 Startklar für Sommer und Urlaub?\n\nZwei Angebote, mit denen du sorgenfrei unterwegs \nbist – jedes für sich buchbar:\n\n🧳 Urlaubs-Check – 29,90 €\nBremsen, Reifen, Beleuchtung, Ölstand, Wischwasser \nund Batterie. Damit auf der langen Strecke nichts \nschiefgeht.\n\n❄️ Klima-Check – KOSTENLOS\nFunktions- und Sichtprüfung deiner Klimaanlage. \nFrische Luft, auch wenn's draußen heiß wird.\n\nOb beides oder nur eins – du entscheidest, wir prüfen.\n\nFalls bei der Klimaanlage Wartung, Reinigung oder \nneues Kältemittel nötig ist, beraten wir dich \nvorher transparent zu den Kosten – bevor wir loslegen.\n\n📍 AutoMobile Daxenbichler · Tuntenhausen-Ostermünchen\n📞 Termin sichern: 08067 1252\n🕗 Mo–Fr 07:30–18:00 · Sa 09:00–12:00",
+        "creativeUrl": "https://scontent-fra3-2.xx.fbcdn.net/v/t39.35426-6/712703837_983694977724350_2495897587274259848_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=CIE0tYj7nUsQ7kNvwF_lfmQ&_nc_oc=AdrHw-NcSJYgYQZmjj3ONqYS3WS9ulVPc0Yu5PDHVJEyxLA5F-yjFm8F6A9kJhoe8c8&_nc_zt=14&_nc_ht=scontent-fra3-2.xx&_nc_gid=3QPnG9_ll3ZipySNSyIYaw&_nc_ss=7f289&oh=00_Af9WuqvfMnwGVsHqIyqKEML7_op0OiPgh8_ymWe9PIp-XA&oe=6A42A9F1",
+        "landingPageUrl": "https://www.automobile-daxenbichler.de/wartung-und-service-nach-herstellervorschrift",
+        "adArchiveId": "1339426791683023",
+        "sourceKeyword": "Mobile Klimaanlage",
+        "adLibraryUrl": "https://www.facebook.com/ads/library/?id=1339426791683023",
+        "pageName": "AutoMobile Daxenbichler",
+        "adDeliveryStart": null,
+        "adDeliveryStop": null,
+        "isActive": true,
+        "spendText": null,
+        "impressionsText": null,
+        "reachText": null
       },
       "scrape": {
-        "crawlRunId": "aHNyfQbbuZrWZAzFc",
-        "pageTitle": "Solaranlage | Hausfrage",
-        "markdownLength": 4210,
-        "loadedUrl": "https://www.hausfrage.de/angebote/solaranlage/"
+        "crawlRunId": "XFeVEMUJW0Tt2K68g",
+        "pageTitle": "AutoMobile Daxenbichler GmbH Tuntenhausen-Ostermünchen. Wartung und Service nach Herstellervorschrift – Wartung und Service nach Herstellervorschrift",
+        "markdownLength": 1947,
+        "loadedUrl": "https://www.automobile-daxenbichler.de/wartung-und-service-nach-herstellervorschrift",
+        "previewImageUrl": "https://onecdn.io/media/b50eb416-cbed-4a25-ae5b-9cc425c3541c/preview"
       },
       "analysis": {
-        "marketing_hook": "该广告利用德国2026年新的太阳能补贴和税收优惠政策，吸引潜在客户通过免费在线检查了解其房屋的太阳能系统成本、供应商和地区性补贴，从而轻松比较价格。",
-        "form_questions": [
-          "Wo möchten Sie die Solaranlage installieren?",
-          "Wie möchten Sie den Solarstrom nutzen?",
-          "Haben Sie eine südlich ausgerichtete Dachfläche?",
-          "Wie groß ist die Fläche bzw. geplante Anlage?",
-          "Möchten Sie grundsätzlich lieber kaufen oder mieten?",
-          "Sind Sie auch an einem Stromspeicher interessiert?",
-          "Wie alt ist Ihr Dach?",
-          "Womit ist Ihr Dach gedeckt?",
-          "Wie hoch ist Ihr jährlicher Energieverbrauch in kWh?",
-          "Wo soll die Solaranlage installiert werden?",
-          "Wie lautet die E-Mail Adresse für die Angebote?",
-          "Wer soll die Angebote erhalten?",
-          "Zur Bestätigung Ihrer Anfrage bitte Ihre Rufnummer eingeben:"
-        ],
-        "localized_translation": "新的补贴和税收优惠使太阳能系统在2026年再次具有吸引力。通过免费在线太阳能检查，了解您的房屋安装太阳能系统的成本、您所在地区的供应商和补贴，并比较太阳能系统的价格。"
-      }
-    },
-    {
-      "status": "success",
-      "error": null,
-      "ad": {
-        "adBody": "📣Hausbesitzer in Baden-Württemberg aufgepasst!\nEine Solaranlage ist günstiger, als die meisten Hausbesitzer denken. Im Jahr 2025 existieren diverse staatliche Förderprogramme, die den Wechsel zu Solarenergie attraktiver gestalten. Wie viel Solar-Förderung steht Ihnen zu? Es empfiehlt sich ein kostenloses Angebot vom Marktführer und Testsieger (enpal.de/auszeichnungen).\n\nDas Enpal-Prinzip:\n✔ 0 € Anzahlung inkl. Montage\n✔ Deutschlands günstigster Stromtarif ab 16ct/kWh on top\n✔ Bis zu 2.000€ Enpal Vergütung pro Jahr dank Direktvermarktung\n✔ Festpreisangebot: Kaufen, finanzieren oder mieten\n\nWie viel sparen Sie mit einer Solaranlage? Jetzt in 2 Minuten den kostenlosen Check für Ihr Haus machen.",
-        "creativeUrl": "https://scontent-muc2-1.xx.fbcdn.net/v/t39.35426-6/547483658_1318748463156499_2121936857403324215_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=6695FzLgr90Q7kNvwELUIjo&_nc_oc=AdoOXB16bPj1vS2hzZidDLSkHag2fift_2Zres6Eb7RuvYRfdgc7CEFjo2lole8B1y4&_nc_zt=14&_nc_ht=scontent-muc2-1.xx&_nc_gid=C6IwlYvsolgG1YPb1Xl1yA&_nc_ss=7f289&oh=00_Af_yAGiH8WrOcxf3SgAzvNdB1OdQByeLsoKPRvxUGwNmZg&oe=6A422D76",
-        "landingPageUrl": "https://www.angebot.enpal.de/pv-sea-solaranlage-kaufen-baden-wuerttemberg",
-        "adArchiveId": "1477873436789240",
-        "sourceKeyword": "Solaranlage"
-      },
-      "scrape": {
-        "crawlRunId": "s3HelnJMWlpQd2k5M",
-        "pageTitle": "Enpal - Mit Solarstrom einfach Geld sparen",
-        "markdownLength": 4270,
-        "loadedUrl": "https://www.angebot.enpal.de/pv-sea-solaranlage-kaufen-baden-wuerttemberg"
-      },
-      "analysis": {
-        "marketing_hook": "该广告通过强调政府补贴、零首付、低电价以及作为市场领导者的可靠性，吸引巴登-符腾堡州的房主，利用他们对高昂能源成本的担忧和对轻松省钱的渴望，促使他们进行免费的太阳能系统检查。",
-        "form_questions": [
-          "In welchem Haustyp wohnen Sie?"
-        ],
-        "localized_translation": "巴登-符腾堡州的房主请注意！太阳能系统比大多数房主想象的要便宜。2025年有各种政府补贴计划，使转向太阳能更具吸引力。您能获得多少太阳能补贴？建议从市场领导者和测试冠军Enpal获取免费报价。Enpal原则：0欧元首付含安装，德国最便宜的电价低至16欧分/千瓦时，通过直接销售每年可获得高达2,000欧元的Enpal补偿，固定价格方案：购买、融资或租赁。您能通过太阳能系统节省多少钱？立即在2分钟内为您的房屋进行免费检查。通过太阳能发电轻松省钱。巴登-符腾堡州的太阳能系统：全包价含安装，无增值税，无需首付。"
-      }
-    },
-    {
-      "status": "success",
-      "error": null,
-      "ad": {
-        "adBody": "Osnabrück fördert Ihre Solaranlage – wir machen’s einfach! \n\n🔹 Ab 8 kWp Photovoltaik gibt es 400 € Zuschuss pro zusätzlichem kWp – bis 20.000 € Förderung möglich.\n\n🔹 Kein Papierkram: Wir stellen den Förderantrag direkt für Sie – mit Ihrer Vollmacht, unkompliziert und stressfrei.\n\n🔹 Als langjähriger Ingenieursfachbetrieb begleiten wir Sie zuverlässig von der Planung bis zur Inbetriebnahme.\n\n🔹 Über unser Online-Tool können Sie sich unkompliziert und unverbindlich für die Förderung in Osnabrück anmelden – einfach Kontaktdaten und Ihre verfügbare Dachfläche eingeben (auch Norddächer können berücksichtigt werden), und wir prüfen alles für Sie.\n\nJetzt informieren – die Fördermittel sind begrenzt! 😎",
-        "creativeUrl": "https://scontent-muc2-1.xx.fbcdn.net/v/t39.35426-6/545408472_1148688560501167_2911481592815165178_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=zteiG_x7Rn0Q7kNvwFucRPt&_nc_oc=AdrMJzZaaascOrrTkohnl717N2Rw-JD8d1Az1U9yxzF_ylSnd-xNKIWnSmblEHX2-S0&_nc_zt=14&_nc_ht=scontent-muc2-1.xx&_nc_gid=C6IwlYvsolgG1YPb1Xl1yA&_nc_ss=7f289&oh=00_Af_EmanZzUb_cyTuvT8AsEqz-7lhsjc-lowI-RfxRzx-jA&oe=6A421999",
-        "landingPageUrl": "http://www.primepv.de/",
-        "adArchiveId": "1789141055049937",
-        "sourceKeyword": "Solaranlage"
-      },
-      "scrape": {
-        "crawlRunId": "s3HelnJMWlpQd2k5M",
-        "pageTitle": "Primepv - Solaranlagen - Seit über 10 Jahren am Markt Solaranlagen / Photovoltaik aus Hagen a. TW.",
-        "markdownLength": 4576,
-        "loadedUrl": "https://primepv.de/"
-      },
-      "analysis": {
-        "marketing_hook": "该广告利用了客户对德国奥斯纳布吕克地区高额太阳能补贴的渴望，并承诺提供一站式、无纸化的申请服务，同时强调资金有限，制造紧迫感。",
+        "marketing_hook": "【视觉情报】AutoMobile Daxenbichler — 德国降温/空调品类投放（AI 分析待配额恢复后补充）",
         "form_questions": [],
-        "localized_translation": "奥斯纳布吕克市补贴您的太阳能系统——我们让一切变得简单！8千瓦峰值以上的光伏系统，每增加1千瓦峰值可获得400欧元补贴——最高可达20,000欧元。无需文书工作：我们直接为您提交补贴申请——通过您的授权，简单无忧。摆脱不断上涨的能源价格！立即了解——补贴资金有限！"
+        "localized_translation": "🚗 Startklar für Sommer und Urlaub?"
       }
     },
     {
       "status": "success",
       "error": null,
       "ad": {
-        "adBody": "🏋️‍♂️ Hantel auf den Fuß gefallen? Wir sichern dich ab, damit du dich wieder voll aufs Training konzentrieren kannst.\n\n💪  Erfahre jetzt, warum der richtige Versicherungsschutz auch beim Sport unbezahlbar ist, so wie zum Beispiel unsere Krankenhauszusatzversicherung. \n\n 👉 Du willst mehr zu unseren Gesundheitsleistungen erfahren? Link in Bio.\n\n#SicherTrainieren #Versicherungsschutz #Fitnessmotivation #SIGNALIDUNA #Versicherungstipps #FüreinanderDa #Fitness #HomeGym",
-        "creativeUrl": "https://scontent-dus1-1.xx.fbcdn.net/v/t39.35426-6/659079500_1283515713661064_924054385598747182_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=DOBfpffAZacQ7kNvwHhJDS6&_nc_oc=AdqBPK_kXlP-xfkRbIupHgFMqHYyUDarZnpf0VZB_H5m489mIwv1uSA5EkqmTt84FrY&_nc_zt=14&_nc_ht=scontent-dus1-1.xx&_nc_gid=qn1hCZUeyaqNXKKmTWhVjw&_nc_ss=7f289&oh=00_Af8UCM3frA1pH4DnMytDG2eUYSfVv7CmM05Qlsvs7Tic4g&oe=6A422D58",
-        "landingPageUrl": "https://signal-iduna.de/produkte/krankenhauszusatzversicherung/",
-        "adArchiveId": "2170558370354274",
-        "sourceKeyword": "Hausratversicherung"
+        "adBody": "Meine Hündin ist letzten Juni fast in meiner eigenen Wohnung gestorben. Der Ventilator lief, die Rollläden waren unten. Und das Schlimmste ist: Ich habe drei Monate lang zugesehen, wie es passiert ist, und dachte, ich könnte nichts tun.\n\nSie heißt Luna. Sie ist eine Australian-Shepherd-Mix-Hündin, fünf Jahre alt, ein braunes Auge, ein blaues. Die Art Hund, bei der im Park alle stehen bleiben und nach dem Namen fragen.\n\nUnd ich muss dir erzählen, was fast passiert wäre. Weil das, was Luna fast umgebracht hätte, gerade jetzt wahrscheinlich auch bei deinem Hund passiert. Und du denkst vielleicht, wie ich, dass du nichts dagegen tun kannst.\n\nDu kannst.\n\nVorgeschichte, die du kennen musst: Luna ist nicht mein erster Hund. Vor zwei Jahren habe ich Emma verloren. Golden Retriever, fünf Jahre alt. Hitzschlag, an einem Tag, an dem es nicht mal richtig heiß war. Ich dachte damals, ich hätte etwas übersehen.\n\nAls Luna kam, habe ich mir geschworen, alles richtig zu machen.\n\nUnd dann bin ich umgezogen.\n\nLetztes Jahr im Frühjahr habe ich eine neue Wohnung bezogen. Dachgeschoss, schön hell, große Fenster nach Süden. Ich habe mich verliebt, als ich sie das erste Mal gesehen habe. Im April.\n\nDie Maklerin hat gesagt: „Im Sommer wird's hier oben schön warm, aber mit Rollläden und einem guten Ventilator kein Problem.\"\n\nIch hatte keine Ahnung, worauf ich mich da eingelassen habe.\n\nDer erste Sommer ist zum Gefängnis geworden.\n\nMorgens um halb sechs raus mit Luna, bevor der Asphalt zu heiß für ihre Pfoten wurde. Um Viertel vor sieben zurück. Und dann den Rest des Tages — sechzehn Stunden — gefangen in einer Wohnung, die sich unter dem Dach aufgeheizt hat wie ein Backofen.\n\nRollläden den ganzen Tag unten. Zwei Ventilatoren. Ich habe nasse Tücher aufgehängt. Trotzdem hatte es nachmittags 29, 30 Grad in der Wohnung, egal was ich gemacht habe. Dachgeschoss im Hochsommer. Die Hitze kam von oben, von den Wänden, vom Boden.\n\nIch habe mir gesagt, es ist okay. Luna ist drinnen. Der Ventilator läuft. Was hätte ich sonst tun sollen.\n\nAber jeden Nachmittag, so gegen zwei, habe ich Luna auf den Badezimmerfliesen gefunden.\n\nSie hat im Wohnzimmer auf dem Teppich angefangen. Dann ist sie in die Küche gewandert, auf die Fliesen. Zwanzig Minuten später in den Flur. Dann ins Bad. Dann zurück in die Küche.\n\nSie hat sich im Kreis gedreht, sich hingelegt, leise gehechelt, fünfzehn Minuten gelegen, ist wieder aufgestanden und hat das Ganze von vorne gemacht.\n\nNicht panisch. Nicht so, als wäre etwas falsch. Einfach… nie angekommen.\n\nUnd sie hat gehechelt. Jeden einzelnen Nachmittag. Nicht das dramatische, Zunge-raushängende Hecheln. Einfach schwerer geatmet, als es Sinn ergab für eine Hündin, die nur rumliegt.\n\nIch habe es einer Nachbarin erzählt. Sie hat einen Husky. Sie hat gelacht.\n\n„Im Dachgeschoss im Sommer? Da hecheln alle Hunde. Roll die Rollläden runter und stell den Ventilator an, dann passt das schon.\"\n\nAlso habe ich das gemacht.\n\nIch habe Luna einen zweiten Wassernapf hingestellt. Eis ins Wasser gegeben. Hundeeis gemacht. Nachts um Mitternacht „Australian Shepherd Hitze\" gegoogelt und Artikel gefunden, die sagten, sie kämen gut klar, solange sie tagsüber drinnen bleiben.\n\nAlso blieben wir drinnen.\n\nIch habe sogar überlegt, wieder auszuziehen. Aber ich hatte gerade erst den Mietvertrag unterschrieben, die Kaution war weg, ein erneuter Umzug nicht drin.\n\nWir saßen fest.\n\nUnd ich hatte das Gefühl, ich hätte Luna an einen Ort gesperrt, der sie langsam umbringt.\n\nDer Tag, an dem es fast passiert ist, war ein Mittwoch Ende Juni. 34 Grad draußen.\n\nIch hatte einen Arzttermin. Anderthalb Stunden, vielleicht zwei. Ich habe die Rollläden runtergelassen, beide Ventilatoren angestellt, beide Wassernäpfe gefüllt. Luna einen Kuss auf den Kopf gegeben. Ihr gesagt, ich bin gleich zurück.\n\nUm Viertel nach drei war ich wieder da.\n\nDie Wohnung war still auf eine Art, die sich falsch angefühlt hat.\n\nLuna kommt mir immer an der Tür entgegen. Immer.\n\nIch habe ihren Namen gerufen.\n\nNichts.\n\nIch habe sie auf den Küchenfliesen gefunden. Auf der Seite. Schnell und flach atmend. Augen halb geschlossen. Ihr Zahnfleisch war blass und klebrig.\n\nIch weiß nicht mehr, wie ich sie ins Auto bekommen habe. Ich weiß noch ihr Gewicht. Ich weiß noch, dass ich auf der ganzen Fahrt mit ihr geredet habe. Ich weiß noch, dass ich jede rote Ampel überfahren habe.\n\nIn der Notfallpraxis haben sie sie sofort nach hinten gebracht.\n\nDiesmal kam die Tierärztin nach einer Stunde zurück — nicht mit den Worten, die ich nach Emma gehört hatte.\n\n„Wir haben sie stabilisiert. Es war ein Hitzschlag, und es war knapp. Eine halbe Stunde später, und wir hätten sie nicht mehr zurückgeholt. Aber sie wird durchkommen.\"\n\nIch habe geweint, wie ich seit Emmas Tod nicht mehr geweint hatte. Diesmal aus Erleichterung.\n\nAber ich konnte nicht loslassen von dem, was als Nächstes kam.\n\n„Ich habe alles gemacht\", habe ich gesagt. „Die Rollläden waren unten. Zwei Ventilatoren liefen. Sie hatte frisches Wasser. Sie war nur zwei Stunden allein.\"\n\nDie Tierärztin hat genickt.\n\n„Ihre Ventilatoren haben einwandfrei funktioniert. Aber da ist Luna nicht überhitzt.\"\n\nSie hat sich Zeit genommen, es zu erklären. Und ich werde es nie vergessen.\n\n„Ein Hund hat eine Körpertemperatur von rund 38,5 Grad. Jede Fläche, auf der er liegt — der Teppich, die Fliese, sein Bett — nimmt diese Wärme auf. Innerhalb von Minuten erwärmt sich die Fläche unter ihm. Und sobald sie genug Körperwärme aufgenommen hat, hört sie auf zu kühlen. Sie hält die Wärme einfach fest, gegen seinen Bauch und seine Brust gedrückt.\"\n\nDann hat sie gesagt:\n\n„Und in einer Wohnung, die sich so aufheizt wie ein Dachgeschoss im Hochsommer, passiert das schneller und schlimmer. Die Raumtemperatur ist so hoch, dass die Flächen die Wärme gar nicht mehr loswerden. Sie laden sich auf und bleiben warm. Ihre Ventilatoren bewegen die Luft über Luna. Aber sie können den Boden unter ihr nicht kühlen. Und genau da liegt das Problem.\"\n\n„Warum sagt einem das niemand?\", habe ich gefragt.\n\n„Weil es normal aussieht. Ein Hund, der auf die Fliesen wechselt, der in einer Wohnung mit Ventilator hechelt — das sieht aus wie ein Hund, der einfach ein Hund ist. Bis es zu spät ist.\"\n\nDann hat sie etwas gesagt, das mich zerstört hat:\n\n„Denken Sie daran, wie Sie nachts Ihr Kissen wenden, auf die kühle Seite. Sie machen das, weil Ihre Körperwärme es aufgewärmt hat. Genau das hat Luna jeden Nachmittag getan. Sie hat ihr Kissen gewendet. Nur kann man einen Fußboden nicht wenden. Irgendwann gibt es keine kühle Stelle mehr.\"\n\nUnd plötzlich hat jede einzelne Sache, die ich drei Monate lang beobachtet hatte, Sinn ergeben.\n\nDas Wandern von Platz zu Platz. Die Badezimmerfliesen. Das Hecheln in einer Wohnung mit zwei Ventilatoren.\n\nLuna war nicht ruhelos. Sie hat versucht zu überleben.\n\nUnd ich wusste es nicht.\n\n„Hätte es etwas geändert, wenn ich noch einen dritten Ventilator gehabt hätte?\", habe ich gefragt. „Oder eine mobile Klimaanlage?\"\n\n„Nein\", hat sie sanft gesagt. „Kühlere Luft löst das Flächen-Problem nicht. Sie könnten die Wohnung auf 20 Grad runterkühlen, und der Boden würde sich trotzdem unter ihrem Körper aufheizen.\"\n\nIch habe eine Woche kaum geschlafen.\n\nIch bin jeder Hundegruppe beigetreten, die ich finden konnte. Habe alles über Hitze in Wohnungen gelesen. Habe verstanden, warum alles, was ich getan hatte — alles, was jeder Halter in einer heißen Wohnung tut — das eigentliche Problem nicht löst.\n\nDer Ventilator? Bewegt die Luft einen halben Meter über dem Hund. Macht nichts für die Fläche, auf der er liegt. Luna hat ihre Körperwärme direkt in den Boden abgegeben. Da kommt kein Ventilator hin.\n\nGel-Kühlmatten? Nehmen Wärme für zwanzig, dreißig Minuten auf, dann sind sie gesättigt. Danach eine warme Matte mit Gel drin.\n\nNasse Handtücher? Nach zehn Minuten körperwarm. Dann schließen sie Feuchtigkeit und Wärme am Hund ein wie eine Isolierdecke. Schlimmer als der nackte Boden.\n\nJede Lösung kühlt entweder die Luft oder nimmt Wärme auf, bis sie nicht mehr kann.\n\nKeine macht das eine, worauf es ankommt: die Wärme kontinuierlich vom Körper wegleiten, ohne je aufzuhören.\n\nDie Worte der Tierärztin haben sich in meinem Kopf wiederholt: „Sie brauchen eine Fläche, die die Wärme durchgehend ableitet. Eine, die nie an den Punkt kommt, an dem sie aufhört zu funktionieren.\"\n\nZwei Wochen später hat meine Schwester aus Stuttgart angerufen. Sie wohnt auch oben unterm Dach. Ihr Golden, Max, hat genau dasselbe gemacht. Jeden Nachmittag gehechelt. Vom Teppich auf die Fliesen, in den Flur und zurück. Sie war in Panik.\n\nIch habe ihr alles erzählt, was die Tierärztin mir gesagt hatte.\n\n„Also hilft der Ventilator nicht?\"\n\n„Er hilft der Luft. Nicht dem, worauf Max liegt.\"\n\nSie hat gefragt, was sie tun soll.\n\nIch hatte noch keine Antwort.\n\nIch habe weiter recherchiert. Über Wärmeleitfähigkeit gelesen. Mit Leuten geredet, die in heißen Dachwohnungen mit Hund leben.\n\nDann habe ich in einer Gruppe einen Beitrag von einer Frau gefunden. Sie hat nichts verkauft. Sie hat nur geteilt, was bei ihr funktioniert hat.\n\nSie hat genau dasselbe Muster beschrieben. Das Fliesen-Suchen. Das Nachmittagshecheln. Das ständige Wandern.\n\nDann: „Seit die Matte da liegt, geht er nicht mehr runter. Das Hecheln hat komplett aufgehört. Ich dachte, ich bilde mir das ein, aber es ist echt.\"\n\nJemand hat gefragt, welche Marke.\n\nFellStern.\n\nKein Gel. Kein Wasser. Nichts zum Einfrieren. Ein Funktionstextil aus drei Schichten, das die Körperwärme des Hundes durchgehend ableitet — statt sie aufzunehmen und sich aufzuwärmen wie jede andere Fläche.\n\nDas Material leitet Wärme weg, ohne je aufzuhören. Kein Sättigungspunkt. Es wird einfach nicht warm, egal wie lange der Hund drauf liegt und egal wie heiß die Wohnung ist.\n\nWenn das Problem Flächen sind, die Wärme festhalten, ist die Lösung eine Fläche, die sie nie aufhört abzuleiten.\n\nIch habe in derselben Nacht eine bestellt. Und eine an meine Schwester nach Stuttgart geschickt.\n\nAls meine ankam, habe ich sie dahin gelegt, wo Luna im Wohnzimmer immer gelegen hatte.\n\nIch habe mich danebengesetzt.\n\nDer erste richtig heiße Tag danach. Ich habe Luna beobachtet wie nichts vorher in meinem Leben.\n\nStunde 1: Sie hat geschnuppert. Sich einmal im Kreis gedreht. Hingelegt. Ich habe auf dem Sofa gesessen und auf das Hecheln gewartet. Nichts. Innerhalb von Minuten eingeschlafen, langsam und gleichmäßig atmend. Ich habe die Hand neben sie auf die Matte gelegt — nach einer vollen Stunde mit einer Hündin drauf immer noch kühl. Nicht eiskalt. Aber spürbar kühl.\n\nStunde 2: Sie hatte sich nicht bewegt. Auf dem Teppich hätte sie bis jetzt schon zweimal den Platz gewechselt. Luna lag am selben Fleck. Kein Hecheln.\n\nStunde 4: Immer noch da. Ich habe die Matte direkt neben ihrem Bauch angefasst. Kühl. Den Teppich daneben? Warm von der aufgeheizten Wohnung. Die Matte nicht.\n\nEnde des Tages: Mir ist aufgefallen, dass ich seit dem Morgen den Atem angehalten hatte. Das Nachmittagshecheln, das seit drei Monaten jeden Tag um zwei angefangen hatte? Es kam nicht. Das ruhelose Wandern? Luna hat es nicht gemacht. Sie hat sich ihren Platz gesucht und ist geblieben.\n\nMeine Schwester hat mir vier Tage später geschrieben.\n\n„Max ist den ganzen Tag nicht von der Matte runter. Kein Hecheln. Ich hab nach drei Stunden die Hand draufgelegt — immer noch kühl. Die Fliese daneben war warm.\"\n\nEine Woche später: „Das Nachmittagshecheln ist komplett weg. Er kommt jetzt zur Ruhe. Mir war gar nicht klar, wie sehr ich jeden Nachmittag gefürchtet habe, bis er aufgehört hat.\"\n\nZwei Wochen später: „Ich fühl mich nicht mehr gefangen. Ich weiß, das klingt dramatisch, aber ich hab jeden Tag zugesehen, wie er leidet, und konnte nichts tun. Jetzt schon.\"\n\nIch kenne dieses Gefühl genau.\n\nHier ist, was ich verstanden habe, und es hat zu spät für Emma und fast zu spät für Luna gedauert:\n\nIn einer Wohnung, die sich im Sommer aufheizt — Dachgeschoss, Südseite, schlecht gedämmt — reicht der Ventilator nicht. Reichen die Rollläden nicht. Reicht selbst eine Klimaanlage nicht, wenn du eine hättest.\n\nWeil keines davon die Fläche kühlt, auf der dein Hund acht, zehn, sechzehn Stunden am Tag liegt.\n\nDie Luft war nie das Problem. Die Fläche war immer das Problem.\n\nWenn du in einer Wohnung lebst, die im Sommer heiß wird…\n\nWenn dein Hund die Fliesen sucht, obwohl der Ventilator läuft…\n\nWenn er nachmittags hechelt, obwohl er nur liegt…\n\nWenn du das Gefühl hast, du hast alles getan, was du tun kannst, und es reicht trotzdem nicht…\n\nDann ist das nicht normal. Und du bist nicht machtlos.\n\nEs ist dein Hund, der dir sagt, dass die Fläche unter ihm seine Wärme nicht mehr ableitet. Und dieser Stress summiert sich. Jeden Nachmittag. Jeden Tag. Jeden Sommer.\n\nIch dachte, ich könnte nichts tun. Ich lag falsch.\n\nIch konnte Emma nicht mehr retten. Luna fast nicht. Aber jetzt liegt sie jeden Nachmittag auf ihrer Matte, in derselben heißen Dachwohnung, und sie hechelt nicht mehr, sie wandert nicht mehr, sie sucht keine Fliesen mehr.\n\nDie Matte gibt es direkt beim Hersteller, mit 90 Tagen Geld-zurück-Garantie. Wenn dein Hund sie nicht annimmt, schickst du sie zurück und hast nichts verloren.\n\nUnd warte nicht: Diese Matten sind jeden Sommer ausverkauft, sobald die erste Hitzewelle kommt. Letzten August stand drei Wochen Lieferzeit auf der Website. Meine Schwester wollte im August eine zweite und musste sechs Wochen warten. Im Moment liefern sie in drei Werktagen. Der beste Zeitpunkt ist, bevor du sie brauchst.\n\n→ Hier geht's zur FellStern Kühlmatte: https://artikel.fellstern.com/pb-1\n\nLuna liegt gerade drauf, während ich das tippe. In genau der Wohnung, von der ich dachte, sie würde sie umbringen. Kopf zwischen den Pfoten. Schnarcht. Hechelt nicht. Bewegt sich nicht. Einfach ruhig.\n\nIch kann sie atmen hören.\n\nUnd zum ersten Mal seit diesem Mittwoch im Juni habe ich keine Angst mehr davor, was mich erwartet, wenn ich nach Hause komme.\n\nP.S. Ich habe nach Emmas Tod gedacht, ich hätte einen Fehler gemacht, den ich nie wieder machen würde. Dann bin ich in eine Wohnung gezogen, die Luna fast genauso umgebracht hätte — und ich habe drei Monate lang zugesehen und mich machtlos gefühlt. Das Schlimmste an dieser Geschichte ist nicht, dass ich es nicht wusste. Es ist, dass ich dachte, es gäbe nichts, was ich tun kann. Es gab etwas. Es lag nur an der Fläche, nicht an der Luft.\n\n→ https://artikel.fellstern.com/pb-1",
+        "creativeUrl": "https://scontent-fra3-1.xx.fbcdn.net/v/t39.35426-6/725153591_1827046398259460_6392316447795907309_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=Mswq7wvG_LEQ7kNvwGQGH5Y&_nc_oc=AdoCeOmHSQt4ZfmEZ77aePaebLYPJaL3k21d6m3YYq_MclphCG3jfn-XWfM16K_kI5I&_nc_zt=14&_nc_ht=scontent-fra3-1.xx&_nc_gid=3QPnG9_ll3ZipySNSyIYaw&_nc_ss=7f289&oh=00_Af88Bflm0bxvBYxTpZGUFBsl0t4j-R0CayTvwda7GxURRQ&oe=6A42C7D7",
+        "landingPageUrl": "https://artikel.fellstern.com/pb-1",
+        "adArchiveId": "1353116226715740",
+        "sourceKeyword": "Mobile Klimaanlage",
+        "adLibraryUrl": "https://www.facebook.com/ads/library/?id=1353116226715740",
+        "pageName": "Sabines Hunde-Tagebuch",
+        "adDeliveryStart": null,
+        "adDeliveryStop": null,
+        "isActive": true,
+        "spendText": null,
+        "impressionsText": null,
+        "reachText": null
       },
       "scrape": {
-        "crawlRunId": "s3HelnJMWlpQd2k5M",
-        "pageTitle": "Krankenhauszusatzversicherung für beste Behandlung: Jetzt absichern",
-        "markdownLength": 16705,
-        "loadedUrl": "https://signal-iduna.de/produkte/krankenhauszusatzversicherung/"
+        "crawlRunId": "XFeVEMUJW0Tt2K68g",
+        "pageTitle": "Fellstern Kühlmatte: 3 Sommer Garantie, ohne Gel",
+        "markdownLength": 12747,
+        "loadedUrl": "https://artikel.fellstern.com/pb-1",
+        "previewImageUrl": "https://4ry0pubjmsokqgsz.public.blob.vercel-storage.com/pages/4e4db32a-b4a2-4cc0-b1b1-aad2cff66bfb/el-36-1778890239139.png"
       },
       "analysis": {
-        "marketing_hook": "该竞争对手利用德国法定医疗保险参保人对住院期间舒适度、顶级医疗和个性化服务的渴望，通过住院补充保险，承诺将普通住院体验升级为私人保险般的优质待遇，以消除对突发疾病或事故的担忧。",
+        "marketing_hook": "【视觉情报】Sabines Hunde-Tagebuch — 德国降温/空调品类投放（AI 分析待配额恢复后补充）",
         "form_questions": [],
-        "localized_translation": "立即了解为何正确的保险保障，即使在运动时也弥足珍贵，例如我们的住院补充保险。\n想象一下，您因一次不幸的事故住进了医院。但等待您的不是拥挤的多人病房，而是单人或双人病房的舒适。您的主治医生？亲自出诊的主任医师。您的治疗？最高水平，为您量身定制——如同私人医疗保险患者一般。通过我们的住院补充保险，您可以将您的法定医疗保险升级为无需等待期的优质保障。体验在关键时刻获得最佳保障的安心感：因为您的健康最重要。"
+        "localized_translation": "Meine Hündin ist letzten Juni fast in meiner eigenen Wohnung gestorben. Der Ventilator lief, die Rollläden waren unten. Und das Schlimmste ist: Ich habe drei Monate lang zugesehen, wie es passiert ist, und dachte, ich könnte nichts tun."
       }
     },
     {
       "status": "success",
       "error": null,
       "ad": {
-        "adBody": "Große Regenmengen können einen hohen finanziellen Schaden anrichten. Eine verlässliche Wohngebäudeversicherung minimiert das Risiko.",
-        "creativeUrl": "https://scontent-dus1-1.xx.fbcdn.net/v/t39.35426-6/661929820_1441579150999549_940269560662962146_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=NSWsaIuuoJIQ7kNvwFRC4xW&_nc_oc=Adq8mZS-IyyePKJjIXsFF0DuYu-1YvuUjvnNEmUc8U3wXVv7Mk3I6R8fREN9mMozU2Y&_nc_zt=14&_nc_ht=scontent-dus1-1.xx&_nc_gid=afzVoIuMcgXSXDWlVUBY6w&_nc_ss=7f289&oh=00_Af8L74C_Pqq0aDNU1iT4Tq2vQJ3V3ahthj9qMMCc4C6zRg&oe=6A42330F",
-        "landingPageUrl": "https://www.vkb.de/lp/hagelregen.html?tid=13112&campid=1203&siteid=142&meid=18&vkclkid={{ad.id}}",
-        "adArchiveId": "1311130717627284",
-        "sourceKeyword": "Wohngebäudeversicherung"
+        "adBody": "🌬️ Kühle Brise aus der Steckdose – der mobile USB-Verdunstungskühler für Schreibtisch & Nachttisch! 💧\n\nDer kompakte 2‑in‑1‑Ventilator mit 300 ml Wassertank (Kaltwasserverdunstung) senkt die Umgebungstemperatur spürbar – ideal für heiße Tage im Büro, Schlafzimmer, Wohnmobil oder auf Reisen. 3 Geschwindigkeiten, Timer & flüsterleiser Betrieb. ⚡✨\n\n🌟 Ihr smarter Luftbefeuchter & Kühler:\n✅ Verdunstungskühlung durch Bienenwabenfilter – senkt die Temperatur um bis zu 5 °C (Wassertank optional)\n✅ 3 Geschwindigkeitsstufen & Timer (2/4/8 Stunden) – individuell einstellbar\n✅ Flüsterleiser Betrieb (45 dB) – ideal für Büro & Schlafbereich\n✅ USB‑betrieben – per Powerbank, Laptop oder Netzteil nutzbar\n✅ Kompaktes, leichtes Design mit praktischem Tragegriff – für zu Hause & unterwegs\n\nVom stickigen Homeoffice bis zum heißen Campingzelt – angenehme Kühle, immer dabei! 🏕️🌟\n\n👉 Wasser einfüllen, einschalten, genießen.\nhttps://firewalky.com/products/usb-desktop-air-cooler-fan\n\n#Verdunstungskühler #USBVentilator #Mobil #Schlafzimmer #Reise #Deutschland #KühleBrise",
+        "creativeUrl": "https://scontent-fra3-1.xx.fbcdn.net/v/t39.35426-6/708488771_1656912122240112_3199195253561064468_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=MUkTkgUAdCYQ7kNvwG6FZgj&_nc_oc=Ado_XJfEhNKxeitO9xsGv_6dScuRpBgtjVv90OQHTIGhU1D6LcKYBceKFgLv90L82y8&_nc_zt=14&_nc_ht=scontent-fra3-1.xx&_nc_gid=3QPnG9_ll3ZipySNSyIYaw&_nc_ss=7f289&oh=00_Af8F6JCUpUMe2ovlTIb18kpXF3Sf2hr4ZFve_TsVV0_o-A&oe=6A42B9BD",
+        "landingPageUrl": "https://firewalky.com/products/usb-desktop-air-cooler-fan",
+        "adArchiveId": "1601665487602712",
+        "sourceKeyword": "Mobile Klimaanlage",
+        "adLibraryUrl": "https://www.facebook.com/ads/library/?id=1601665487602712",
+        "pageName": "Firewalky",
+        "adDeliveryStart": null,
+        "adDeliveryStop": null,
+        "isActive": true,
+        "spendText": null,
+        "impressionsText": null,
+        "reachText": null
       },
       "scrape": {
-        "crawlRunId": "aHNyfQbbuZrWZAzFc",
-        "pageTitle": "HTTP Status 400 – Bad Request",
-        "markdownLength": 1654,
-        "loadedUrl": "https://www.vkb.de/lp/hagelregen.html?tid=13112&campid=1203&siteid=142&meid=18&vkclkid={{ad.id}}"
+        "crawlRunId": "XFeVEMUJW0Tt2K68g",
+        "pageTitle": "2026 Neue Verdunstungsklimaanlage – Kompakter USB-Tischventilator, per – firewalky",
+        "markdownLength": 409,
+        "loadedUrl": "https://firewalky.com/products/usb-desktop-air-cooler-fan",
+        "previewImageUrl": "https://firewalky.com/cdn/shop/files/spp_shopify20260527105603_a80464d7ef792e375e7cac0194fa2c07_small.jpg?v=1779850614"
       },
       "analysis": {
-        "marketing_hook": "由于目标页面显示HTTP 400错误，无法分析其营销角度和表单结构。",
+        "marketing_hook": "【视觉情报】Firewalky — 德国降温/空调品类投放（AI 分析待配额恢复后补充）",
         "form_questions": [],
-        "localized_translation": "大量降雨可能造成巨大的经济损失。一份可靠的住宅建筑保险能将风险降至最低。"
+        "localized_translation": "🌬️ Kühle Brise aus der Steckdose – der mobile USB-Verdunstungskühler für Schreibtisch & Nachttisch! 💧"
+      }
+    },
+    {
+      "status": "success",
+      "error": null,
+      "ad": {
+        "adBody": "Endlich abkühlen, wann und wo du willst. 🧊 Die OZEANOS Eisberg Klimaanlage kühlt deinen Raum – ganz ohne festen Einbau, in wenigen Minuten aufgebaut. 3 Modelle für jeden Raum – such dir deins aus und sichere jetzt noch die Pre-Summer-Preise. ☀️",
+        "creativeUrl": "https://scontent-fra5-1.xx.fbcdn.net/v/t39.35426-6/689850516_2803704863323125_5255973811927951807_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=ClvTzp72SokQ7kNvwFsrpbH&_nc_oc=Adr0c7sTGZaXsoiJD6Qtcnf49ZtrBfO1_IMrX1FS3UOYr2-636hjvkv1J0sFMF_7JIc&_nc_zt=14&_nc_ht=scontent-fra5-1.xx&_nc_gid=3QPnG9_ll3ZipySNSyIYaw&_nc_ss=7f289&oh=00_Af-T42RG0shz6sZtt8A2DTGZCOnncgkIk53n2-Hz5CHF2A&oe=6A42BC9A",
+        "landingPageUrl": "https://www.mediamarkt.de/de/search.html?query=OZEANOS%20Klimaanlage",
+        "adArchiveId": "841151082058464",
+        "sourceKeyword": "Mobile Klimaanlage",
+        "adLibraryUrl": "https://www.facebook.com/ads/library/?id=841151082058464",
+        "pageName": "Ozeanos Technology",
+        "adDeliveryStart": null,
+        "adDeliveryStop": null,
+        "isActive": true,
+        "spendText": null,
+        "impressionsText": null,
+        "reachText": null
+      },
+      "scrape": {
+        "crawlRunId": "XFeVEMUJW0Tt2K68g",
+        "pageTitle": "Suchergebnis für \"OZEANOS Klimaanlage\" | MediaMarkt",
+        "markdownLength": 1442,
+        "loadedUrl": "https://www.mediamarkt.de/de/search.html?query=OZEANOS%20Klimaanlage",
+        "previewImageUrl": null
+      },
+      "analysis": {
+        "marketing_hook": "【视觉情报】Ozeanos Technology — 德国降温/空调品类投放（AI 分析待配额恢复后补充）",
+        "form_questions": [],
+        "localized_translation": "Endlich abkühlen, wann und wo du willst. 🧊 Die OZEANOS Eisberg Klimaanlage kühlt deinen Raum – ganz ohne festen Einbau, in wenigen Minuten aufgebaut. 3 Modelle für jeden Raum – such dir deins aus und sichere jetzt noch die Pre-Summer-Preise. ☀️"
+      }
+    },
+    {
+      "status": "success",
+      "error": null,
+      "ad": {
+        "adBody": "💨Die mobile Klimaanlage, die dich deinen alten Ventilator wegwerfen lässt, mit Energieklasse A+++, kostet dich nur 0,10 € pro Tag",
+        "creativeUrl": "https://scontent-fra5-2.xx.fbcdn.net/v/t39.35426-6/718868577_1717319265967936_8260019192897614037_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=5K9UxmkSC4QQ7kNvwG2niPW&_nc_oc=AdpTetuD8kQL9CfITOd0PxqHlZt5GUpIRk09DP-EY5-zPgG_NLcPS9eke_tPhom9FpM&_nc_zt=14&_nc_ht=scontent-fra5-2.xx&_nc_gid=3QPnG9_ll3ZipySNSyIYaw&_nc_ss=7f289&oh=00_Af91FqiazSURxLHCAS4sZLUcZCKSsoNTS05JIzkAkAsoYw&oe=6A42AA76",
+        "landingPageUrl": "https://thebestgadgeto.com/air-conditioner-de/",
+        "adArchiveId": "1635020314237806",
+        "sourceKeyword": "Mobile Klimaanlage",
+        "adLibraryUrl": "https://www.facebook.com/ads/library/?id=1635020314237806",
+        "pageName": "Secret Finds",
+        "adDeliveryStart": null,
+        "adDeliveryStop": null,
+        "isActive": true,
+        "spendText": null,
+        "impressionsText": null,
+        "reachText": null
+      },
+      "scrape": {
+        "crawlRunId": "XFeVEMUJW0Tt2K68g",
+        "pageTitle": "Air conditioner DE – thebestgadgeto",
+        "markdownLength": 10004,
+        "loadedUrl": "https://thebestgadgeto.com/air-conditioner-de/",
+        "previewImageUrl": "https://thebestgadgeto.com/wp-content/uploads/2026/06/1-1-1.webp"
+      },
+      "analysis": {
+        "marketing_hook": "【视觉情报】Secret Finds — 德国降温/空调品类投放（AI 分析待配额恢复后补充）",
+        "form_questions": [],
+        "localized_translation": "💨Die mobile Klimaanlage, die dich deinen alten Ventilator wegwerfen lässt, mit Energieklasse A+++, kostet dich nur 0,10 € pro Tag"
+      }
+    },
+    {
+      "status": "success",
+      "error": null,
+      "ad": {
+        "adBody": "Meine Hündin ist letzten Juni fast in meiner eigenen Wohnung gestorben. Der Ventilator lief, die Rollläden waren unten. Und das Schlimmste ist: Ich habe drei Monate lang zugesehen, wie es passiert ist, und dachte, ich könnte nichts tun.\n\nSie heißt Luna. Sie ist eine Australian-Shepherd-Mix-Hündin, fünf Jahre alt, ein braunes Auge, ein blaues. Die Art Hund, bei der im Park alle stehen bleiben und nach dem Namen fragen.\n\nUnd ich muss dir erzählen, was fast passiert wäre. Weil das, was Luna fast umgebracht hätte, gerade jetzt wahrscheinlich auch bei deinem Hund passiert. Und du denkst vielleicht, wie ich, dass du nichts dagegen tun kannst.\n\nDu kannst.\n\nVorgeschichte, die du kennen musst: Luna ist nicht mein erster Hund. Vor zwei Jahren habe ich Emma verloren. Golden Retriever, fünf Jahre alt. Hitzschlag, an einem Tag, an dem es nicht mal richtig heiß war. Ich dachte damals, ich hätte etwas übersehen.\n\nAls Luna kam, habe ich mir geschworen, alles richtig zu machen.\n\nUnd dann bin ich umgezogen.\n\nLetztes Jahr im Frühjahr habe ich eine neue Wohnung bezogen. Dachgeschoss, schön hell, große Fenster nach Süden. Ich habe mich verliebt, als ich sie das erste Mal gesehen habe. Im April.\n\nDie Maklerin hat gesagt: „Im Sommer wird's hier oben schön warm, aber mit Rollläden und einem guten Ventilator kein Problem.\"\n\nIch hatte keine Ahnung, worauf ich mich da eingelassen habe.\n\nDer erste Sommer ist zum Gefängnis geworden.\n\nMorgens um halb sechs raus mit Luna, bevor der Asphalt zu heiß für ihre Pfoten wurde. Um Viertel vor sieben zurück. Und dann den Rest des Tages — sechzehn Stunden — gefangen in einer Wohnung, die sich unter dem Dach aufgeheizt hat wie ein Backofen.\n\nRollläden den ganzen Tag unten. Zwei Ventilatoren. Ich habe nasse Tücher aufgehängt. Trotzdem hatte es nachmittags 29, 30 Grad in der Wohnung, egal was ich gemacht habe. Dachgeschoss im Hochsommer. Die Hitze kam von oben, von den Wänden, vom Boden.\n\nIch habe mir gesagt, es ist okay. Luna ist drinnen. Der Ventilator läuft. Was hätte ich sonst tun sollen.\n\nAber jeden Nachmittag, so gegen zwei, habe ich Luna auf den Badezimmerfliesen gefunden.\n\nSie hat im Wohnzimmer auf dem Teppich angefangen. Dann ist sie in die Küche gewandert, auf die Fliesen. Zwanzig Minuten später in den Flur. Dann ins Bad. Dann zurück in die Küche.\n\nSie hat sich im Kreis gedreht, sich hingelegt, leise gehechelt, fünfzehn Minuten gelegen, ist wieder aufgestanden und hat das Ganze von vorne gemacht.\n\nNicht panisch. Nicht so, als wäre etwas falsch. Einfach… nie angekommen.\n\nUnd sie hat gehechelt. Jeden einzelnen Nachmittag. Nicht das dramatische, Zunge-raushängende Hecheln. Einfach schwerer geatmet, als es Sinn ergab für eine Hündin, die nur rumliegt.\n\nIch habe es einer Nachbarin erzählt. Sie hat einen Husky. Sie hat gelacht.\n\n„Im Dachgeschoss im Sommer? Da hecheln alle Hunde. Roll die Rollläden runter und stell den Ventilator an, dann passt das schon.\"\n\nAlso habe ich das gemacht.\n\nIch habe Luna einen zweiten Wassernapf hingestellt. Eis ins Wasser gegeben. Hundeeis gemacht. Nachts um Mitternacht „Australian Shepherd Hitze\" gegoogelt und Artikel gefunden, die sagten, sie kämen gut klar, solange sie tagsüber drinnen bleiben.\n\nAlso blieben wir drinnen.\n\nIch habe sogar überlegt, wieder auszuziehen. Aber ich hatte gerade erst den Mietvertrag unterschrieben, die Kaution war weg, ein erneuter Umzug nicht drin.\n\nWir saßen fest.\n\nUnd ich hatte das Gefühl, ich hätte Luna an einen Ort gesperrt, der sie langsam umbringt.\n\nDer Tag, an dem es fast passiert ist, war ein Mittwoch Ende Juni. 34 Grad draußen.\n\nIch hatte einen Arzttermin. Anderthalb Stunden, vielleicht zwei. Ich habe die Rollläden runtergelassen, beide Ventilatoren angestellt, beide Wassernäpfe gefüllt. Luna einen Kuss auf den Kopf gegeben. Ihr gesagt, ich bin gleich zurück.\n\nUm Viertel nach drei war ich wieder da.\n\nDie Wohnung war still auf eine Art, die sich falsch angefühlt hat.\n\nLuna kommt mir immer an der Tür entgegen. Immer.\n\nIch habe ihren Namen gerufen.\n\nNichts.\n\nIch habe sie auf den Küchenfliesen gefunden. Auf der Seite. Schnell und flach atmend. Augen halb geschlossen. Ihr Zahnfleisch war blass und klebrig.\n\nIch weiß nicht mehr, wie ich sie ins Auto bekommen habe. Ich weiß noch ihr Gewicht. Ich weiß noch, dass ich auf der ganzen Fahrt mit ihr geredet habe. Ich weiß noch, dass ich jede rote Ampel überfahren habe.\n\nIn der Notfallpraxis haben sie sie sofort nach hinten gebracht.\n\nDiesmal kam die Tierärztin nach einer Stunde zurück — nicht mit den Worten, die ich nach Emma gehört hatte.\n\n„Wir haben sie stabilisiert. Es war ein Hitzschlag, und es war knapp. Eine halbe Stunde später, und wir hätten sie nicht mehr zurückgeholt. Aber sie wird durchkommen.\"\n\nIch habe geweint, wie ich seit Emmas Tod nicht mehr geweint hatte. Diesmal aus Erleichterung.\n\nAber ich konnte nicht loslassen von dem, was als Nächstes kam.\n\n„Ich habe alles gemacht\", habe ich gesagt. „Die Rollläden waren unten. Zwei Ventilatoren liefen. Sie hatte frisches Wasser. Sie war nur zwei Stunden allein.\"\n\nDie Tierärztin hat genickt.\n\n„Ihre Ventilatoren haben einwandfrei funktioniert. Aber da ist Luna nicht überhitzt.\"\n\nSie hat sich Zeit genommen, es zu erklären. Und ich werde es nie vergessen.\n\n„Ein Hund hat eine Körpertemperatur von rund 38,5 Grad. Jede Fläche, auf der er liegt — der Teppich, die Fliese, sein Bett — nimmt diese Wärme auf. Innerhalb von Minuten erwärmt sich die Fläche unter ihm. Und sobald sie genug Körperwärme aufgenommen hat, hört sie auf zu kühlen. Sie hält die Wärme einfach fest, gegen seinen Bauch und seine Brust gedrückt.\"\n\nDann hat sie gesagt:\n\n„Und in einer Wohnung, die sich so aufheizt wie ein Dachgeschoss im Hochsommer, passiert das schneller und schlimmer. Die Raumtemperatur ist so hoch, dass die Flächen die Wärme gar nicht mehr loswerden. Sie laden sich auf und bleiben warm. Ihre Ventilatoren bewegen die Luft über Luna. Aber sie können den Boden unter ihr nicht kühlen. Und genau da liegt das Problem.\"\n\n„Warum sagt einem das niemand?\", habe ich gefragt.\n\n„Weil es normal aussieht. Ein Hund, der auf die Fliesen wechselt, der in einer Wohnung mit Ventilator hechelt — das sieht aus wie ein Hund, der einfach ein Hund ist. Bis es zu spät ist.\"\n\nDann hat sie etwas gesagt, das mich zerstört hat:\n\n„Denken Sie daran, wie Sie nachts Ihr Kissen wenden, auf die kühle Seite. Sie machen das, weil Ihre Körperwärme es aufgewärmt hat. Genau das hat Luna jeden Nachmittag getan. Sie hat ihr Kissen gewendet. Nur kann man einen Fußboden nicht wenden. Irgendwann gibt es keine kühle Stelle mehr.\"\n\nUnd plötzlich hat jede einzelne Sache, die ich drei Monate lang beobachtet hatte, Sinn ergeben.\n\nDas Wandern von Platz zu Platz. Die Badezimmerfliesen. Das Hecheln in einer Wohnung mit zwei Ventilatoren.\n\nLuna war nicht ruhelos. Sie hat versucht zu überleben.\n\nUnd ich wusste es nicht.\n\n„Hätte es etwas geändert, wenn ich noch einen dritten Ventilator gehabt hätte?\", habe ich gefragt. „Oder eine mobile Klimaanlage?\"\n\n„Nein\", hat sie sanft gesagt. „Kühlere Luft löst das Flächen-Problem nicht. Sie könnten die Wohnung auf 20 Grad runterkühlen, und der Boden würde sich trotzdem unter ihrem Körper aufheizen.\"\n\nIch habe eine Woche kaum geschlafen.\n\nIch bin jeder Hundegruppe beigetreten, die ich finden konnte. Habe alles über Hitze in Wohnungen gelesen. Habe verstanden, warum alles, was ich getan hatte — alles, was jeder Halter in einer heißen Wohnung tut — das eigentliche Problem nicht löst.\n\nDer Ventilator? Bewegt die Luft einen halben Meter über dem Hund. Macht nichts für die Fläche, auf der er liegt. Luna hat ihre Körperwärme direkt in den Boden abgegeben. Da kommt kein Ventilator hin.\n\nGel-Kühlmatten? Nehmen Wärme für zwanzig, dreißig Minuten auf, dann sind sie gesättigt. Danach eine warme Matte mit Gel drin.\n\nNasse Handtücher? Nach zehn Minuten körperwarm. Dann schließen sie Feuchtigkeit und Wärme am Hund ein wie eine Isolierdecke. Schlimmer als der nackte Boden.\n\nJede Lösung kühlt entweder die Luft oder nimmt Wärme auf, bis sie nicht mehr kann.\n\nKeine macht das eine, worauf es ankommt: die Wärme kontinuierlich vom Körper wegleiten, ohne je aufzuhören.\n\nDie Worte der Tierärztin haben sich in meinem Kopf wiederholt: „Sie brauchen eine Fläche, die die Wärme durchgehend ableitet. Eine, die nie an den Punkt kommt, an dem sie aufhört zu funktionieren.\"\n\nZwei Wochen später hat meine Schwester aus Stuttgart angerufen. Sie wohnt auch oben unterm Dach. Ihr Golden, Max, hat genau dasselbe gemacht. Jeden Nachmittag gehechelt. Vom Teppich auf die Fliesen, in den Flur und zurück. Sie war in Panik.\n\nIch habe ihr alles erzählt, was die Tierärztin mir gesagt hatte.\n\n„Also hilft der Ventilator nicht?\"\n\n„Er hilft der Luft. Nicht dem, worauf Max liegt.\"\n\nSie hat gefragt, was sie tun soll.\n\nIch hatte noch keine Antwort.\n\nIch habe weiter recherchiert. Über Wärmeleitfähigkeit gelesen. Mit Leuten geredet, die in heißen Dachwohnungen mit Hund leben.\n\nDann habe ich in einer Gruppe einen Beitrag von einer Frau gefunden. Sie hat nichts verkauft. Sie hat nur geteilt, was bei ihr funktioniert hat.\n\nSie hat genau dasselbe Muster beschrieben. Das Fliesen-Suchen. Das Nachmittagshecheln. Das ständige Wandern.\n\nDann: „Seit die Matte da liegt, geht er nicht mehr runter. Das Hecheln hat komplett aufgehört. Ich dachte, ich bilde mir das ein, aber es ist echt.\"\n\nJemand hat gefragt, welche Marke.\n\nFellStern.\n\nKein Gel. Kein Wasser. Nichts zum Einfrieren. Ein Funktionstextil aus drei Schichten, das die Körperwärme des Hundes durchgehend ableitet — statt sie aufzunehmen und sich aufzuwärmen wie jede andere Fläche.\n\nDas Material leitet Wärme weg, ohne je aufzuhören. Kein Sättigungspunkt. Es wird einfach nicht warm, egal wie lange der Hund drauf liegt und egal wie heiß die Wohnung ist.\n\nWenn das Problem Flächen sind, die Wärme festhalten, ist die Lösung eine Fläche, die sie nie aufhört abzuleiten.\n\nIch habe in derselben Nacht eine bestellt. Und eine an meine Schwester nach Stuttgart geschickt.\n\nAls meine ankam, habe ich sie dahin gelegt, wo Luna im Wohnzimmer immer gelegen hatte.\n\nIch habe mich danebengesetzt.\n\nDer erste richtig heiße Tag danach. Ich habe Luna beobachtet wie nichts vorher in meinem Leben.\n\nStunde 1: Sie hat geschnuppert. Sich einmal im Kreis gedreht. Hingelegt. Ich habe auf dem Sofa gesessen und auf das Hecheln gewartet. Nichts. Innerhalb von Minuten eingeschlafen, langsam und gleichmäßig atmend. Ich habe die Hand neben sie auf die Matte gelegt — nach einer vollen Stunde mit einer Hündin drauf immer noch kühl. Nicht eiskalt. Aber spürbar kühl.\n\nStunde 2: Sie hatte sich nicht bewegt. Auf dem Teppich hätte sie bis jetzt schon zweimal den Platz gewechselt. Luna lag am selben Fleck. Kein Hecheln.\n\nStunde 4: Immer noch da. Ich habe die Matte direkt neben ihrem Bauch angefasst. Kühl. Den Teppich daneben? Warm von der aufgeheizten Wohnung. Die Matte nicht.\n\nEnde des Tages: Mir ist aufgefallen, dass ich seit dem Morgen den Atem angehalten hatte. Das Nachmittagshecheln, das seit drei Monaten jeden Tag um zwei angefangen hatte? Es kam nicht. Das ruhelose Wandern? Luna hat es nicht gemacht. Sie hat sich ihren Platz gesucht und ist geblieben.\n\nMeine Schwester hat mir vier Tage später geschrieben.\n\n„Max ist den ganzen Tag nicht von der Matte runter. Kein Hecheln. Ich hab nach drei Stunden die Hand draufgelegt — immer noch kühl. Die Fliese daneben war warm.\"\n\nEine Woche später: „Das Nachmittagshecheln ist komplett weg. Er kommt jetzt zur Ruhe. Mir war gar nicht klar, wie sehr ich jeden Nachmittag gefürchtet habe, bis er aufgehört hat.\"\n\nZwei Wochen später: „Ich fühl mich nicht mehr gefangen. Ich weiß, das klingt dramatisch, aber ich hab jeden Tag zugesehen, wie er leidet, und konnte nichts tun. Jetzt schon.\"\n\nIch kenne dieses Gefühl genau.\n\nHier ist, was ich verstanden habe, und es hat zu spät für Emma und fast zu spät für Luna gedauert:\n\nIn einer Wohnung, die sich im Sommer aufheizt — Dachgeschoss, Südseite, schlecht gedämmt — reicht der Ventilator nicht. Reichen die Rollläden nicht. Reicht selbst eine Klimaanlage nicht, wenn du eine hättest.\n\nWeil keines davon die Fläche kühlt, auf der dein Hund acht, zehn, sechzehn Stunden am Tag liegt.\n\nDie Luft war nie das Problem. Die Fläche war immer das Problem.\n\nWenn du in einer Wohnung lebst, die im Sommer heiß wird…\n\nWenn dein Hund die Fliesen sucht, obwohl der Ventilator läuft…\n\nWenn er nachmittags hechelt, obwohl er nur liegt…\n\nWenn du das Gefühl hast, du hast alles getan, was du tun kannst, und es reicht trotzdem nicht…\n\nDann ist das nicht normal. Und du bist nicht machtlos.\n\nEs ist dein Hund, der dir sagt, dass die Fläche unter ihm seine Wärme nicht mehr ableitet. Und dieser Stress summiert sich. Jeden Nachmittag. Jeden Tag. Jeden Sommer.\n\nIch dachte, ich könnte nichts tun. Ich lag falsch.\n\nIch konnte Emma nicht mehr retten. Luna fast nicht. Aber jetzt liegt sie jeden Nachmittag auf ihrer Matte, in derselben heißen Dachwohnung, und sie hechelt nicht mehr, sie wandert nicht mehr, sie sucht keine Fliesen mehr.\n\nDie Matte gibt es direkt beim Hersteller, mit 90 Tagen Geld-zurück-Garantie. Wenn dein Hund sie nicht annimmt, schickst du sie zurück und hast nichts verloren.\n\nUnd warte nicht: Diese Matten sind jeden Sommer ausverkauft, sobald die erste Hitzewelle kommt. Letzten August stand drei Wochen Lieferzeit auf der Website. Meine Schwester wollte im August eine zweite und musste sechs Wochen warten. Im Moment liefern sie in drei Werktagen. Der beste Zeitpunkt ist, bevor du sie brauchst.\n\n→ Hier geht's zur FellStern Kühlmatte: https://wissen.tiermedizin-heute.de/kuehl-adv1\n\nLuna liegt gerade drauf, während ich das tippe. In genau der Wohnung, von der ich dachte, sie würde sie umbringen. Kopf zwischen den Pfoten. Schnarcht. Hechelt nicht. Bewegt sich nicht. Einfach ruhig.\n\nIch kann sie atmen hören.\n\nUnd zum ersten Mal seit diesem Mittwoch im Juni habe ich keine Angst mehr davor, was mich erwartet, wenn ich nach Hause komme.\n\nP.S. Ich habe nach Emmas Tod gedacht, ich hätte einen Fehler gemacht, den ich nie wieder machen würde. Dann bin ich in eine Wohnung gezogen, die Luna fast genauso umgebracht hätte — und ich habe drei Monate lang zugesehen und mich machtlos gefühlt. Das Schlimmste an dieser Geschichte ist nicht, dass ich es nicht wusste. Es ist, dass ich dachte, es gäbe nichts, was ich tun kann. Es gab etwas. Es lag nur an der Fläche, nicht an der Luft.\n\n→ https://wissen.tiermedizin-heute.de/kuehl-adv1",
+        "creativeUrl": "https://scontent-fra3-1.xx.fbcdn.net/v/t39.35426-6/726289708_2575304486246240_3472389275704134549_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=_ifD7GHdWwQQ7kNvwH8gHmu&_nc_oc=AdooMIjXUKzXjWNoY-1EmBZ8vYK3pnSsV-rxTPToP_xFbOx632_N8NbMvtssX1r7BVI&_nc_zt=14&_nc_ht=scontent-fra3-1.xx&_nc_gid=3QPnG9_ll3ZipySNSyIYaw&_nc_ss=7f289&oh=00_Af_FrAavWxFYQJw9qZPPrFcGqb3-DMDM-Cf89m0vKBOwJQ&oe=6A42D479",
+        "landingPageUrl": "https://wissen.tiermedizin-heute.de/kuehl-adv1",
+        "adArchiveId": "1028792012885306",
+        "sourceKeyword": "Mobile Klimaanlage",
+        "adLibraryUrl": "https://www.facebook.com/ads/library/?id=1028792012885306",
+        "pageName": "Sabines Hunde-Tagebuch",
+        "adDeliveryStart": null,
+        "adDeliveryStop": null,
+        "isActive": true,
+        "spendText": null,
+        "impressionsText": null,
+        "reachText": null
+      },
+      "scrape": {
+        "crawlRunId": "gYlwoGAMgJOWiYD2c",
+        "pageTitle": "Hund hechelt im Sommer? Tierärztin warnt vor Fehler",
+        "markdownLength": 13991,
+        "loadedUrl": "https://wissen.tiermedizin-heute.de/kuehl-adv1",
+        "previewImageUrl": "https://4ry0pubjmsokqgsz.public.blob.vercel-storage.com/pages/6b1e750c-baf7-4e9e-9345-6575bfb9df8f/el-42-1778961400471.png"
+      },
+      "analysis": {
+        "marketing_hook": "【视觉情报】Sabines Hunde-Tagebuch — 德国降温/空调品类投放（AI 分析待配额恢复后补充）",
+        "form_questions": [],
+        "localized_translation": "Meine Hündin ist letzten Juni fast in meiner eigenen Wohnung gestorben. Der Ventilator lief, die Rollläden waren unten. Und das Schlimmste ist: Ich habe drei Monate lang zugesehen, wie es passiert ist, und dachte, ich könnte nichts tun."
+      }
+    },
+    {
+      "status": "success",
+      "error": null,
+      "ad": {
+        "adBody": "❄️ Angenehme Abkühlung für heiße Sommertage.\nMit der Comfee Breezy Cool Pro 2.0 genießt du ein angenehmes Raumklima, wenn die Temperaturen steigen. Kühlen, Ventilieren und Entfeuchten – alles in einem kompakten Gerät, bequem steuerbar per App.\n✅ 3-in-1 Funktion: Kühlen, Ventilieren & Entfeuchten\n✅ 7000 BTU / 2,0 kW Kühlleistung\n✅ Für Räume bis ca. 25 m² geeignet\n✅ Bequeme Steuerung per App\n✅ Flexible Nutzung dank mobilem Design\n✅ Inklusive Abluftschlauch für schnelle Inbetriebnahme\nPerfekt für Schlafzimmer, Wohnzimmer oder Homeoffice – für mehr Komfort an heißen Tagen.\n👉 Jetzt entdecken und den Sommer entspannt genießen.",
+        "creativeUrl": "https://scontent-fra3-2.xx.fbcdn.net/v/t39.35426-6/729003883_1691829698728003_5660665966940542497_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=a_W0fKueVj8Q7kNvwEgUe80&_nc_oc=AdrBOcMBKRmPFH32itS05lB2zS9l_b0IDqZz7XM_3QKO30DNXGXhugB0Gxng7kXTpYY&_nc_zt=14&_nc_ht=scontent-fra3-2.xx&_nc_gid=3QPnG9_ll3ZipySNSyIYaw&_nc_ss=7f289&oh=00_Af8X_ClRNwCfcYMQiOwK_0njRipk3Uc6-1-6Vrm1oBSfKQ&oe=6A42A4FA",
+        "landingPageUrl": "https://amzlink.to/az0gRIwH4PjIm",
+        "adArchiveId": "2255144555311547",
+        "sourceKeyword": "Mobile Klimaanlage",
+        "adLibraryUrl": "https://www.facebook.com/ads/library/?id=2255144555311547",
+        "pageName": "Fabiennes.Tipps",
+        "adDeliveryStart": null,
+        "adDeliveryStop": null,
+        "isActive": true,
+        "spendText": null,
+        "impressionsText": null,
+        "reachText": null
+      },
+      "scrape": {
+        "crawlRunId": "gYlwoGAMgJOWiYD2c",
+        "pageTitle": "Comfee Breezy Cool Pro 2.0 Mobile Air Conditioner, 7,000 BTU, 2.0 kW, Cooling, Ventilating & Dehumidifying, App Control, Room Size up to 68 m³ (25 m²), with Exhaust Hose : Amazon.de: Home & Kitchen",
+        "markdownLength": 583,
+        "loadedUrl": "https://www.amazon.de/dp/B0CM8P9PV9?th=1&linkCode=sl2&tag=werbungprime002-21&linkId=a6113fab5b6dc7b26ead5cc0e27afba4&ref_=as_li_ss_tl&ascsubtag=srctok-235f888c140b2761&btn_ref=srctok-235f888c140b2761",
+        "previewImageUrl": null
+      },
+      "analysis": {
+        "marketing_hook": "【视觉情报】Fabiennes.Tipps — 德国降温/空调品类投放（AI 分析待配额恢复后补充）",
+        "form_questions": [],
+        "localized_translation": "❄️ Angenehme Abkühlung für heiße Sommertage."
+      }
+    },
+    {
+      "status": "success",
+      "error": null,
+      "ad": {
+        "adBody": "Es gibt einen intelligenteren Weg, sich abzukühlen.\n\nAerovia™ KylAce kühlt genau dort, wo Sie sitzen – leise, tragbar und zu einem Bruchteil der Betriebskosten einer herkömmlichen Klimaanlage.\n\nAerovia™ KylAce ist ein tragbarer persönlicher Luftkühler mit flügelloser Technologie – flüsterleise (20 dB), per USB aufladbar und sofort einsatzbereit. Keine Installation. Keine Kabel. Kein Techniker.\n\nStellen Sie ihn auf Ihren Schreibtisch, Nachttisch oder montieren Sie ihn an der Wand und wählen Sie zwischen drei Modi: Kühlende Brise, Entspannungsmodus und Frostmodus für schnelle Abkühlung. Kühlen Sie die Luft direkt um sich herum, ohne das ganze Haus klimatisieren zu müssen.\n\nEnergieeffizient und leise genug für warme Sommernächte im Schlafzimmer. Tragbar genug für Büro, Wohnmobil, Terrasse oder Urlaub.\n\nTausende Nutzer berichten vom gleichen Erlebnis: endlich die ganze Nacht durchschlafen, ohne von einem lauten Ventilator geweckt zu werden. Endlich konzentriert arbeiten, ohne am Schreibtisch zu schwitzen. Endlich den Sommer genießen statt ihn nur zu überstehen.\n\n✅ Flügelloses Design – ultraleiser Betrieb mit 20 dB\n✅ 3 Kühlmodi – Brise, Entspannung & Frostmodus\n✅ USB-aufladbar – keine Installation erforderlich\n✅ Tragbar & kompakt – ideal für Schreibtisch, Wand, Schlafzimmer & Camping\n✅ Energieeffizient – nur ein Bruchteil der Kosten einer herkömmlichen Klimaanlage\n✅ Sicher für Kinder & Haustiere – flügelloses Design\n✅ Über 4.452 verifizierte Bewertungen\n✅ 90 Tage Geld-zurück-Garantie\n\nJetzt 50 % Rabatt – exklusiv für Facebook-Nutzer, solange der Vorrat reicht.\n\n➡️ Verfügbarkeit von Aerovia™ KylAce prüfen\nhttps://www.eliovence.com/aervade/adv-",
+        "creativeUrl": "https://scontent-fra5-2.xx.fbcdn.net/v/t39.35426-6/725756407_1317818700483231_6643032813097384373_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=xshDHVIL1DEQ7kNvwEnX5b4&_nc_oc=AdoTPTpf5n5lvDvfK4xlvO-U2WGbl2JbIaRnCpahSoVZVjD60ttDDiPRqRt3Bhvvpng&_nc_zt=14&_nc_ht=scontent-fra5-2.xx&_nc_gid=3QPnG9_ll3ZipySNSyIYaw&_nc_ss=7f289&oh=00_Af8VQVKs-CMIO1d92uYs1r3ucgf6qSoPOpu24DuXly2q4g&oe=6A42A5F3",
+        "landingPageUrl": "https://www.eliovence.com/aervade/adv-",
+        "adArchiveId": "1923299858373839",
+        "sourceKeyword": "Mobile Klimaanlage",
+        "adLibraryUrl": "https://www.facebook.com/ads/library/?id=1923299858373839",
+        "pageName": "Purely Practical Picks",
+        "adDeliveryStart": null,
+        "adDeliveryStop": null,
+        "isActive": true,
+        "spendText": null,
+        "impressionsText": null,
+        "reachText": null
+      },
+      "scrape": {
+        "crawlRunId": "gYlwoGAMgJOWiYD2c",
+        "pageTitle": "Aerovia™",
+        "markdownLength": 10224,
+        "loadedUrl": "https://www.eliovence.com/aervade/adv-",
+        "previewImageUrl": "https://img.funnelish.com/61264/1154327/1780886822-3-a790c50aff-3.jpg"
+      },
+      "analysis": {
+        "marketing_hook": "【视觉情报】Purely Practical Picks — 德国降温/空调品类投放（AI 分析待配额恢复后补充）",
+        "form_questions": [],
+        "localized_translation": "Es gibt einen intelligenteren Weg, sich abzukühlen."
       }
     }
   ],
-  "skipped": [
-    {
-      "status": "failed",
-      "error": "No valid markdown (not cached after crawl)",
-      "ad": {
-        "adBody": "Warnung an Hausbesitzer: Ab 2026 drohen teure CO2-Abgaben! \n• Gasheizungen werden zur Kostenfalle\n• Heizen Sie 4x effizienter mit Wärmepumpen!\n• Bis zu 70% Förderung sichern - Jetzt informieren!",
-        "creativeUrl": "https://scontent-muc2-1.xx.fbcdn.net/v/t39.35426-6/598363363_25464602226468676_4175847330183155808_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=VyuvuZEQcicQ7kNvwGXJG4S&_nc_oc=Adp4-fIq6a_TlWWyE5J7QU_0RgFp9NpyAL9Kfokuf2O-q8cc3qbQoV0xsoUxUcVfEGU&_nc_zt=14&_nc_ht=scontent-muc2-1.xx&_nc_gid=gX2Cdg-7YHyFTM09vi97aQ&_nc_ss=7f289&oh=00_Af96a5uql53-C88YLQRaLRQAwH19MF9d5bODoSf2NwkpGg&oe=6A421B44",
-        "landingPageUrl": "https://www.guenstig-heizen.de/altes-haus-neue-technik-warum-warmepumpen-jetzt-auch-im-altbau-sinn-machen",
-        "adArchiveId": "2660022764373087",
-        "sourceKeyword": "Wärmepumpe"
-      },
-      "scrape": null,
-      "analysis": null
-    },
-    {
-      "status": "failed",
-      "error": "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent: [503 ] This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-      "ad": {
-        "adBody": "Egal wie Du lebst, wir schützen was Du liebst. Jetzt Hausratversicherung von CosmosDirekt abschließen.",
-        "creativeUrl": "https://scontent-dus1-1.xx.fbcdn.net/v/t39.35426-6/685434417_935553802636976_568593682264782851_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=REv6-jxcPDIQ7kNvwF2bAzG&_nc_oc=Adq7Rk1NiWNxTkB1UneovK0bUa7z6fwF-ix4bJPodkVxAsKso8v1x2u1d5aplduf-CY&_nc_zt=14&_nc_ht=scontent-dus1-1.xx&_nc_gid=qn1hCZUeyaqNXKKmTWhVjw&_nc_ss=7f289&oh=00_Af-1oPBfOTwhthtx8Lu6cUXkPLSGr3SYi3ee3Rjmdmn4kA&oe=6A4217BB",
-        "landingPageUrl": "https://www.cosmosdirekt.de/hausratversicherung/?mediacode=sa.16131225_d_vhv_na_suh_vhv_socialads.suh_vhv_performance.display.&k_vtweg=52397",
-        "adArchiveId": "1668566694180490",
-        "sourceKeyword": "Hausratversicherung"
-      },
-      "scrape": {
-        "crawlRunId": "nU0N9PzoYrz46jmiS",
-        "pageTitle": "Hausratversicherung günstig abschließen – CosmosDirekt",
-        "markdownLength": 33673,
-        "loadedUrl": "https://www.cosmosdirekt.de/hausratversicherung/?mediacode=sa.16131225_d_vhv_na_suh_vhv_socialads.suh_vhv_performance.display.&k_vtweg=52397"
-      },
-      "analysis": null
-    },
-    {
-      "status": "failed",
-      "error": "No valid markdown (not cached after crawl)",
-      "ad": {
-        "adBody": "Jetzt zur Wohngebäudeversicherung der WGV wechseln. Bereits ab 12,26 €* pro Monat.\n\n* BASIS-Tarif, Feuer, Sturm/Hagel, Weitere Elementargefahren, Einfamilienhaus mit Garage, 150 m² Wohnfläche, Erd- und Obergeschoss, ausgebautes Dachgeschoss, mit Keller, massive Bauweise, nicht brennbare Fassade, hartes Dach, 71522 Backnang, Baujahr 2025, kein öffentlicher Dienst, 250 € Selbstbeteiligung, inkl. Versicherungsteuer, Stand: 01.01.2026",
-        "creativeUrl": "https://scontent-dus1-1.xx.fbcdn.net/v/t39.35426-6/688439565_1332569272124493_642729054324097447_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=503a9Y43jTQQ7kNvwFPOy6v&_nc_oc=Adrns7Co2Ql1aYxdrPzJFBhnUiEJE8wdFn___VcGZgmdv6XuTywQst3ryQ8NNQ0T7P0&_nc_zt=14&_nc_ht=scontent-dus1-1.xx&_nc_gid=afzVoIuMcgXSXDWlVUBY6w&_nc_ss=7f289&oh=00_Af8cEY52c8iy1AxTjmEJTTU1Liqo4WfTk9qWMrYp-020QA&oe=6A422A28",
-        "landingPageUrl": "https://www.wgv.de/hc_scripts/TrackIt?tid=10308104C926PPC&hc_url=https://www.wgv.de/recht-eigentum/haus/wohngebaeudeversicherung/&h_ext=0:0:{{campaign.id}}:{{adset.id}}:{{ad.id}}:{{ad.name}}",
-        "adArchiveId": "1501927371398834",
-        "sourceKeyword": "Wohngebäudeversicherung"
-      },
-      "scrape": null,
-      "analysis": null
-    },
-    {
-      "status": "failed",
-      "error": "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent: [503 ] This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-      "ad": {
-        "adBody": "Die ist es IMMER und damit das so bleibt: Den Baustein \"Glas\" in deiner Hausratversicherung nicht vergessen 👆️\n\n#ERGOregelt #ERGODeutschland #EinfachWeilWichtig #Hausrat #Kochen",
-        "creativeUrl": "https://scontent-dus1-1.xx.fbcdn.net/v/t39.35426-6/722769530_1196579209224271_1624490907430317108_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=vCpRiRNkUfkQ7kNvwGSfhSm&_nc_oc=AdrAp361ajFUv3OIg2rUwwZDGJ7u4-nj398aiUk1upAwjLuoIjPEDKiz1q525sqJMQw&_nc_zt=14&_nc_ht=scontent-dus1-1.xx&_nc_gid=qn1hCZUeyaqNXKKmTWhVjw&_nc_ss=7f289&oh=00_Af85d0kukkFtp6ZhCv7N9P-gEKtvE84bNbwBU4K3owpr_A&oe=6A421A9E",
-        "landingPageUrl": "https://www.ergo.de/de/Produkte/Hausrat-und-Gebaeudeversicherung/Hausratversicherung",
-        "adArchiveId": "1258656936344476",
-        "sourceKeyword": "Hausratversicherung"
-      },
-      "scrape": {
-        "crawlRunId": "s3HelnJMWlpQd2k5M",
-        "pageTitle": "Hausratversicherung: Schützen Sie Ihr Hab & Gut | ERGO",
-        "markdownLength": 12815,
-        "loadedUrl": "https://www.ergo.de/de/Produkte/Hausrat-und-Gebaeudeversicherung/Hausratversicherung"
-      },
-      "analysis": null
-    },
-    {
-      "status": "failed",
-      "error": "No valid markdown (not cached after crawl)",
-      "ad": {
-        "adBody": "Mit der WGV Hausratversicherung bist du schon ab 1,05 € im Monat* entspannt abgesichert – bei Feuer, Einbruch & Co. 🛡️\n\n* BASIS-Tarif, Wohnung, 20 Quadratmeter Wohnfläche, Obergeschoss, 71522 Backnang, kein öffentlicher Dienst.",
-        "creativeUrl": "https://scontent-dus1-1.xx.fbcdn.net/v/t39.35426-6/690616157_1299362962288222_7406231760399944686_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=39PknVv3dMsQ7kNvwEIt8PB&_nc_oc=AdrDe_GSWosVGwBaggg6CiyFGgOvcGZQgLiJbSmPkazgSY7V4NuA1_N-CrUYx3zGD0Y&_nc_zt=14&_nc_ht=scontent-dus1-1.xx&_nc_gid=qn1hCZUeyaqNXKKmTWhVjw&_nc_ss=7f289&oh=00_Af_KRmptP-5AKjzg_1bVCqh00IFKyCfoFXOQLa6AvsGhGg&oe=6A423FCC",
-        "landingPageUrl": "https://www.wgv.de/hc_scripts/TrackIt?tid=10274926C926PPC&hc_url=https://www.wgv.de/recht-eigentum/haus/hausratversicherung/&h_ext=0:0:{{campaign.id}}:{{adset.id}}:{{ad.id}}:{{ad.name}}",
-        "adArchiveId": "1476818964235322",
-        "sourceKeyword": "Hausratversicherung"
-      },
-      "scrape": null,
-      "analysis": null
-    }
-  ]
+  "skipped": []
 }

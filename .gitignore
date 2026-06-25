@@ -3,3 +3,5 @@ dist/
 .env
 output/*
 !output/final_report.json
+output-ac/
+archive/
