@@ -1,4 +1,11 @@
-{
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DE AC 竞品广告情报 — Ad Spy</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>window.__REPORT__={
   "meta": {
     "generatedAt": "2026-06-25T10:16:32.068Z",
     "sourceFile": "/Users/chao.xue/shirley/affiliate ad spy/output-ac/ads-2026-06-25T08-45-29-157Z.json",
@@ -882,3 +889,594 @@
     }
   ]
 }
+;</script>
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: { sans: ['Inter', 'ui-sans-serif', 'system-ui', 'sans-serif'] },
+        },
+      },
+    };
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
+  <style>
+    [v-cloak] { display: none; }
+    .step-line::after {
+      content: '';
+      position: absolute;
+      left: 1.125rem;
+      top: 2.25rem;
+      bottom: -0.5rem;
+      width: 2px;
+      background: #e2e8f0;
+    }
+    .step-item:last-child .step-line::after { display: none; }
+    .media-frame {
+      background: linear-gradient(145deg, #f8fafc 0%, #f1f5f9 100%);
+    }
+    .media-slot {
+      aspect-ratio: 4 / 3;
+      min-height: 12rem;
+    }
+  </style>
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased">
+  <div id="app" v-cloak class="min-h-screen">
+    <header class="border-b border-slate-200 bg-white">
+      <div class="mx-auto max-w-6xl px-4 py-6 sm:px-6">
+        <div class="flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
+          <div>
+            <p class="text-xs font-semibold uppercase tracking-widest text-slate-400">DE Meta Ads · Heatwave POC</p>
+            <h1 class="mt-1 text-2xl font-semibold tracking-tight text-slate-900">空调 / 降温产品竞品看板</h1>
+            <p class="mt-1 text-sm text-slate-500">Klimaanlage · Mobile AC · Split · Klimagerät</p>
+          </div>
+          <div v-if="meta" class="flex flex-wrap gap-2 text-xs">
+            <span class="rounded-full bg-emerald-50 px-3 py-1 font-medium text-emerald-700">
+              {{ meta.successCount }} 条有效情报
+            </span>
+            <span v-if="meta.verticalLabel" class="rounded-full bg-sky-50 px-3 py-1 text-sky-700">
+              {{ meta.verticalLabel }}
+            </span>
+            <span class="rounded-full bg-slate-100 px-3 py-1 text-slate-600">
+              {{ formatDate(meta.generatedAt) }}
+            </span>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="mx-auto max-w-6xl px-4 py-8 sm:px-6">
+      <div v-if="loading" class="rounded-xl border border-slate-200 bg-white p-12 text-center text-slate-500">
+        正在加载 final_report.json…
+      </div>
+
+      <div v-else-if="error" class="rounded-xl border border-amber-200 bg-amber-50 p-8">
+        <p class="font-medium text-amber-900">无法自动加载数据</p>
+        <p class="mt-2 text-sm text-amber-800">{{ error }}</p>
+        <label class="mt-6 inline-flex cursor-pointer items-center gap-2 rounded-lg bg-slate-900 px-4 py-2.5 text-sm font-medium text-white hover:bg-slate-800">
+          <input type="file" accept=".json,application/json" class="hidden" @change="onFilePick" />
+          选择 JSON 文件
+        </label>
+      </div>
+
+      <div v-else class="space-y-6">
+        <div v-if="meta?.hybrid || meta?.note" class="rounded-xl border border-sky-200 bg-sky-50 px-5 py-4 text-sm text-sky-900">
+          <p class="font-medium">视觉情报模式</p>
+          <p class="mt-1 text-sky-800">{{ meta.note || '含 FB 素材图 + 落地页预览；部分 AI 文案待补充。' }}</p>
+        </div>
+
+        <div v-if="loadWarning" class="rounded-xl border border-amber-200 bg-amber-50 px-5 py-4 text-sm text-amber-900">
+          {{ loadWarning }}
+        </div>
+
+        <div v-if="meta?.trends" class="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
+          <div class="flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between">
+            <div>
+              <p class="text-xs font-semibold uppercase tracking-wide text-slate-400">市场趋势（代理指标）</p>
+              <p class="mt-1 text-sm text-slate-600">{{ meta.trends.spendNote }}</p>
+            </div>
+            <div class="flex flex-wrap gap-2 text-xs">
+              <span class="rounded-full bg-slate-100 px-3 py-1 font-medium text-slate-700">
+                语料 {{ meta.trends.adsInCorpus }} 条
+              </span>
+              <span class="rounded-full bg-emerald-50 px-3 py-1 font-medium text-emerald-700">
+                投放中 {{ meta.trends.activeAds }}
+              </span>
+              <span class="rounded-full bg-sky-50 px-3 py-1 font-medium text-sky-700">
+                近14天上新 {{ meta.trends.startedLast14d }}
+              </span>
+            </div>
+          </div>
+          <div class="mt-5 grid gap-4 md:grid-cols-3">
+            <div>
+              <p class="mb-2 text-xs font-semibold uppercase tracking-wide text-slate-400">广告主 Top</p>
+              <ul class="space-y-1.5 text-sm">
+                <li v-for="row in meta.trends.topAdvertisers" :key="row.name" class="flex justify-between gap-2">
+                  <span class="truncate text-slate-700">{{ row.name }}</span>
+                  <span class="shrink-0 font-medium text-slate-900">{{ row.count }}</span>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <p class="mb-2 text-xs font-semibold uppercase tracking-wide text-slate-400">投放平台</p>
+              <ul class="space-y-1.5 text-sm">
+                <li v-for="row in meta.trends.platformMix" :key="row.platform" class="flex justify-between gap-2">
+                  <span class="text-slate-700">{{ formatPlatform(row.platform) }}</span>
+                  <span class="font-medium text-slate-900">{{ row.count }}</span>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <p class="mb-2 text-xs font-semibold uppercase tracking-wide text-slate-400">关键词命中</p>
+              <ul class="space-y-1.5 text-sm">
+                <li v-for="row in meta.trends.keywordMix" :key="row.keyword" class="flex justify-between gap-2">
+                  <span class="truncate text-slate-700">{{ row.keyword }}</span>
+                  <span class="shrink-0 font-medium text-slate-900">{{ row.count }}</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div v-if="items.length === 0" class="rounded-xl border border-dashed border-slate-300 bg-white p-12 text-center text-slate-500">
+          暂无竞品卡片。请刷新或重新选择 final_report.json。
+        </div>
+
+        <article
+          v-for="(item, index) in items"
+          :key="item.ad.adArchiveId || index"
+          class="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition hover:shadow-md"
+        >
+          <!-- Visual hero: ad creative + product thumb + landing preview -->
+          <div class="grid gap-0 border-b border-slate-100 lg:grid-cols-3">
+            <div class="media-frame border-b border-slate-100 p-4 lg:border-b-0 lg:border-r">
+              <p class="mb-2 flex items-center justify-between text-xs font-semibold uppercase tracking-wide text-slate-400">
+                <span>FB 广告素材</span>
+                <span v-if="isVideoCreative(item)" class="normal-case font-medium text-emerald-700">视频广告 · 可播放</span>
+                <span v-else-if="item.ad.creativeType === 'image'" class="normal-case font-normal text-slate-400">图片广告</span>
+              </p>
+              <div
+                v-if="item.ad.videoUrl && !videoFailed[index]"
+                class="media-slot relative overflow-hidden rounded-xl border border-slate-200 bg-slate-900"
+              >
+                <video
+                  controls
+                  playsinline
+                  preload="metadata"
+                  :poster="item.ad.creativeUrl || undefined"
+                  class="h-full w-full object-cover"
+                  @error="onVideoError(index)"
+                >
+                  <source :src="item.ad.videoUrl" type="video/mp4" />
+                </video>
+              </div>
+              <template v-else-if="item.ad.creativeUrl">
+                <a
+                  :href="item.ad.adLibraryUrl || item.ad.creativeUrl"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="media-slot block overflow-hidden rounded-xl border border-slate-200 bg-slate-900/5"
+                >
+                  <img
+                    :src="item.ad.creativeUrl"
+                    :alt="'Ad creative ' + (index + 1)"
+                    class="h-full w-full object-cover"
+                    loading="lazy"
+                    referrerpolicy="no-referrer"
+                    @error="onImgError($event, 'creative')"
+                  />
+                </a>
+                <a
+                  v-if="item.ad.videoUrl && videoFailed[index] && item.ad.adLibraryUrl"
+                  :href="item.ad.adLibraryUrl"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="mt-2 block text-center text-xs text-indigo-600 underline"
+                >
+                  视频已过期 · 在 Meta 广告库查看
+                </a>
+              </template>
+              <div v-else class="flex h-48 items-center justify-center rounded-xl border border-dashed border-slate-200 text-sm text-slate-400">
+                无素材图
+              </div>
+            </div>
+            <div class="media-frame border-b border-slate-100 p-4 lg:border-b-0 lg:border-r">
+              <p class="mb-2 flex items-center justify-between text-xs font-semibold uppercase tracking-wide text-slate-400">
+                <span>产品缩略图</span>
+                <span v-if="productPriceLabel(item)" class="normal-case font-medium text-emerald-700">{{ productPriceLabel(item) }}</span>
+              </p>
+              <a
+                v-if="productPageUrl(item)"
+                :href="productPageUrl(item)"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="media-slot block overflow-hidden rounded-xl border border-slate-200 bg-white"
+              >
+                <img
+                  v-if="productThumbSrc(item)"
+                  :src="productThumbSrc(item)"
+                  :alt="productTitleLabel(item) || ('Product ' + (index + 1))"
+                  class="h-full w-full object-contain bg-white p-2"
+                  loading="lazy"
+                  referrerpolicy="no-referrer"
+                  @error="onProductImgError($event, item)"
+                />
+                <div v-else class="flex h-48 flex-col items-center justify-center gap-2 px-4 text-center text-sm text-slate-500">
+                  <span>暂无产品图</span>
+                  <span class="line-clamp-2 text-xs text-slate-600">{{ productTitleLabel(item) || '点击访问商品页' }}</span>
+                </div>
+              </a>
+              <p v-if="productTitleLabel(item)" class="mt-2 line-clamp-2 text-xs text-slate-600">{{ productTitleLabel(item) }}</p>
+            </div>
+            <div class="media-frame p-4">
+              <p class="mb-2 flex items-center justify-between text-xs font-semibold uppercase tracking-wide text-slate-400">
+                <span>落地页预览</span>
+                <span v-if="landingPreviewIsScreenshot(item)" class="normal-case font-normal text-slate-400">页面截图</span>
+              </p>
+              <a
+                v-if="item.ad.landingPageUrl"
+                :href="item.ad.landingPageUrl"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="media-slot block overflow-hidden rounded-xl border border-slate-200 bg-white"
+              >
+                <img
+                  v-if="landingPreviewSrc(item)"
+                  :src="landingPreviewSrc(item)"
+                  :alt="'Landing preview ' + (index + 1)"
+                  class="h-full w-full object-cover object-top"
+                  loading="lazy"
+                  referrerpolicy="no-referrer"
+                  @error="onLandingImgError($event, item)"
+                />
+                <div v-else class="flex h-48 flex-col items-center justify-center gap-2 px-4 text-center text-sm text-slate-500">
+                  <span>暂无页面缩略图</span>
+                  <span class="text-xs text-indigo-600 underline">点击访问落地页</span>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <!-- Header + meta badges -->
+          <div class="border-b border-slate-100 px-6 py-5">
+            <div class="mb-3 flex flex-wrap items-center gap-2">
+              <span v-if="item.ad.sourceKeyword" class="rounded-md bg-slate-100 px-2 py-0.5 text-xs font-medium text-slate-600">
+                {{ item.ad.sourceKeyword }}
+              </span>
+              <span v-if="item.ad.pageName" class="rounded-md bg-violet-50 px-2 py-0.5 text-xs font-medium text-violet-700">
+                {{ item.ad.pageName }}
+              </span>
+              <span v-if="item.ad.isActive === true" class="rounded-md bg-emerald-50 px-2 py-0.5 text-xs font-medium text-emerald-700">投放中</span>
+              <span v-if="item.ad.adDeliveryStart" class="rounded-md bg-slate-50 px-2 py-0.5 text-xs text-slate-600">
+                开始 {{ formatShortDate(item.ad.adDeliveryStart) }}
+              </span>
+              <span v-if="runDaysLabel(item)" class="rounded-md bg-slate-50 px-2 py-0.5 text-xs text-slate-600">
+                已跑 {{ runDaysLabel(item) }}
+              </span>
+              <span
+                v-for="platform in item.ad.publisherPlatforms || []"
+                :key="platform"
+                class="rounded-md bg-indigo-50 px-2 py-0.5 text-xs font-medium text-indigo-700"
+              >
+                {{ formatPlatform(platform) }}
+              </span>
+              <span v-if="item.ad.variantCount" class="rounded-md bg-slate-50 px-2 py-0.5 text-xs text-slate-600">
+                {{ item.ad.variantCount }} 变体
+              </span>
+              <span v-if="item.ad.spendText" class="rounded-md bg-amber-50 px-2 py-0.5 text-xs font-medium text-amber-800">
+                花费 {{ item.ad.spendText }}
+              </span>
+              <span v-if="item.ad.impressionsText" class="rounded-md bg-blue-50 px-2 py-0.5 text-xs font-medium text-blue-800">
+                展示 {{ item.ad.impressionsText }}
+              </span>
+              <span v-if="item.ad.reachText" class="rounded-md bg-blue-50 px-2 py-0.5 text-xs font-medium text-blue-800">
+                触达 {{ item.ad.reachText }}
+              </span>
+            </div>
+
+            <div class="flex flex-wrap gap-4 text-sm">
+              <a
+                :href="item.ad.landingPageUrl"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="font-semibold text-indigo-600 hover:text-indigo-800"
+              >
+                {{ displayHost(item.ad.landingPageUrl) }} ↗
+              </a>
+              <a
+                v-if="item.ad.adLibraryUrl"
+                :href="item.ad.adLibraryUrl"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="text-slate-500 hover:text-slate-700"
+              >
+                Meta 广告库 ↗
+              </a>
+            </div>
+            <p v-if="item.scrape?.pageTitle" class="mt-2 text-sm text-slate-500">{{ item.scrape.pageTitle }}</p>
+          </div>
+
+          <div class="space-y-5 px-6 py-5">
+            <div class="grid gap-4 sm:grid-cols-2">
+              <div class="rounded-xl bg-amber-50/80 p-4 ring-1 ring-amber-100">
+                <p class="text-xs font-semibold uppercase tracking-wide text-amber-700/80">产品 / 营销切入点</p>
+                <p class="mt-2 text-sm font-medium leading-relaxed text-amber-950">
+                  {{ item.analysis?.marketing_hook || '—' }}
+                </p>
+              </div>
+              <div class="rounded-xl bg-indigo-50/80 p-4 ring-1 ring-indigo-100">
+                <p class="text-xs font-semibold uppercase tracking-wide text-indigo-700/80">中文转化文案</p>
+                <p class="mt-2 text-sm font-medium leading-relaxed text-indigo-950">
+                  {{ item.analysis?.localized_translation || '—' }}
+                </p>
+              </div>
+            </div>
+
+            <div>
+              <p class="mb-3 text-xs font-semibold uppercase tracking-wide text-slate-400">转化路径 / 表单步骤</p>
+              <div v-if="topFormQuestions(item).length" class="space-y-0">
+                <div v-for="(q, qi) in topFormQuestions(item)" :key="qi" class="step-item relative flex gap-4 pb-5">
+                  <div class="step-line relative flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-slate-900 text-sm font-semibold text-white">
+                    {{ qi + 1 }}
+                  </div>
+                  <div class="min-w-0 flex-1 pt-1">
+                    <p class="text-sm font-medium text-slate-800">{{ q }}</p>
+                  </div>
+                </div>
+              </div>
+              <p v-else class="rounded-lg border border-dashed border-slate-200 bg-slate-50 px-4 py-3 text-sm text-slate-500">
+                直购 / 单品页（无多步表单）
+              </p>
+            </div>
+
+            <div class="rounded-xl border border-slate-200">
+              <button
+                type="button"
+                class="flex w-full items-center justify-between px-4 py-3 text-left text-sm font-medium text-slate-700 hover:bg-slate-50"
+                @click="toggleAccordion(index)"
+              >
+                <span>原始德语广告文案</span>
+                <svg class="h-5 w-5 text-slate-400 transition" :class="{ 'rotate-180': openAccordion === index }" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                </svg>
+              </button>
+              <div v-show="openAccordion === index" class="border-t border-slate-100 px-4 py-4">
+                <pre class="whitespace-pre-wrap font-sans text-sm leading-relaxed text-slate-600">{{ item.ad.adBody || '（无文案）' }}</pre>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <div class="flex justify-center pt-4">
+          <label class="cursor-pointer text-sm text-slate-500 hover:text-slate-700">
+            <input type="file" accept=".json,application/json" class="hidden" @change="onFilePick" />
+            重新加载 JSON
+          </label>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <script>
+    const { createApp, ref, onMounted } = Vue;
+
+    createApp({
+      setup() {
+        const loading = ref(true);
+        const error = ref(null);
+        const meta = ref(null);
+        const items = ref([]);
+        const openAccordion = ref(null);
+        const loadWarning = ref(null);
+        const videoFailed = ref({});
+
+        function parseReport(data) {
+          meta.value = data.meta || null;
+          const successItems = (data.items || []).filter((i) => i.status === 'success');
+          items.value = successItems;
+          videoFailed.value = {};
+          loadWarning.value = buildLoadWarning(data, items.value.length);
+        }
+
+        function buildLoadWarning(data, visibleCount) {
+          if (visibleCount > 0) return null;
+          const failed = data.meta?.failedCount ?? (data.skipped || []).length;
+          if (failed > 0) {
+            return `报告中有 ${failed} 条失败记录。请重新运行 pipeline 或选择最新 JSON。`;
+          }
+          return '报告中没有可展示的竞品条目。';
+        }
+
+        function formatDate(iso) {
+          if (!iso) return '';
+          try {
+            return new Date(iso).toLocaleString('zh-CN', { dateStyle: 'medium', timeStyle: 'short' });
+          } catch { return iso; }
+        }
+
+        function formatShortDate(iso) {
+          if (!iso) return '';
+          try {
+            return new Date(iso).toLocaleDateString('zh-CN');
+          } catch { return iso; }
+        }
+
+        function displayHost(url) {
+          try { return new URL(url).hostname.replace(/^www\./, ''); }
+          catch { return url; }
+        }
+
+        function topFormQuestions(item) {
+          return (item.analysis?.form_questions || []).slice(0, 3);
+        }
+
+        function toggleAccordion(index) {
+          openAccordion.value = openAccordion.value === index ? null : index;
+        }
+
+        function isLikelyUiIconUrl(url) {
+          if (!url) return true;
+          const lower = url.toLowerCase();
+          if (/icon|logo|favicon|sprite|badge|arrow|chevron|heyflow\.com.*original\.webp/i.test(lower)) return true;
+          return false;
+        }
+
+        function landingScreenshotUrl(url) {
+          if (!url) return null;
+          try {
+            return `https://s.wordpress.com/mshots/v1/${encodeURIComponent(url)}?w=1200`;
+          } catch { return null; }
+        }
+
+        function landingPreviewSrc(item) {
+          const preview = item.scrape?.previewImageUrl;
+          const landing = item.ad.landingPageUrl;
+          if (preview && !isLikelyUiIconUrl(preview)) return preview;
+          return landingScreenshotUrl(landing);
+        }
+
+        function landingPreviewIsScreenshot(item) {
+          const preview = item.scrape?.previewImageUrl;
+          return !preview || isLikelyUiIconUrl(preview);
+        }
+
+        function formatPlatform(code) {
+          const map = { FACEBOOK: 'Facebook', INSTAGRAM: 'Instagram', MESSENGER: 'Messenger', AUDIENCE_NETWORK: 'Audience Network' };
+          return map[code] || code;
+        }
+
+        function runDaysLabel(item) {
+          const start = item.ad?.adDeliveryStart;
+          if (!start) return null;
+          try {
+            const startDate = new Date(String(start).replace(' ', 'T'));
+            const endDate = item.ad.adDeliveryStop ? new Date(String(item.ad.adDeliveryStop).replace(' ', 'T')) : new Date();
+            const days = Math.max(1, Math.round((endDate - startDate) / 86400000));
+            return `${days} 天`;
+          } catch { return null; }
+        }
+
+        function productPageUrl(item) {
+          return item.ad.productPageUrl || item.ad.landingPageUrl;
+        }
+
+        function productTitleLabel(item) {
+          return item.scrape?.productTitle || item.ad.productTitle || null;
+        }
+
+        function productPriceLabel(item) {
+          return item.scrape?.productPrice || null;
+        }
+
+        function productThumbSrc(item) {
+          return item.scrape?.productImageUrl || null;
+        }
+
+        function onProductImgError(event, item) {
+          const el = event.target;
+          if (item.ad.creativeUrl && el.src !== item.ad.creativeUrl) {
+            el.src = item.ad.creativeUrl;
+            el.classList.remove('object-contain', 'p-2');
+            el.classList.add('object-cover');
+            return;
+          }
+          onImgError(event, 'product');
+        }
+
+        function isVideoCreative(item) {
+          if (item.ad.creativeType === 'video' || item.ad.videoUrl) {
+            return true;
+          }
+          const body = item.ad.adBody || '';
+          return /video|reel|▶️|🎬/i.test(body);
+        }
+
+        function onVideoError(index) {
+          videoFailed.value = { ...videoFailed.value, [index]: true };
+        }
+
+        function onLandingImgError(event, item) {
+          const el = event.target;
+          const shot = landingScreenshotUrl(item.ad.landingPageUrl);
+          if (shot && el.src !== shot) {
+            el.src = shot;
+            return;
+          }
+          onImgError(event, 'landing');
+        }
+
+        function onImgError(event, kind) {
+          const el = event.target;
+          el.style.display = 'none';
+          const parent = el.parentElement;
+          if (parent && !parent.querySelector('.img-fallback')) {
+            const div = document.createElement('div');
+            div.className = 'img-fallback flex h-48 items-center justify-center text-sm text-slate-400';
+            const labels = {
+              creative: '素材图已过期或无法加载',
+              landing: '落地页预览无法加载',
+              product: '产品图无法加载',
+            };
+            div.textContent = labels[kind] || '图片无法加载';
+            parent.appendChild(div);
+          }
+        }
+
+        function onFilePick(event) {
+          const file = event.target.files?.[0];
+          if (!file) return;
+          loading.value = true;
+          error.value = null;
+          const reader = new FileReader();
+          reader.onload = (e) => {
+            try {
+              parseReport(JSON.parse(e.target.result));
+              loading.value = false;
+            } catch (err) {
+              error.value = 'JSON 解析失败：' + err.message;
+              loading.value = false;
+            }
+          };
+          reader.readAsText(file);
+        }
+
+        async function loadReport() {
+          loading.value = true;
+          error.value = null;
+          if (window.__REPORT__) {
+            parseReport(window.__REPORT__);
+            loading.value = false;
+            return;
+          }
+          for (const path of ['output/final_report.json', './output/final_report.json', 'final_report.json']) {
+            try {
+              const res = await fetch(path);
+              if (!res.ok) continue;
+              parseReport(await res.json());
+              loading.value = false;
+              return;
+            } catch { /* next */ }
+          }
+          loading.value = false;
+          error.value = '未找到 final_report.json';
+        }
+
+        onMounted(loadReport);
+
+        return {
+          loading, error, meta, items, loadWarning, openAccordion,
+          formatDate, formatShortDate, displayHost, topFormQuestions, formatPlatform,
+          runDaysLabel, productPageUrl, productTitleLabel, productPriceLabel, productThumbSrc,
+          toggleAccordion, onFilePick, onImgError, onLandingImgError, onProductImgError, onVideoError,
+          landingPreviewSrc, landingPreviewIsScreenshot, isVideoCreative, videoFailed,
+        };
+      },
+    }).mount('#app');
+  </script>
+</body>
+</html>

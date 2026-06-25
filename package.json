@@ -12,6 +12,11 @@
     "deep-analyze:ac": "VERTICAL=ac tsx src/deep-analyze.ts",
     "pipeline:ac": "npm run scrape:ac && npm run deep-analyze:ac",
     "refresh-previews:ac": "VERTICAL=ac tsx src/refresh-previews.ts",
+    "enrich:ac": "VERTICAL=ac tsx src/enrich-ac-report.ts",
+    "rebuild:ac": "VERTICAL=ac tsx src/rebuild-ac-report.ts",
+    "backfill:video": "tsx src/backfill-video-meta.ts",
+    "prune:ac": "VERTICAL=ac tsx src/prune-ac-report.ts",
+    "bundle:site": "node scripts/bundle-site.mjs",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {

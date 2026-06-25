@@ -562,6 +562,11 @@
         async function loadReport() {
           loading.value = true;
           error.value = null;
+          if (window.__REPORT__) {
+            parseReport(window.__REPORT__);
+            loading.value = false;
+            return;
+          }
           for (const path of ['output/final_report.json', './output/final_report.json', 'final_report.json']) {
             try {
               const res = await fetch(path);
