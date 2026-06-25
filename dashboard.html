@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Affiliate Ad Spy — 竞品情报看板</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+          },
+        },
+      },
+    };
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
+  <style>
+    [v-cloak] { display: none; }
+    .step-line::after {
+      content: '';
+      position: absolute;
+      left: 1.125rem;
+      top: 2.25rem;
+      bottom: -0.5rem;
+      width: 2px;
+      background: #e2e8f0;
+    }
+    .step-item:last-child .step-line::after { display: none; }
+  </style>
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased">
+  <div id="app" v-cloak class="min-h-screen">
+    <!-- Header -->
+    <header class="border-b border-slate-200 bg-white">
+      <div class="mx-auto max-w-5xl px-4 py-6 sm:px-6">
+        <div class="flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
+          <div>
+            <p class="text-xs font-semibold uppercase tracking-widest text-slate-400">DE Leadgen Intel</p>
+            <h1 class="mt-1 text-2xl font-semibold tracking-tight text-slate-900">竞品广告情报看板</h1>
+            <p class="mt-1 text-sm text-slate-500">Solar · Wärmepumpe · Hausratversicherung</p>
+          </div>
+          <div v-if="meta" class="flex flex-wrap gap-2 text-xs">
+            <span class="rounded-full bg-emerald-50 px-3 py-1 font-medium text-emerald-700">
+              {{ meta.successCount }} 条有效情报
+            </span>
+            <span class="rounded-full bg-slate-100 px-3 py-1 text-slate-600">
+              {{ formatDate(meta.generatedAt) }}
+            </span>
+            <span class="rounded-full bg-slate-100 px-3 py-1 text-slate-600">
+              {{ meta.llmModel }}
+            </span>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="mx-auto max-w-5xl px-4 py-8 sm:px-6">
+      <!-- Load state -->
+      <div v-if="loading" class="rounded-xl border border-slate-200 bg-white p-12 text-center text-slate-500">
+        正在加载 final_report.json…
+      </div>
+
+      <div v-else-if="error" class="rounded-xl border border-amber-200 bg-amber-50 p-8">
+        <p class="font-medium text-amber-900">无法自动加载数据</p>
+        <p class="mt-2 text-sm text-amber-800">{{ error }}</p>
+        <p class="mt-4 text-sm text-amber-700">
+          双击打开 HTML 时浏览器会阻止读取本地 JSON。请下方手动选择
+          <code class="rounded bg-amber-100 px-1">output/final_report.json</code>，
+          或在项目目录运行 <code class="rounded bg-amber-100 px-1">npx serve .</code> 后刷新页面。
+        </p>
+        <label class="mt-6 inline-flex cursor-pointer items-center gap-2 rounded-lg bg-slate-900 px-4 py-2.5 text-sm font-medium text-white hover:bg-slate-800">
+          <input type="file" accept=".json,application/json" class="hidden" @change="onFilePick" />
+          选择 JSON 文件
+        </label>
+      </div>
+
+      <!-- Cards -->
+      <div v-else class="space-y-6">
+        <div
+          v-if="loadWarning"
+          class="rounded-xl border border-amber-200 bg-amber-50 px-5 py-4 text-sm text-amber-900"
+        >
+          {{ loadWarning }}
+        </div>
+
+        <div v-if="items.length === 0" class="rounded-xl border border-dashed border-slate-300 bg-white p-12 text-center text-slate-500">
+          暂无竞品卡片可展示。若刚跑完 deep-analyze，请刷新页面或重新选择最新的 final_report.json。
+        </div>
+
+        <article
+          v-for="(item, index) in items"
+          :key="item.ad.adArchiveId || index"
+          class="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition hover:shadow-md"
+        >
+          <!-- Card header: Landing URL -->
+          <div class="border-b border-slate-100 px-6 py-5">
+            <div class="flex flex-wrap items-center gap-2 mb-2">
+              <span
+                v-if="item.ad.sourceKeyword"
+                class="rounded-md bg-slate-100 px-2 py-0.5 text-xs font-medium text-slate-600"
+              >
+                {{ item.ad.sourceKeyword }}
+              </span>
+              <span class="text-xs text-slate-400">#{{ index + 1 }}</span>
+            </div>
+            <a
+              :href="item.ad.landingPageUrl"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="group inline-flex max-w-full items-start gap-2 text-lg font-semibold text-indigo-600 hover:text-indigo-800"
+            >
+              <span class="break-all underline decoration-indigo-200 underline-offset-4 group-hover:decoration-indigo-400">
+                {{ displayHost(item.ad.landingPageUrl) }}
+              </span>
+              <svg class="mt-1 h-4 w-4 shrink-0 opacity-60" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+              </svg>
+            </a>
+            <p class="mt-1 truncate text-xs text-slate-400" :title="item.ad.landingPageUrl">
+              {{ item.ad.landingPageUrl }}
+            </p>
+            <p v-if="item.scrape?.pageTitle" class="mt-2 text-sm text-slate-500">
+              {{ item.scrape.pageTitle }}
+            </p>
+          </div>
+
+          <div class="space-y-5 px-6 py-5">
+            <!-- Core: marketing hook + translation -->
+            <div class="grid gap-4 sm:grid-cols-2">
+              <div class="rounded-xl bg-amber-50/80 p-4 ring-1 ring-amber-100">
+                <p class="text-xs font-semibold uppercase tracking-wide text-amber-700/80">营销切入点</p>
+                <p class="mt-2 text-sm font-medium leading-relaxed text-amber-950">
+                  {{ item.analysis?.marketing_hook || '—' }}
+                </p>
+              </div>
+              <div class="rounded-xl bg-indigo-50/80 p-4 ring-1 ring-indigo-100">
+                <p class="text-xs font-semibold uppercase tracking-wide text-indigo-700/80">中文转化文案</p>
+                <p class="mt-2 text-sm font-medium leading-relaxed text-indigo-950">
+                  {{ item.analysis?.localized_translation || '—' }}
+                </p>
+              </div>
+            </div>
+
+            <!-- Funnel: form questions as steps -->
+            <div>
+              <p class="mb-3 text-xs font-semibold uppercase tracking-wide text-slate-400">落地页漏斗 / 表单步骤</p>
+              <div v-if="topFormQuestions(item).length" class="space-y-0">
+                <div
+                  v-for="(q, qi) in topFormQuestions(item)"
+                  :key="qi"
+                  class="step-item relative flex gap-4 pb-5"
+                >
+                  <div class="step-line relative flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-slate-900 text-sm font-semibold text-white">
+                    {{ qi + 1 }}
+                  </div>
+                  <div class="min-w-0 flex-1 pt-1">
+                    <p class="text-sm font-medium text-slate-800">{{ q }}</p>
+                    <p class="mt-0.5 text-xs text-slate-400">Step {{ qi + 1 }}</p>
+                  </div>
+                </div>
+              </div>
+              <p v-else class="rounded-lg border border-dashed border-slate-200 bg-slate-50 px-4 py-3 text-sm text-slate-500">
+                未检测到多步表单（内容页 / 直拨咨询 / 单页 CTA）
+              </p>
+            </div>
+
+            <!-- Accordion: original German ad -->
+            <div class="rounded-xl border border-slate-200">
+              <button
+                type="button"
+                class="flex w-full items-center justify-between px-4 py-3 text-left text-sm font-medium text-slate-700 hover:bg-slate-50"
+                @click="toggleAccordion(index)"
+              >
+                <span>原始德语广告文案</span>
+                <svg
+                  class="h-5 w-5 text-slate-400 transition"
+                  :class="{ 'rotate-180': openAccordion === index }"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                </svg>
+              </button>
+              <div v-show="openAccordion === index" class="border-t border-slate-100 px-4 py-4">
+                <pre class="whitespace-pre-wrap font-sans text-sm leading-relaxed text-slate-600">{{ item.ad.adBody || '（无文案）' }}</pre>
+                <a
+                  v-if="item.ad.creativeUrl"
+                  :href="item.ad.creativeUrl"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="mt-4 inline-block text-xs text-indigo-600 hover:underline"
+                >
+                  查看广告素材图 →
+                </a>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Footer reload -->
+        <div class="flex justify-center pt-4">
+          <label class="cursor-pointer text-sm text-slate-500 hover:text-slate-700">
+            <input type="file" accept=".json,application/json" class="hidden" @change="onFilePick" />
+            重新加载 JSON
+          </label>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <script>
+    const { createApp, ref, onMounted } = Vue;
+
+    createApp({
+      setup() {
+        const loading = ref(true);
+        const error = ref(null);
+        const meta = ref(null);
+        const items = ref([]);
+        const openAccordion = ref(null);
+        const loadWarning = ref(null);
+
+        function parseReport(data) {
+          meta.value = data.meta || null;
+          const successItems = (data.items || []).filter((i) => i.status === 'success');
+          // Some failed runs put everything in `skipped` and leave `items` empty.
+          if (successItems.length === 0 && Array.isArray(data.skipped)) {
+            const fromSkipped = data.skipped.filter((i) => i.status === 'success' && i.analysis);
+            items.value = fromSkipped.length ? fromSkipped : [];
+          } else {
+            items.value = successItems;
+          }
+          loadWarning.value = buildLoadWarning(data, items.value.length);
+        }
+
+        function buildLoadWarning(data, visibleCount) {
+          const meta = data.meta || {};
+          if (visibleCount > 0) return null;
+          const failed = meta.failedCount ?? (data.skipped || []).length;
+          if (failed > 0) {
+            const sample = (data.skipped || [])[0]?.error || '';
+            const quota = /quota|429|gemini-2\.0-flash/i.test(sample);
+            if (quota) {
+              return '报告生成失败：Gemini API 配额不足（常见于 gemini-2.0-flash）。请在 .env 设置 GEMINI_MODEL=gemini-2.5-flash 后重新运行 npm run deep-analyze。';
+            }
+            return `报告中有 ${failed} 条失败记录，无成功分析。请重新运行 npm run deep-analyze 生成新报告。`;
+          }
+          return '报告中没有可展示的竞品条目。';
+        }
+
+        function formatDate(iso) {
+          if (!iso) return '';
+          try {
+            return new Date(iso).toLocaleString('zh-CN', { dateStyle: 'medium', timeStyle: 'short' });
+          } catch {
+            return iso;
+          }
+        }
+
+        function displayHost(url) {
+          try {
+            return new URL(url).hostname.replace(/^www\./, '');
+          } catch {
+            return url;
+          }
+        }
+
+        function topFormQuestions(item) {
+          const qs = item.analysis?.form_questions || [];
+          return qs.slice(0, 3);
+        }
+
+        function toggleAccordion(index) {
+          openAccordion.value = openAccordion.value === index ? null : index;
+        }
+
+        function onFilePick(event) {
+          const file = event.target.files?.[0];
+          if (!file) return;
+          loading.value = true;
+          error.value = null;
+          const reader = new FileReader();
+          reader.onload = (e) => {
+            try {
+              parseReport(JSON.parse(e.target.result));
+              loading.value = false;
+              error.value = null;
+            } catch (err) {
+              error.value = 'JSON 解析失败：' + err.message;
+              loading.value = false;
+            }
+          };
+          reader.readAsText(file);
+        }
+
+        async function loadReport() {
+          loading.value = true;
+          error.value = null;
+          const paths = ['output/final_report.json', './output/final_report.json', 'final_report.json'];
+          for (const path of paths) {
+            try {
+              const res = await fetch(path);
+              if (!res.ok) continue;
+              const data = await res.json();
+              parseReport(data);
+              loading.value = false;
+              return;
+            } catch {
+              /* try next path */
+            }
+          }
+          loading.value = false;
+          error.value = '未找到 final_report.json（file:// 协议下需手动选择文件）';
+        }
+
+        onMounted(loadReport);
+
+        return {
+          loading,
+          error,
+          meta,
+          items,
+          loadWarning,
+          openAccordion,
+          formatDate,
+          displayHost,
+          topFormQuestions,
+          toggleAccordion,
+          onFilePick,
+        };
+      },
+    }).mount('#app');
+  </script>
+</body>
+</html>

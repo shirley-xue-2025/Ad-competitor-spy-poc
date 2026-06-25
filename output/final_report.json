@@ -1,0 +1,330 @@
+{
+  "meta": {
+    "generatedAt": "2026-06-25T07:15:21.461Z",
+    "sourceFile": "/Users/chao.xue/shirley/affiliate ad spy/output/ads-2026-06-24T22-39-13-613Z.json",
+    "targetSuccessCount": 10,
+    "candidatesAttempted": 15,
+    "successCount": 10,
+    "failedCount": 5,
+    "websiteCrawlerActor": "apify/website-content-crawler",
+    "llmModel": "gemini-2.5-flash",
+    "crawlCacheEntries": 29
+  },
+  "items": [
+    {
+      "status": "success",
+      "error": null,
+      "ad": {
+        "adBody": "Wie viel sollte Ihre Hausratversicherung 2026 wirklich kosten?\nBeantworten Sie ein paar Fragen und erfahren Sie in 2 Minuten, wie günstig Ihr Schutz sein kann.\n\nJetzt Beitrag berechnen",
+        "creativeUrl": "https://scontent-dus1-1.xx.fbcdn.net/v/t39.35426-6/707136612_1015532747482900_4397276189830888273_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=fr7m0CndebUQ7kNvwEha91_&_nc_oc=AdpQnMx_6wJejmOCZSvn4RJKA7gsHlI3rzaIJzG8QxkWZOS6EhwvUhe7Z6vCoyk9Y58&_nc_zt=14&_nc_ht=scontent-dus1-1.xx&_nc_gid=qn1hCZUeyaqNXKKmTWhVjw&_nc_ss=7f289&oh=00_Af9NiejlTWrXsOyFU18CdSP48oPnq3isj3SLl33qrYgqxg&oe=6A42159C",
+        "landingPageUrl": "https://hausrat.versicherungs-profi.com/",
+        "adArchiveId": "995502102943945",
+        "sourceKeyword": "Hausratversicherung"
+      },
+      "scrape": {
+        "crawlRunId": "nU0N9PzoYrz46jmiS",
+        "pageTitle": "Lassen Sie sich persönlich zur Allianz Hausratversicherung beraten -a | hausrat.versicherungs-profi.com",
+        "markdownLength": 1014,
+        "loadedUrl": "https://hausrat.versicherungs-profi.com/"
+      },
+      "analysis": {
+        "marketing_hook": "该广告利用消费者对房屋保险费用过高的担忧和对节省开支的渴望，承诺快速发现更优惠的选择，并引导用户寻求安联的个性化咨询服务。",
+        "form_questions": [],
+        "localized_translation": "您的家庭财产保险在2026年到底应该花多少钱？只需回答几个问题，2分钟内即可了解您的保障能有多划算。立即获取安联家庭财产保险的个性化咨询服务。"
+      }
+    },
+    {
+      "status": "success",
+      "error": null,
+      "ad": {
+        "adBody": "🚨 2026 ändert sich's! Solar wird für Hausbesitzer zur wichtigen Erwägung. Informieren sie sich über die aktuellen Ersparnisse.👉 Alle Infos hier!",
+        "creativeUrl": "https://scontent-muc2-1.xx.fbcdn.net/v/t39.35426-6/581929947_2375124486241139_568893456829456112_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=5Ekzd84kBaUQ7kNvwHOqtJN&_nc_oc=Adq3BfhRPpU73Aixe2sXj889BOq9LWa0oFaT-WONPXK8iVBOZ0yU_VCO1aZ0ODl6plw&_nc_zt=14&_nc_ht=scontent-muc2-1.xx&_nc_gid=C6IwlYvsolgG1YPb1Xl1yA&_nc_ss=7f289&oh=00_Af-n4WX0jYdx1fOQbeo96PNHTSAZEqRxlNLF8rmAROwj1w&oe=6A42446B",
+        "landingPageUrl": "https://www.solaranlagen-magazin.de/artikel/solar-forderung-2024-deshalb-mussen-hausbesitzer-jetzt-schnell-sein",
+        "adArchiveId": "1577843636562027",
+        "sourceKeyword": "Solaranlage"
+      },
+      "scrape": {
+        "crawlRunId": "nU0N9PzoYrz46jmiS",
+        "pageTitle": "Solar-Förderung 2024: Deshalb müssen Hausbesitzer jetzt schnell sein",
+        "markdownLength": 3471,
+        "loadedUrl": "https://www.solaranlagen-magazin.de/artikel/solar-forderung-2024-deshalb-mussen-hausbesitzer-jetzt-schnell-sein"
+      },
+      "analysis": {
+        "marketing_hook": "德国房主因电价上涨和政府补贴政策不确定性而面临财务压力，该广告利用2026年政策变化前的紧迫感，推销Enpal零首付太阳能方案，承诺通过自产电力节省开支并获得额外收益。",
+        "form_questions": [],
+        "localized_translation": "🚨 2026年政策将变！太阳能对德国房主至关重要。现在就了解如何节省开支！房主必须迅速行动，因为政府政策带来不确定性，太阳能补贴即将调整。好消息是，您可以轻松摆脱电价飙升的困境，通过Enpal太阳能系统，不仅能大幅节省电费，还能每年获得高达2000欧元的Enpal补偿，并享受每千瓦时19欧分的Enpal独家电价，彻底摆脱未来电价上涨的恐惧。"
+      }
+    },
+    {
+      "status": "success",
+      "error": null,
+      "ad": {
+        "adBody": "Lohnt sich jetzt noch eine Solaranlage für Hausbesitzer? Eine Solaranlage von Enpal rechnet sich schneller, als viele Hausbesitzer denken. Sie wollen wissen, ob sich Solar auch für Sie lohnt? Finden Sie es mit Enpal heraus!\n\n🏠 Das Enpal-Prinzip:\n✔ 0 € Anzahlung inkl. Montage\n✔ Stromtarif ab 16 ct/kWh\n✔ Bis zu 2.000 € Vergütung/Jahr\n✔ Kaufen oder flexibel finanzieren\n\nJetzt in nur 2 Minuten den Check für Ihr Haus machen.",
+        "creativeUrl": "https://scontent-muc2-1.xx.fbcdn.net/v/t39.35426-6/628219186_1466494798355331_6005584860851268092_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=m8RC1TkTFO4Q7kNvwG7IlH_&_nc_oc=Adr7mjGDt_CmMe7xXIc6CBZuAWzHrn3tMr5Edbq6aRz6dvtyyKe8u3RwjMgsq4Iddyg&_nc_zt=14&_nc_ht=scontent-muc2-1.xx&_nc_gid=C6IwlYvsolgG1YPb1Xl1yA&_nc_ss=7f289&oh=00_Af_U_27az2uCBXyF8PJVRLvV4fN3nC6J2psyR-pzWK8J7Q&oe=6A424606",
+        "landingPageUrl": "https://www.angebot.enpal.de/solaranlage-kaufen",
+        "adArchiveId": "1353316406479891",
+        "sourceKeyword": "Solaranlage"
+      },
+      "scrape": {
+        "crawlRunId": "nU0N9PzoYrz46jmiS",
+        "pageTitle": "Mit Solarstrom einfach Geld sparen",
+        "markdownLength": 4605,
+        "loadedUrl": "https://www.angebot.enpal.de/solaranlage-kaufen"
+      },
+      "analysis": {
+        "marketing_hook": "该竞争对手通过强调零首付、高补贴和抓住当前上网电价补贴的紧迫性，精准捕捉了房主对太阳能投资回报率的疑虑和对省钱的渴望。",
+        "form_questions": [
+          "In welchem Bundesland leben Sie?"
+        ],
+        "localized_translation": "现在投资太阳能对房主来说还划算吗？Enpal 的太阳能系统比许多房主想象的更快回本。用太阳能轻松省钱。市场领导者提供一站式太阳能套餐：固定价格，含安装。0 欧元首付，含安装。电价低至 16 欧分/千瓦时。每年最高可获得 2,000 欧元补贴。现在就抓住上网电价补贴。立即在 2 分钟内为您的房屋进行检查。"
+      }
+    },
+    {
+      "status": "success",
+      "error": null,
+      "ad": {
+        "adBody": "Viele reden über Qualität. Wir bauen sie. Und das direkt in Deutschland.\n\nSo entwickeln wir unsere Wärmepumpe WPL-A Plus mit dem klaren Anspruch: Effizienz, die bleibt.\n\nEcht \"Made in Germany\".\n\nJetzt mehr über unsere Wärmepumpen erfahren und bis zu 70 % Förderung sichern.\n\n#STIEBELELTRON #Wärmepumpe #Effizienz #Innovation #EchtMadeinGermany #Energie #MadeinGermany #StiebelEltron #Förderung #Heizungstausch #Heizung #Modernisierung",
+        "creativeUrl": "https://scontent-muc2-1.xx.fbcdn.net/v/t39.35426-6/708654197_998717605944116_3207052558015297568_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=2QKx5yOlBZgQ7kNvwH93Y8E&_nc_oc=AdrolXcn_WSWPbpDPDysBuKKh_HSXO7DLOH46YpmnAbFmCUlgacHd4uwub60oZfc_ZE&_nc_zt=14&_nc_ht=scontent-muc2-1.xx&_nc_gid=gX2Cdg-7YHyFTM09vi97aQ&_nc_ss=7f289&oh=00_Af8zs6Ov9um62BN0dGZ5eK2WyCv0EyLJAcVSqNwnpwBTNw&oe=6A422835",
+        "landingPageUrl": "https://www.stiebel-eltron.de/de/waermepumpen-ratgeber/waermepumpe-haus/made-by-stiebel-eltron.html",
+        "adArchiveId": "4552643978303820",
+        "sourceKeyword": "Wärmepumpe"
+      },
+      "scrape": {
+        "crawlRunId": "nU0N9PzoYrz46jmiS",
+        "pageTitle": "STIEBEL ELTRON Wärmepumpen - Made in Germany",
+        "markdownLength": 7762,
+        "loadedUrl": "https://www.stiebel-eltron.de/de/waermepumpen-ratgeber/waermepumpe-haus/made-by-stiebel-eltron.html"
+      },
+      "analysis": {
+        "marketing_hook": "该竞争对手利用德国制造的高品质和50年专业经验，结合高达70%的政府补贴，吸引消费者更换为高效节能的热泵，以实现长期节能并应对能源价格上涨。",
+        "form_questions": [],
+        "localized_translation": "许多人谈论品质，我们则直接在德国制造品质。我们以明确的目标开发WPL-A Plus热泵：持久的效率。真正的“德国制造”。立即了解我们的热泵，并获得高达70%的补贴。STIEBEL ELTRON热泵——德国制造。高效热泵：真正的“德国制造”。50年热泵技术。当创新与长期专业知识相遇，真正的未来便由此诞生。现在就抓住史上最佳热泵补贴！计划更换供暖系统？立即享受高达70%的政府补贴，免费且无义务获取报价！"
+      }
+    },
+    {
+      "status": "success",
+      "error": null,
+      "ad": {
+        "adBody": "Bereit für eine Photovoltaikanlage? \n\nDann sichere dir jetzt 11 PV-Module im Wert von 1.000 Euro gratis¹ – mit unserem großen WM-Special.\n\n¹11 PV-Module¹ (im Wert von ca. 1.000 Euro) gratis/ geschenkt\n\nDie Aktion gilt nur bei Beauftragung einer privaten Solaranlage von mind. 7 bis 30 kWp, einem 5 kWh Batteriespeicher und dem E.ON Home Energiemanager bei einer 100% E.ON Tochtergesellschaft (eon.de/solarpotenzial) im Aktionszeitraum vom 13.04. bis 19.07.2026.  Anbieter und Vertragspartner für die Nutzung und die Services des E.ON Home Energiemanagers (https://www.eon.de/de/pk/hems.html) ist die E.ON Energie Deutschland GmbH. Das Angebot gilt ausschließlich für Privatkunden mit Wohnsitz in Deutschland und ist, außer mit dem Treuerabatt, nicht mit anderen Aktionen oder Rabatten kombinierbar. Der Wert von 11 Gratismodulen in Höhe von ca. 1.000 € sowie der Treuerabatt werden auf der Schlussrechnung ausgewiesen. Eine Barauszahlung ist ausgeschlossen",
+        "creativeUrl": "https://scontent-muc2-1.xx.fbcdn.net/v/t39.35426-6/670517931_1444302250783324_6165392010012926779_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=3kAyw4rk2_cQ7kNvwFHeypN&_nc_oc=AdpxnGMA6oL8Z7jVqqoIoPDCCpXWf4dpOiRIlIp-JaEK_PbesAP3AcKeufZnV7ALgAg&_nc_zt=14&_nc_ht=scontent-muc2-1.xx&_nc_gid=C6IwlYvsolgG1YPb1Xl1yA&_nc_ss=7f289&oh=00_Af_rweVgKQIh7llI_8stYA-aqrKznuMDIB9i72lkX5bsLA&oe=6A422D14",
+        "landingPageUrl": "https://www.eon.de/de/pk/landingpage/solar/solar-aktion-nk.html?utm_source=facebook&utm_medium=paid&utm_campaign=SOC_PV_PK_PERF_EWK_25&utm_content=aktion&mc=0811112003",
+        "adArchiveId": "1601224121175080",
+        "sourceKeyword": "Solaranlage"
+      },
+      "scrape": {
+        "crawlRunId": "nU0N9PzoYrz46jmiS",
+        "pageTitle": "Solarrechner » Ertrag & Ersparnis berechnen ☀️ | E.ON",
+        "markdownLength": 2198,
+        "loadedUrl": "https://www.eon.de/de/pk/landingpage/solar/solar-aktion-nk.html?utm_source=facebook&utm_medium=paid&utm_campaign=SOC_PV_PK_PERF_EWK_25&utm_content=aktion&mc=0811112003"
+      },
+      "analysis": {
+        "marketing_hook": "竞争对手利用限时免费赠送太阳能组件的优惠，结合品牌信誉和计算器工具，吸引潜在客户计算并实现节能省钱的愿望。",
+        "form_questions": [],
+        "localized_translation": "准备好安装光伏系统了吗？立即免费获得价值1000欧元的11块光伏组件¹——这是我们的世界杯特惠。太阳能计算器 » 计算收益与节省 ☀️ 仅限至2026年7月19日。"
+      }
+    },
+    {
+      "status": "success",
+      "error": null,
+      "ad": {
+        "adBody": "+++ Solar wieder attraktiv +++\n\nNeue Fördermaßnahmen und steuerliche Vorteile machen Solaranlagen in 2026 wieder attraktiv.\n\nWas eine Solaranlage für Ihr Eigenheim kosten würde, welche Anbieter und Förderungen es in Ihrer Region gibt, all das erfahren Sie mit dem kostenlosen Online-Solarcheck.\n\nWas kostet eine Solaranlage für Ihr Eigenheim?",
+        "creativeUrl": "https://scontent-muc2-1.xx.fbcdn.net/v/t39.35426-6/614158475_2376328476150855_4296984198213730105_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=JVInB-2Az9gQ7kNvwEcaZ_P&_nc_oc=Adqp1eBS6wCp3h97K26W9OtL2zATQzs1dcGwjh265aheoKhSjm7mJmQRGKEFdzYku2g&_nc_zt=14&_nc_ht=scontent-muc2-1.xx&_nc_gid=C6IwlYvsolgG1YPb1Xl1yA&_nc_ss=7f289&oh=00_Af-J-K4ffiZ7iOqrTbyPxeSJRMa-UdIEDRCsOA_cyzmzcA&oe=6A423C31",
+        "landingPageUrl": "https://www.hausfrage.de/angebote/solaranlage",
+        "adArchiveId": "25182159284818261",
+        "sourceKeyword": "Solaranlage"
+      },
+      "scrape": {
+        "crawlRunId": "aHNyfQbbuZrWZAzFc",
+        "pageTitle": "Solaranlage | Hausfrage",
+        "markdownLength": 4210,
+        "loadedUrl": "https://www.hausfrage.de/angebote/solaranlage/"
+      },
+      "analysis": {
+        "marketing_hook": "该广告利用德国2026年新的太阳能补贴和税收优惠政策，吸引潜在客户通过免费在线检查了解其房屋的太阳能系统成本、供应商和地区性补贴，从而轻松比较价格。",
+        "form_questions": [
+          "Wo möchten Sie die Solaranlage installieren?",
+          "Wie möchten Sie den Solarstrom nutzen?",
+          "Haben Sie eine südlich ausgerichtete Dachfläche?",
+          "Wie groß ist die Fläche bzw. geplante Anlage?",
+          "Möchten Sie grundsätzlich lieber kaufen oder mieten?",
+          "Sind Sie auch an einem Stromspeicher interessiert?",
+          "Wie alt ist Ihr Dach?",
+          "Womit ist Ihr Dach gedeckt?",
+          "Wie hoch ist Ihr jährlicher Energieverbrauch in kWh?",
+          "Wo soll die Solaranlage installiert werden?",
+          "Wie lautet die E-Mail Adresse für die Angebote?",
+          "Wer soll die Angebote erhalten?",
+          "Zur Bestätigung Ihrer Anfrage bitte Ihre Rufnummer eingeben:"
+        ],
+        "localized_translation": "新的补贴和税收优惠使太阳能系统在2026年再次具有吸引力。通过免费在线太阳能检查，了解您的房屋安装太阳能系统的成本、您所在地区的供应商和补贴，并比较太阳能系统的价格。"
+      }
+    },
+    {
+      "status": "success",
+      "error": null,
+      "ad": {
+        "adBody": "📣Hausbesitzer in Baden-Württemberg aufgepasst!\nEine Solaranlage ist günstiger, als die meisten Hausbesitzer denken. Im Jahr 2025 existieren diverse staatliche Förderprogramme, die den Wechsel zu Solarenergie attraktiver gestalten. Wie viel Solar-Förderung steht Ihnen zu? Es empfiehlt sich ein kostenloses Angebot vom Marktführer und Testsieger (enpal.de/auszeichnungen).\n\nDas Enpal-Prinzip:\n✔ 0 € Anzahlung inkl. Montage\n✔ Deutschlands günstigster Stromtarif ab 16ct/kWh on top\n✔ Bis zu 2.000€ Enpal Vergütung pro Jahr dank Direktvermarktung\n✔ Festpreisangebot: Kaufen, finanzieren oder mieten\n\nWie viel sparen Sie mit einer Solaranlage? Jetzt in 2 Minuten den kostenlosen Check für Ihr Haus machen.",
+        "creativeUrl": "https://scontent-muc2-1.xx.fbcdn.net/v/t39.35426-6/547483658_1318748463156499_2121936857403324215_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=6695FzLgr90Q7kNvwELUIjo&_nc_oc=AdoOXB16bPj1vS2hzZidDLSkHag2fift_2Zres6Eb7RuvYRfdgc7CEFjo2lole8B1y4&_nc_zt=14&_nc_ht=scontent-muc2-1.xx&_nc_gid=C6IwlYvsolgG1YPb1Xl1yA&_nc_ss=7f289&oh=00_Af_yAGiH8WrOcxf3SgAzvNdB1OdQByeLsoKPRvxUGwNmZg&oe=6A422D76",
+        "landingPageUrl": "https://www.angebot.enpal.de/pv-sea-solaranlage-kaufen-baden-wuerttemberg",
+        "adArchiveId": "1477873436789240",
+        "sourceKeyword": "Solaranlage"
+      },
+      "scrape": {
+        "crawlRunId": "s3HelnJMWlpQd2k5M",
+        "pageTitle": "Enpal - Mit Solarstrom einfach Geld sparen",
+        "markdownLength": 4270,
+        "loadedUrl": "https://www.angebot.enpal.de/pv-sea-solaranlage-kaufen-baden-wuerttemberg"
+      },
+      "analysis": {
+        "marketing_hook": "该广告通过强调政府补贴、零首付、低电价以及作为市场领导者的可靠性，吸引巴登-符腾堡州的房主，利用他们对高昂能源成本的担忧和对轻松省钱的渴望，促使他们进行免费的太阳能系统检查。",
+        "form_questions": [
+          "In welchem Haustyp wohnen Sie?"
+        ],
+        "localized_translation": "巴登-符腾堡州的房主请注意！太阳能系统比大多数房主想象的要便宜。2025年有各种政府补贴计划，使转向太阳能更具吸引力。您能获得多少太阳能补贴？建议从市场领导者和测试冠军Enpal获取免费报价。Enpal原则：0欧元首付含安装，德国最便宜的电价低至16欧分/千瓦时，通过直接销售每年可获得高达2,000欧元的Enpal补偿，固定价格方案：购买、融资或租赁。您能通过太阳能系统节省多少钱？立即在2分钟内为您的房屋进行免费检查。通过太阳能发电轻松省钱。巴登-符腾堡州的太阳能系统：全包价含安装，无增值税，无需首付。"
+      }
+    },
+    {
+      "status": "success",
+      "error": null,
+      "ad": {
+        "adBody": "Osnabrück fördert Ihre Solaranlage – wir machen’s einfach! \n\n🔹 Ab 8 kWp Photovoltaik gibt es 400 € Zuschuss pro zusätzlichem kWp – bis 20.000 € Förderung möglich.\n\n🔹 Kein Papierkram: Wir stellen den Förderantrag direkt für Sie – mit Ihrer Vollmacht, unkompliziert und stressfrei.\n\n🔹 Als langjähriger Ingenieursfachbetrieb begleiten wir Sie zuverlässig von der Planung bis zur Inbetriebnahme.\n\n🔹 Über unser Online-Tool können Sie sich unkompliziert und unverbindlich für die Förderung in Osnabrück anmelden – einfach Kontaktdaten und Ihre verfügbare Dachfläche eingeben (auch Norddächer können berücksichtigt werden), und wir prüfen alles für Sie.\n\nJetzt informieren – die Fördermittel sind begrenzt! 😎",
+        "creativeUrl": "https://scontent-muc2-1.xx.fbcdn.net/v/t39.35426-6/545408472_1148688560501167_2911481592815165178_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=zteiG_x7Rn0Q7kNvwFucRPt&_nc_oc=AdrMJzZaaascOrrTkohnl717N2Rw-JD8d1Az1U9yxzF_ylSnd-xNKIWnSmblEHX2-S0&_nc_zt=14&_nc_ht=scontent-muc2-1.xx&_nc_gid=C6IwlYvsolgG1YPb1Xl1yA&_nc_ss=7f289&oh=00_Af_EmanZzUb_cyTuvT8AsEqz-7lhsjc-lowI-RfxRzx-jA&oe=6A421999",
+        "landingPageUrl": "http://www.primepv.de/",
+        "adArchiveId": "1789141055049937",
+        "sourceKeyword": "Solaranlage"
+      },
+      "scrape": {
+        "crawlRunId": "s3HelnJMWlpQd2k5M",
+        "pageTitle": "Primepv - Solaranlagen - Seit über 10 Jahren am Markt Solaranlagen / Photovoltaik aus Hagen a. TW.",
+        "markdownLength": 4576,
+        "loadedUrl": "https://primepv.de/"
+      },
+      "analysis": {
+        "marketing_hook": "该广告利用了客户对德国奥斯纳布吕克地区高额太阳能补贴的渴望，并承诺提供一站式、无纸化的申请服务，同时强调资金有限，制造紧迫感。",
+        "form_questions": [],
+        "localized_translation": "奥斯纳布吕克市补贴您的太阳能系统——我们让一切变得简单！8千瓦峰值以上的光伏系统，每增加1千瓦峰值可获得400欧元补贴——最高可达20,000欧元。无需文书工作：我们直接为您提交补贴申请——通过您的授权，简单无忧。摆脱不断上涨的能源价格！立即了解——补贴资金有限！"
+      }
+    },
+    {
+      "status": "success",
+      "error": null,
+      "ad": {
+        "adBody": "🏋️‍♂️ Hantel auf den Fuß gefallen? Wir sichern dich ab, damit du dich wieder voll aufs Training konzentrieren kannst.\n\n💪  Erfahre jetzt, warum der richtige Versicherungsschutz auch beim Sport unbezahlbar ist, so wie zum Beispiel unsere Krankenhauszusatzversicherung. \n\n 👉 Du willst mehr zu unseren Gesundheitsleistungen erfahren? Link in Bio.\n\n#SicherTrainieren #Versicherungsschutz #Fitnessmotivation #SIGNALIDUNA #Versicherungstipps #FüreinanderDa #Fitness #HomeGym",
+        "creativeUrl": "https://scontent-dus1-1.xx.fbcdn.net/v/t39.35426-6/659079500_1283515713661064_924054385598747182_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=DOBfpffAZacQ7kNvwHhJDS6&_nc_oc=AdqBPK_kXlP-xfkRbIupHgFMqHYyUDarZnpf0VZB_H5m489mIwv1uSA5EkqmTt84FrY&_nc_zt=14&_nc_ht=scontent-dus1-1.xx&_nc_gid=qn1hCZUeyaqNXKKmTWhVjw&_nc_ss=7f289&oh=00_Af8UCM3frA1pH4DnMytDG2eUYSfVv7CmM05Qlsvs7Tic4g&oe=6A422D58",
+        "landingPageUrl": "https://signal-iduna.de/produkte/krankenhauszusatzversicherung/",
+        "adArchiveId": "2170558370354274",
+        "sourceKeyword": "Hausratversicherung"
+      },
+      "scrape": {
+        "crawlRunId": "s3HelnJMWlpQd2k5M",
+        "pageTitle": "Krankenhauszusatzversicherung für beste Behandlung: Jetzt absichern",
+        "markdownLength": 16705,
+        "loadedUrl": "https://signal-iduna.de/produkte/krankenhauszusatzversicherung/"
+      },
+      "analysis": {
+        "marketing_hook": "该竞争对手利用德国法定医疗保险参保人对住院期间舒适度、顶级医疗和个性化服务的渴望，通过住院补充保险，承诺将普通住院体验升级为私人保险般的优质待遇，以消除对突发疾病或事故的担忧。",
+        "form_questions": [],
+        "localized_translation": "立即了解为何正确的保险保障，即使在运动时也弥足珍贵，例如我们的住院补充保险。\n想象一下，您因一次不幸的事故住进了医院。但等待您的不是拥挤的多人病房，而是单人或双人病房的舒适。您的主治医生？亲自出诊的主任医师。您的治疗？最高水平，为您量身定制——如同私人医疗保险患者一般。通过我们的住院补充保险，您可以将您的法定医疗保险升级为无需等待期的优质保障。体验在关键时刻获得最佳保障的安心感：因为您的健康最重要。"
+      }
+    },
+    {
+      "status": "success",
+      "error": null,
+      "ad": {
+        "adBody": "Große Regenmengen können einen hohen finanziellen Schaden anrichten. Eine verlässliche Wohngebäudeversicherung minimiert das Risiko.",
+        "creativeUrl": "https://scontent-dus1-1.xx.fbcdn.net/v/t39.35426-6/661929820_1441579150999549_940269560662962146_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=NSWsaIuuoJIQ7kNvwFRC4xW&_nc_oc=Adq8mZS-IyyePKJjIXsFF0DuYu-1YvuUjvnNEmUc8U3wXVv7Mk3I6R8fREN9mMozU2Y&_nc_zt=14&_nc_ht=scontent-dus1-1.xx&_nc_gid=afzVoIuMcgXSXDWlVUBY6w&_nc_ss=7f289&oh=00_Af8L74C_Pqq0aDNU1iT4Tq2vQJ3V3ahthj9qMMCc4C6zRg&oe=6A42330F",
+        "landingPageUrl": "https://www.vkb.de/lp/hagelregen.html?tid=13112&campid=1203&siteid=142&meid=18&vkclkid={{ad.id}}",
+        "adArchiveId": "1311130717627284",
+        "sourceKeyword": "Wohngebäudeversicherung"
+      },
+      "scrape": {
+        "crawlRunId": "aHNyfQbbuZrWZAzFc",
+        "pageTitle": "HTTP Status 400 – Bad Request",
+        "markdownLength": 1654,
+        "loadedUrl": "https://www.vkb.de/lp/hagelregen.html?tid=13112&campid=1203&siteid=142&meid=18&vkclkid={{ad.id}}"
+      },
+      "analysis": {
+        "marketing_hook": "由于目标页面显示HTTP 400错误，无法分析其营销角度和表单结构。",
+        "form_questions": [],
+        "localized_translation": "大量降雨可能造成巨大的经济损失。一份可靠的住宅建筑保险能将风险降至最低。"
+      }
+    }
+  ],
+  "skipped": [
+    {
+      "status": "failed",
+      "error": "No valid markdown (not cached after crawl)",
+      "ad": {
+        "adBody": "Warnung an Hausbesitzer: Ab 2026 drohen teure CO2-Abgaben! \n• Gasheizungen werden zur Kostenfalle\n• Heizen Sie 4x effizienter mit Wärmepumpen!\n• Bis zu 70% Förderung sichern - Jetzt informieren!",
+        "creativeUrl": "https://scontent-muc2-1.xx.fbcdn.net/v/t39.35426-6/598363363_25464602226468676_4175847330183155808_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=VyuvuZEQcicQ7kNvwGXJG4S&_nc_oc=Adp4-fIq6a_TlWWyE5J7QU_0RgFp9NpyAL9Kfokuf2O-q8cc3qbQoV0xsoUxUcVfEGU&_nc_zt=14&_nc_ht=scontent-muc2-1.xx&_nc_gid=gX2Cdg-7YHyFTM09vi97aQ&_nc_ss=7f289&oh=00_Af96a5uql53-C88YLQRaLRQAwH19MF9d5bODoSf2NwkpGg&oe=6A421B44",
+        "landingPageUrl": "https://www.guenstig-heizen.de/altes-haus-neue-technik-warum-warmepumpen-jetzt-auch-im-altbau-sinn-machen",
+        "adArchiveId": "2660022764373087",
+        "sourceKeyword": "Wärmepumpe"
+      },
+      "scrape": null,
+      "analysis": null
+    },
+    {
+      "status": "failed",
+      "error": "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent: [503 ] This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+      "ad": {
+        "adBody": "Egal wie Du lebst, wir schützen was Du liebst. Jetzt Hausratversicherung von CosmosDirekt abschließen.",
+        "creativeUrl": "https://scontent-dus1-1.xx.fbcdn.net/v/t39.35426-6/685434417_935553802636976_568593682264782851_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=REv6-jxcPDIQ7kNvwF2bAzG&_nc_oc=Adq7Rk1NiWNxTkB1UneovK0bUa7z6fwF-ix4bJPodkVxAsKso8v1x2u1d5aplduf-CY&_nc_zt=14&_nc_ht=scontent-dus1-1.xx&_nc_gid=qn1hCZUeyaqNXKKmTWhVjw&_nc_ss=7f289&oh=00_Af-1oPBfOTwhthtx8Lu6cUXkPLSGr3SYi3ee3Rjmdmn4kA&oe=6A4217BB",
+        "landingPageUrl": "https://www.cosmosdirekt.de/hausratversicherung/?mediacode=sa.16131225_d_vhv_na_suh_vhv_socialads.suh_vhv_performance.display.&k_vtweg=52397",
+        "adArchiveId": "1668566694180490",
+        "sourceKeyword": "Hausratversicherung"
+      },
+      "scrape": {
+        "crawlRunId": "nU0N9PzoYrz46jmiS",
+        "pageTitle": "Hausratversicherung günstig abschließen – CosmosDirekt",
+        "markdownLength": 33673,
+        "loadedUrl": "https://www.cosmosdirekt.de/hausratversicherung/?mediacode=sa.16131225_d_vhv_na_suh_vhv_socialads.suh_vhv_performance.display.&k_vtweg=52397"
+      },
+      "analysis": null
+    },
+    {
+      "status": "failed",
+      "error": "No valid markdown (not cached after crawl)",
+      "ad": {
+        "adBody": "Jetzt zur Wohngebäudeversicherung der WGV wechseln. Bereits ab 12,26 €* pro Monat.\n\n* BASIS-Tarif, Feuer, Sturm/Hagel, Weitere Elementargefahren, Einfamilienhaus mit Garage, 150 m² Wohnfläche, Erd- und Obergeschoss, ausgebautes Dachgeschoss, mit Keller, massive Bauweise, nicht brennbare Fassade, hartes Dach, 71522 Backnang, Baujahr 2025, kein öffentlicher Dienst, 250 € Selbstbeteiligung, inkl. Versicherungsteuer, Stand: 01.01.2026",
+        "creativeUrl": "https://scontent-dus1-1.xx.fbcdn.net/v/t39.35426-6/688439565_1332569272124493_642729054324097447_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=503a9Y43jTQQ7kNvwFPOy6v&_nc_oc=Adrns7Co2Ql1aYxdrPzJFBhnUiEJE8wdFn___VcGZgmdv6XuTywQst3ryQ8NNQ0T7P0&_nc_zt=14&_nc_ht=scontent-dus1-1.xx&_nc_gid=afzVoIuMcgXSXDWlVUBY6w&_nc_ss=7f289&oh=00_Af8cEY52c8iy1AxTjmEJTTU1Liqo4WfTk9qWMrYp-020QA&oe=6A422A28",
+        "landingPageUrl": "https://www.wgv.de/hc_scripts/TrackIt?tid=10308104C926PPC&hc_url=https://www.wgv.de/recht-eigentum/haus/wohngebaeudeversicherung/&h_ext=0:0:{{campaign.id}}:{{adset.id}}:{{ad.id}}:{{ad.name}}",
+        "adArchiveId": "1501927371398834",
+        "sourceKeyword": "Wohngebäudeversicherung"
+      },
+      "scrape": null,
+      "analysis": null
+    },
+    {
+      "status": "failed",
+      "error": "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent: [503 ] This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+      "ad": {
+        "adBody": "Die ist es IMMER und damit das so bleibt: Den Baustein \"Glas\" in deiner Hausratversicherung nicht vergessen 👆️\n\n#ERGOregelt #ERGODeutschland #EinfachWeilWichtig #Hausrat #Kochen",
+        "creativeUrl": "https://scontent-dus1-1.xx.fbcdn.net/v/t39.35426-6/722769530_1196579209224271_1624490907430317108_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=vCpRiRNkUfkQ7kNvwGSfhSm&_nc_oc=AdrAp361ajFUv3OIg2rUwwZDGJ7u4-nj398aiUk1upAwjLuoIjPEDKiz1q525sqJMQw&_nc_zt=14&_nc_ht=scontent-dus1-1.xx&_nc_gid=qn1hCZUeyaqNXKKmTWhVjw&_nc_ss=7f289&oh=00_Af85d0kukkFtp6ZhCv7N9P-gEKtvE84bNbwBU4K3owpr_A&oe=6A421A9E",
+        "landingPageUrl": "https://www.ergo.de/de/Produkte/Hausrat-und-Gebaeudeversicherung/Hausratversicherung",
+        "adArchiveId": "1258656936344476",
+        "sourceKeyword": "Hausratversicherung"
+      },
+      "scrape": {
+        "crawlRunId": "s3HelnJMWlpQd2k5M",
+        "pageTitle": "Hausratversicherung: Schützen Sie Ihr Hab & Gut | ERGO",
+        "markdownLength": 12815,
+        "loadedUrl": "https://www.ergo.de/de/Produkte/Hausrat-und-Gebaeudeversicherung/Hausratversicherung"
+      },
+      "analysis": null
+    },
+    {
+      "status": "failed",
+      "error": "No valid markdown (not cached after crawl)",
+      "ad": {
+        "adBody": "Mit der WGV Hausratversicherung bist du schon ab 1,05 € im Monat* entspannt abgesichert – bei Feuer, Einbruch & Co. 🛡️\n\n* BASIS-Tarif, Wohnung, 20 Quadratmeter Wohnfläche, Obergeschoss, 71522 Backnang, kein öffentlicher Dienst.",
+        "creativeUrl": "https://scontent-dus1-1.xx.fbcdn.net/v/t39.35426-6/690616157_1299362962288222_7406231760399944686_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=39PknVv3dMsQ7kNvwEIt8PB&_nc_oc=AdrDe_GSWosVGwBaggg6CiyFGgOvcGZQgLiJbSmPkazgSY7V4NuA1_N-CrUYx3zGD0Y&_nc_zt=14&_nc_ht=scontent-dus1-1.xx&_nc_gid=qn1hCZUeyaqNXKKmTWhVjw&_nc_ss=7f289&oh=00_Af_KRmptP-5AKjzg_1bVCqh00IFKyCfoFXOQLa6AvsGhGg&oe=6A423FCC",
+        "landingPageUrl": "https://www.wgv.de/hc_scripts/TrackIt?tid=10274926C926PPC&hc_url=https://www.wgv.de/recht-eigentum/haus/hausratversicherung/&h_ext=0:0:{{campaign.id}}:{{adset.id}}:{{ad.id}}:{{ad.name}}",
+        "adArchiveId": "1476818964235322",
+        "sourceKeyword": "Hausratversicherung"
+      },
+      "scrape": null,
+      "analysis": null
+    }
+  ]
+}
